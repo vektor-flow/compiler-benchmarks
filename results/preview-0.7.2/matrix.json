@@ -1,0 +1,818 @@
+{
+  "scope": "Audited diagnostic kernel comparisons, ten valid raw samples per required language; not C0/P0, physical GPU or quiet-host acceptance",
+  "compiler_source": "fb41913c619e0dac6c66b08ee44e1ee18ce67aa8",
+  "version": "0.7.2",
+  "primary_platforms": [
+    "linux",
+    "macos-arm64",
+    "windows",
+    "wasm"
+  ],
+  "macos_intel": "Additional validation and results; not counted as a fifth compiler",
+  "denominator": 64,
+  "qualified": 21,
+  "percent": 32.8125,
+  "C0": false,
+  "P0": false,
+  "stable_release": false,
+  "physical_gpu_tested": false,
+  "generated_utc": "2026-10-11T04:34:09.060539+00:00",
+  "completed_attempts": 40,
+  "failed_or_unqualified_completed_attempts": 19,
+  "rows": [
+    {
+      "platform": "linux",
+      "suite": "core",
+      "workload": "spectral-norm-large",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "e1fd7ebbe680724b69e8a3e26e3923d518569b3b823705fd614ee55200786a69"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "linux",
+      "suite": "core",
+      "workload": "fannkuch-redux-large",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "06c994c31b40520916b42717b4c1dff44422fa22b391968ab05daa7102130442"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "linux",
+      "suite": "core",
+      "workload": "n-body-large",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "8c17a62c977ae893fc7bc9454d8cf953ad24418941aab764f82884a1598353d2"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "linux",
+      "suite": "core",
+      "workload": "combined-kernels-large",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "d627253b6220273310eff8f1f1b150007f2f499dd0e1781d567064b2702d3884"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "linux",
+      "suite": "core",
+      "workload": "combined-kernels-parallel-large",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "797fbd591e1735c96714b3ca9ab499ff22957eb8cf9c56b5e4f78f7bffd78bce"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "linux",
+      "suite": "linalg",
+      "workload": "solve-general-96",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "5ec4ea76a61908fc93b9f03a19789414702bee79d001454aacde814dc35b8f53"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "linux",
+      "suite": "linalg",
+      "workload": "least-squares-tall-96x48",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "daf2393fb09cc451f1a2123a19f1b5f9020fd4081fc5c0b960902f923b2de299"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "linux",
+      "suite": "linalg",
+      "workload": "lu-general-96",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "5cac0d6571327e4ef18dc598f1796b8da9de93303ffe1236ec5ce3047f288866"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "linux",
+      "suite": "linalg",
+      "workload": "qr-tall-96x48",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "82637456eb3f6327677fdb75d3a3d9e91d9058fa6b929c91f9f8aed8cc375a2e"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "linux",
+      "suite": "linalg",
+      "workload": "cholesky-spd-96",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "6acf418bb11f4dab0a54832f1f6f48f6ff01706c89e4ed5571c964e6eff3cfca"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "linux",
+      "suite": "linalg",
+      "workload": "svd-tall-96x48",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "ebfe6898cd7440bb15f79206b718ef9c666a27a33e343b8a12832b6688691cf2"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "linux",
+      "suite": "linalg",
+      "workload": "eigen-symmetric-96",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "a04200123e22abddf117f2991d21859851694c5af6e091162bd6ef9c7d039210"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "linux",
+      "suite": "symbolic",
+      "workload": "expand1",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "49acf27bb770d4ef91c8e1f75d7b89fb60c9111dffb6aa1e13941272c5933f87"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "linux",
+      "suite": "symbolic",
+      "workload": "expand2",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "e36ef38aa24412a9cee2e063088d3a3c88737bb36bcdece1ce07f8c7715cc17a"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "linux",
+      "suite": "symbolic",
+      "workload": "add1",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "367530b4f3ba4de7c471221a5ebe54ffedaa71b56a34685badbb59223de6291d"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "linux",
+      "suite": "symbolic",
+      "workload": "series",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "9ad35964935f3de276d68174a962fd583cf336f1045a4574246649995e79d002"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "core",
+      "workload": "spectral-norm-large",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "ee92f570ac41d59ca969d9fa7a89a18f4e7a70942dbdf9c4561c7ceb26ba16df"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "core",
+      "workload": "fannkuch-redux-large",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "50e37754f904b4544c420b20f29cb32836427738de76713715618fde766a1761"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "core",
+      "workload": "n-body-large",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "7a934a340d75f3d8962295856f0c71cbabb7f6fa453756ee687bbe652199af33"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "core",
+      "workload": "combined-kernels-large",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "df9d26b3caf54ff3acbd003776330b1325c4b52fba76735503fd1794073400dc"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "core",
+      "workload": "combined-kernels-parallel-large",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "1ef80fdb70daad0aab4613e8825a8baba1efb0728806a4acaf6239a0715a40f6"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "linalg",
+      "workload": "solve-general-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "compiler-failed",
+      "diagnostic": "arm64 private ABI argument overflow",
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "linalg",
+      "workload": "least-squares-tall-96x48",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "compiler-failed",
+      "diagnostic": "arm64 private ABI argument overflow",
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "linalg",
+      "workload": "lu-general-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "compiler-failed",
+      "diagnostic": "arm64 private ABI argument overflow",
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "linalg",
+      "workload": "qr-tall-96x48",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "compiler-failed",
+      "diagnostic": "arm64 private ABI argument overflow",
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "linalg",
+      "workload": "cholesky-spd-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "compiler-failed",
+      "diagnostic": "arm64 private ABI argument overflow",
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "linalg",
+      "workload": "svd-tall-96x48",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "compiler-failed",
+      "diagnostic": "arm64 private ABI argument overflow",
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "linalg",
+      "workload": "eigen-symmetric-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "compiler-failed",
+      "diagnostic": "arm64 private ABI argument overflow",
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "symbolic",
+      "workload": "expand1",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "symbolic",
+      "workload": "expand2",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "symbolic",
+      "workload": "add1",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "symbolic",
+      "workload": "series",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "spectral-norm-large",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "fannkuch-redux-large",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "n-body-large",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-large",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-parallel-large",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "solve-general-96",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "least-squares-tall-96x48",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "lu-general-96",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "qr-tall-96x48",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "cholesky-spd-96",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "svd-tall-96x48",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "eigen-symmetric-96",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "expand1",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "expand2",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "add1",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "series",
+      "completed_attempt": false,
+      "qualified_comparison": false,
+      "status": "remaining-full-peer-attempt-running-or-pending",
+      "diagnostic": null,
+      "original_evidence_sha256": [],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "wasm",
+      "suite": "core",
+      "workload": "spectral-norm-large",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "5a06ea1af5941dfe63272e1f8126029818199d5e6a5a59bc11ec1a650160e3be",
+        "8f7151676e61cbec173dbfff0bbe66374a5d332768c50a6e9742eb3125118c09",
+        "1aac174c192d34a37058cbb84a4aea4c31dfd3a28480a1c43787b390cc941a7d"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "wasm",
+      "suite": "core",
+      "workload": "fannkuch-redux-large",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "1bb96114434bea388aaee9513664e8f2ece8d09374b31b611b908799e87b3720",
+        "8f7151676e61cbec173dbfff0bbe66374a5d332768c50a6e9742eb3125118c09",
+        "1aac174c192d34a37058cbb84a4aea4c31dfd3a28480a1c43787b390cc941a7d"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "wasm",
+      "suite": "core",
+      "workload": "n-body-large",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "1bb96114434bea388aaee9513664e8f2ece8d09374b31b611b908799e87b3720",
+        "8f7151676e61cbec173dbfff0bbe66374a5d332768c50a6e9742eb3125118c09",
+        "2e357f453286089bd14df189271f44acb58b80ef18effbba73485dc1b65d9fa4"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "wasm",
+      "suite": "core",
+      "workload": "combined-kernels-large",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
+      "diagnostic": null,
+      "original_evidence_sha256": [
+        "1bb96114434bea388aaee9513664e8f2ece8d09374b31b611b908799e87b3720",
+        "e9bd818d787535b07480683e281b9f40c4c2bf0f85f779fca34c6545694a3cb6",
+        "8f7151676e61cbec173dbfff0bbe66374a5d332768c50a6e9742eb3125118c09",
+        "1aac174c192d34a37058cbb84a4aea4c31dfd3a28480a1c43787b390cc941a7d"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "wasm",
+      "suite": "core",
+      "workload": "combined-kernels-parallel-large",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "incomplete-or-failed",
+      "diagnostic": "Numerical execution only; required two-worker concurrency is not verified",
+      "original_evidence_sha256": [
+        "1bb96114434bea388aaee9513664e8f2ece8d09374b31b611b908799e87b3720",
+        "e9bd818d787535b07480683e281b9f40c4c2bf0f85f779fca34c6545694a3cb6",
+        "8f7151676e61cbec173dbfff0bbe66374a5d332768c50a6e9742eb3125118c09",
+        "1aac174c192d34a37058cbb84a4aea4c31dfd3a28480a1c43787b390cc941a7d"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "wasm",
+      "suite": "linalg",
+      "workload": "solve-general-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "unreachable",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "wasm",
+      "suite": "linalg",
+      "workload": "least-squares-tall-96x48",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "unreachable",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "wasm",
+      "suite": "linalg",
+      "workload": "lu-general-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "unreachable",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "wasm",
+      "suite": "linalg",
+      "workload": "qr-tall-96x48",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "unreachable",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "wasm",
+      "suite": "linalg",
+      "workload": "cholesky-spd-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "unreachable",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "wasm",
+      "suite": "linalg",
+      "workload": "svd-tall-96x48",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "unreachable",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "wasm",
+      "suite": "linalg",
+      "workload": "eigen-symmetric-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "unreachable",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "wasm",
+      "suite": "symbolic",
+      "workload": "expand1",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "Original internal monotonic timer is unavailable or did not measure execution; no zero-time score",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "wasm",
+      "suite": "symbolic",
+      "workload": "expand2",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "unreachable",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "wasm",
+      "suite": "symbolic",
+      "workload": "add1",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "Expected values to be strictly equal:\n\n0 !== 2998\n",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    },
+    {
+      "platform": "wasm",
+      "suite": "symbolic",
+      "workload": "series",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "Original internal monotonic timer is unavailable or did not measure execution; no zero-time score",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true
+    }
+  ],
+  "complete": false,
+  "ongoing_public_run": 38111620514,
+  "ongoing_linux_symbolic_attempt": "pp-full-symbolic118",
+  "progress_definition": "Completed required attempts include exact compiler/runtime failures; qualified comparisons require all original peers with ten valid samples. Missing or unstarted work is pending. Historical C0 closure is separate."
+}
