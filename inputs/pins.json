@@ -1,0 +1,14 @@
+{
+  "compiler_source": "fb41913c619e0dac6c66b08ee44e1ee18ce67aa8",
+  "recipe_sha256": "3c4e14a9df56328078ad79bd56e13003af8cbd01c504192737fe27b41642aaa7",
+  "portable_manifest_sha256": "d5791f8afefc58dd6177001a4c2d4167430a86caacb21ebde2456a3cf180ac89",
+  "portable_source_files": 728,
+  "full_source983_subset_verified": true,
+  "benchmark_manifest_sha256": "e5f3bd013c5f2a79fd10e53490b5ba178b18ed3b8be8e5c3ee15b7665f3b196b",
+  "portable_browser_tar_sha256": "9011f6cfd67a925043cbdb33cbc3d55553db7d5a4470949c4d838cf37534629b",
+  "frozen_origin_run": 38095145038,
+  "ciphertext_sha256": "4495496cd2b43cd99fed0ceffa7b73f8a24558b62bd3a2ac99c039b2556b0581",
+  "plaintext_archive_sha256": "26093b50a5b8e8ece763e9d49efd618d8426eb057493c47798330f540677bab7",
+  "encryption": "AES-256-GCM; independently random nonce; SHA256-pinned encrypted input; key in repository Actions secret only",
+  "version": "0.7.2"
+}

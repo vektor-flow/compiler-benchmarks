@@ -1,0 +1,156 @@
+:.math
+
+multiply_av(values:[num:500]) -> [num:500]:
+    output: [0:500]
+    ..500 - 1 >>
+        i: $
+        total: 0
+        ..500 - 1 >>
+            j: $
+            diagonal: i + j
+            .total+: (1 / (diagonal * (diagonal + 1) / 2 + i + 1)) * values.(j)
+        output.(i): total
+    @: output
+
+multiply_atv(values:[num:500]) -> [num:500]:
+    output: [0:500]
+    ..500 - 1 >>
+        i: $
+        total: 0
+        ..500 - 1 >>
+            j: $
+            diagonal: j + i
+            .total+: (1 / (diagonal * (diagonal + 1) / 2 + j + 1)) * values.(j)
+        output.(i): total
+    @: output
+
+multiply_at_av(values:[num:500]) -> [num:500]:
+    multiply_atv(multiply_av(values))
+
+spectral_norm() -> num:
+    state: (u:[1:500], v:[0:500])
+    ..59 >>
+        state.v: multiply_at_av(state.u)
+        state.u: multiply_at_av(state.v)
+    u: state.u
+    v: state.v
+    result: (numerator:0, denominator:0)
+    ..500 - 1 >>
+        result.numerator +: u.($) * v.($)
+        result.denominator +: v.($) * v.($)
+    @: sqrt(result.numerator / result.denominator)
+
+fannkuch(n:int) -> int:
+    permutation: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    working: [0:12]
+    rotations: [0:12]
+    control: (r:n, running:1, searching:0)
+    result: (permutation_index:0, checksum:0, maximum_flips:0)
+    flip: (left:0, right:0, temporary:0, head:0, count:0)
+    control.running > 0?>
+        control.r > 1?>
+            rotations.(control.r - 1): control.r
+            control.r -: 1
+        ..n - 1 >> working.($): permutation.($)
+        flip.count: 0
+        flip.head: working.0
+        flip.head != 0?>
+            flip.left: 0
+            flip.right: flip.head
+            flip.left < flip.right?>
+                flip.temporary: working.(flip.left)
+                working.(flip.left): working.(flip.right)
+                working.(flip.right): flip.temporary
+                flip.left +: 1
+                flip.right -: 1
+            flip.count +: 1
+            flip.head: working.0
+        flip.count > result.maximum_flips?
+            result.maximum_flips: flip.count
+        result.permutation_index % 2 = 0?
+            result.checksum +: flip.count
+        result.permutation_index % 2 != 0?
+            result.checksum -: flip.count
+        control.searching: 1
+        control.searching > 0?>
+            control.r = n?
+                control.running: 0
+                control.searching: 0
+            control.searching > 0?
+                flip.temporary: permutation.0
+                ..control.r - 1 >> permutation.($): permutation.($ + 1)
+                permutation.(control.r): flip.temporary
+                rotations.(control.r) -: 1
+                rotations.(control.r) > 0?
+                    control.searching: 0
+                rotations.(control.r) = 0?
+                    control.r +: 1
+        control.running > 0?
+            result.permutation_index +: 1
+    @: result.checksum * 100 + result.maximum_flips
+
+System: (positions:[[num:3]:5], velocities:[[num:3]:5], masses:[num:5])
+
+offset_momentum(system:System, solar_mass:num) -> System:
+    :system
+    momentum: [0, 0, 0]
+    ..4 >>
+        i: $
+        .momentum+: velocities.(i) * masses.(i)
+    velocities.0: momentum * (-1 / solar_mass)
+    @: (positions:positions, velocities:velocities, masses:masses)
+
+advance(system:System, timestep:num) -> System:
+    :system
+    ..3 >>
+        i: $
+        (i + 1)..4 >>
+            j: $
+            [num:3] displacement: positions.(i) - positions.(j)
+            magnitude: timestep / |displacement|^3
+            velocities.(i) -: displacement * masses.(j) * magnitude
+            velocities.(j) +: displacement * masses.(i) * magnitude
+    ..4 >>
+        i: $
+        positions.(i) +: velocities.(i) * timestep
+    @: (positions:positions, velocities:velocities, masses:masses)
+
+system_kinetic_checksum(system:System) -> num:
+    :system
+    kinetic: 0
+    ..4 >>
+        i: $
+        .kinetic +: 0.5 * masses.(i) * |velocities.(i)|^2
+    @: kinetic
+
+n_body(steps:num) -> num:
+    constants: (solar_mass:39.478417604357434, days_per_year:365.24, timestep:0.01)
+    system: (
+        positions:[
+            [0, 0, 0],
+            [4.841431442464721, -1.1603200440274284, -0.10362204447112311],
+            [8.34336671824458, 4.124798564124305, -0.4035234171143214],
+            [12.894369562139131, -15.111151401698631, -0.22330757889265573],
+            [15.379697114850917, -25.919314609987964, 0.17925877295037118]
+        ],
+        velocities:[
+            [0, 0, 0],
+            [0.001660076642744037, 0.007699011184197404, -0.0000690460016972063] * constants.days_per_year,
+            [-0.002767425107268624, 0.004998528012349172, 0.000023041729757376393] * constants.days_per_year,
+            [0.002964601375647616, 0.0023784717395948095, -0.000029658956854023756] * constants.days_per_year,
+            [0.0026806777249038932, 0.001628241700382423, -0.00009515922545197159] * constants.days_per_year
+        ],
+        masses:[
+            constants.solar_mass,
+            0.0009547919384243266 * constants.solar_mass,
+            0.0002858859806661308 * constants.solar_mass,
+            0.00004366244043351563 * constants.solar_mass,
+            0.000051513890204661146 * constants.solar_mass
+        ]
+    )
+    .system: offset_momentum(system, constants.solar_mass)
+    ..steps - 1 >>
+        .system: advance(system, constants.timestep)
+    @: system_kinetic_checksum(system)
+
+:: fannkuch(9) + fannkuch(9) + spectral_norm() + n_body(200000)
