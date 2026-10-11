@@ -24,3 +24,35 @@ Commit and upload only selected harness files and reviewed result summaries.
 Retain full private raw evidence in the coordinator's existing evidence store.
 Public runner availability, diagnostic preview measurements and full compiler
 acceptance are separate claims. No P0/C0 or physical GPU acceptance is implied.
+
+## Source983 preview execution
+
+`preview-072.yml` runs trusted manual jobs on standard Windows 2022, macOS ARM
+and additional macOS Intel hosts. Successful availability run38111143757
+is infrastructure evidence only. Inputs use AES-256-GCM in
+`inputs/source983-01.enc`; the key exists only in the repository Actions secret
+and coordinator's private store. Compiler source and private Git history
+remain encrypted; no read credential or unrestricted build tree is public.
+
+Windows builds the exact compiler once and freezes its complete tool bundle.
+macOS adopts previously built, hash-verified Source983 tools from run38095145038.
+ARM's five valid core results and seven original linalg failures are adopted;
+remaining symbolic cases run here. Intel runs all three suites as additional
+coverage. Existing Linux native and WASM evidence retain their original host
+identities; symbolic attempt118 remains the sole Linux full-peer attempt.
+
+Selected original workload/oracle/peer files are in `harness/`; each public
+file is checked against candidate11's original benchmark manifest58. This is
+a selected inspection set; actual execution uses the complete pinned harness
+inside encrypted inputs. Numerical gates, ten valid repetitions and timing
+boundaries stay exact. Failed programs retain diagnostics and earn no timing
+credit. Jobs expose only phase names, exit codes, hashes and safe status.
+Selected raw receipts, diagnostics and samples are encrypted in an allowlisted
+artifact for coordinator review; source and build directories are excluded.
+Only reviewed results become public JSON/CSV/Markdown.
+
+Primary reporting has64 rows: Linux, macOS ARM, Windows and WASM, each with
+5 core,7 linalg and4 symbolic workloads. Completed attempts, successful
+comparisons and compiler acceptance are separate counts. PP portable browser
+artifact SHA256:
+`9011f6cfd67a925043cbdb33cbc3d55553db7d5a4470949c4d838cf37534629b`.
