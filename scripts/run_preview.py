@@ -118,15 +118,19 @@ try:
         assert all(sha(compiler_bin/name)==digest for name,digest in receipt['frozen_files'].items())
         assert receipt['bundle_sha256']==pins['portable_manifest_sha256'];state['adopted_compiler_origin_run']=pins['frozen_origin_run'];(private/'compiler-identity.json').write_text(json.dumps(receipt,indent=2)+'\n')
         suites='symbolic'if a.target=='macos-arm64'else 'core,linalg,symbolic'
+    requested=os.environ.get('VKF_BENCH_SUITES','auto')
+    assert requested in ['auto','core','linalg','symbolic']
+    if requested!='auto':suites=requested
+    state['requested_suites']=suites
     suffix='.exe'if os.name=='nt'else '';state['compiler_sha256']=sha(compiler_bin/('vkf-strict'+suffix));state['frozen_files']={f.name:sha(f)for f in compiler_bin.iterdir()if f.is_file()};save()
     harness=private/'harness';harness.mkdir()
     with tarfile.open(bundle/'benchmark-inputs58.tar.gz')as f:f.extractall(harness,filter='data')
-    peers=prepare_peers(harness)
+    peers=prepare_peers(harness) if 'symbolic' in suites.split(',') else None
     wrapper=inputs/'helpers/run_preview_benchmarks_0136.py'
     # Interpreter discovery only: algorithms, sample count, timeouts and oracles remain exact.
     text=wrapper.read_text();original="julia=peers/'julia-1.12.6/bin'/('julia'+suffix)";assert text.count(original)==1
     wrapper.write_text(text.replace(original,"julia=Path(peer_identity.get('julia_path',str(peers/'julia-1.12.6/bin'/('julia'+suffix))))"))
-    run('benchmarks',[sys.executable,wrapper,'--bundle',bundle,'--compiler-bin',compiler_bin,'--work',private/'measurements','--suites',suites,'--prepare-competitors','--symbolic-peer-work',peers],timeout=10800,required=False)
+    run('benchmarks',[sys.executable,wrapper,'--bundle',bundle,'--compiler-bin',compiler_bin,'--work',private/'measurements','--suites',suites,'--prepare-competitors',*(['--symbolic-peer-work',peers] if peers else [])],timeout=10800,required=False)
     measurement=json.loads((private/'measurements/receipt.json').read_text());state['completed']=measurement['completed'];state['requested_suites']=suites;state['all_benchmark_commands_passed']=measurement['all_commands_passed'];state['tool_versions']={}
     for tool in ['node','rustc','cargo','zig','julia','cmake']:
         path=shutil.which(tool)

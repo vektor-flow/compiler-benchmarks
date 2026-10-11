@@ -71,3 +71,10 @@ For a measured setup retry after frozen tools have been retained, set
 read-only Actions token downloads the encrypted selected tool artifact; exact
 Source/recipe/binary hashes and the full728-file source proof must match before
 adoption. This skips compiler rebuilding. It never reads another private repository.
+
+Suite selection (`suites`) supports focused retries of a measured evidence gap.
+The original ARM core kernels already have ten valid numerical samples, preserved
+as adopted evidence, but their older report omitted raw compile/process arrays.
+A core-only ARM capture reuses the identical frozen compiler and exact workloads
+with the existing metadata adapter; it fills that reporting gap without symbolic
+peer setup or another compiler build. Original reports are retained separately.
