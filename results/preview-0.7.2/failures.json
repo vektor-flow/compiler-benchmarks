@@ -20,6 +20,27 @@
     },
     {
       "platform": "macos-arm64",
+      "suite": "core",
+      "workload": "combined-kernels-parallel-large",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "incomplete-or-failed",
+      "diagnostic": "/Users/runner/work/_temp/vkf-private-macos-arm64/measurements/harness/benchmarks/core-comparison/.work/native-compiler/native-entry-timer /Users/runner/work/_temp/vkf-private-macos-arm64/measurements/harness/benchmarks/core-comparison/.work/combined-kernels-parallel-large/sources/.vkfbuild/vkf/arm64-code.bin /Users/runner/work/_temp/vkf-private-macos-arm64/measurements/harness/benchmarks/core-comparison/.work/combined-kernels-parallel-large/sources/.vkfbuild/vkf/arm64-data.bin 5 5 2 failed:",
+      "original_evidence_sha256": [
+        "0a3661e63d30463461385e130456979688929307abe0c7e4efe9359c1a4da07a",
+        "4acfc99b0277525ab305bb3c8138a3221f0fb2045e90abd95116419c8cc07a90",
+        "55684acb8a08ed4cdce34ead7f41d404df9594f5024f3cbed66fe2ad2a71b095",
+        "7aa115f61000433d40a316e24ab0d2749d54489f41c8619ca49e49ccc5a8fd59",
+        "e650da9e7c1c2bf8e634792cd004b5f73e819496004a5004e99adf02f2b83f34",
+        "feca876774fe0fd517733d834e98d712774e5aeafab32d4a23c4e17124af95d2"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38113175395,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-arm64",
       "suite": "linalg",
       "workload": "solve-general-96",
       "completed_attempt": true,
@@ -138,6 +159,28 @@
       "terminal_command_exit": 1
     },
     {
+      "platform": "macos-arm64",
+      "suite": "symbolic",
+      "workload": "expand1",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "peer-incomplete-or-failed",
+      "diagnostic": "symbolics: spawnSync /Users/runner/hostedtoolcache/julia/1.12.6/aarch64/bin/julia ETIMEDOUT",
+      "original_evidence_sha256": [
+        "0031a9655843996845dd833d3f245c85cd78eda4a8aa8988c68768d6aab1fc38",
+        "4a5e474727acb29eb852cee5bd7a930badf5d3ddc91b796a813102eb581aa251",
+        "58e8bd2fbe4c4c9e0d9eb772802060eff9118f88247f2fa38730b0f8d781bd77",
+        "7aa115f61000433d40a316e24ab0d2749d54489f41c8619ca49e49ccc5a8fd59",
+        "8495c5035b4b3f195fb22922f18fecfa7597fdcac4ede4f61fc282ce7c9321eb",
+        "9048c82c3719dd801652b07ad81ce3bf8e996da5d4afee20c4aeddc480775d78",
+        "f54ef30354296e8ff338c36cdf2f4c7a4f3a7a247dab3e8c67f7210bf78427ab"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38111620514,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
       "platform": "wasm",
       "suite": "core",
       "workload": "combined-kernels-parallel-large",
@@ -149,7 +192,8 @@
         "1aac174c192d34a37058cbb84a4aea4c31dfd3a28480a1c43787b390cc941a7d",
         "1bb96114434bea388aaee9513664e8f2ece8d09374b31b611b908799e87b3720",
         "8f7151676e61cbec173dbfff0bbe66374a5d332768c50a6e9742eb3125118c09",
-        "e9bd818d787535b07480683e281b9f40c4c2bf0f85f779fca34c6545694a3cb6"
+        "e9bd818d787535b07480683e281b9f40c4c2bf0f85f779fca34c6545694a3cb6",
+        "fef5720c6e65923f45e5bda3f615450dddfca975092daf16179c03d452d79bd7"
       ],
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": null,
@@ -331,6 +375,303 @@
       "origin_run": null,
       "origin_attempt": null,
       "terminal_command_exit": null
+    },
+    {
+      "platform": "macos-x64",
+      "suite": "core",
+      "workload": "spectral-norm-large",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "incomplete-or-failed",
+      "diagnostic": "1:1: native code exceeds runner capacity",
+      "original_evidence_sha256": [
+        "083de0c24d7407dd9a6779b60b8bfa25f4cfb1918e1b77d3fb6f1a2c5f23aa00",
+        "0902fd05b3c2d70acab1f8de0318a1043a3e243b5d2af7847d822c9e727157c5",
+        "0a16b71ce28cacdaede426988a53b094af3a6ff05fbcbddf1bfe353d8f833b49",
+        "6d1a9d3fe88d606ac3ce15722e8815dd5fe802650e2b2d2b132ab8e396021c09",
+        "7818486c079cd200e020ea73a5e8c91e02dc03d3c8dc943fe81ee30b36dc882f",
+        "8b80253807cbe5d4cda4675272ab22f1572e963cbcbafe60e5e496622d31da93",
+        "fe5c5250ec5de2a34996f5548de97a059a10f4d1891724da0a0c5cb3527fa027"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38111620514,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-x64",
+      "suite": "core",
+      "workload": "combined-kernels-large",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "incomplete-or-failed",
+      "diagnostic": "1:1: native code exceeds runner capacity",
+      "original_evidence_sha256": [
+        "083de0c24d7407dd9a6779b60b8bfa25f4cfb1918e1b77d3fb6f1a2c5f23aa00",
+        "0902fd05b3c2d70acab1f8de0318a1043a3e243b5d2af7847d822c9e727157c5",
+        "0bdd34d8adbab0a92316a0047eada9c719f37487f2f3e13cf8671ad0b950887d",
+        "40831addab24bc2b848117bc200607a09dd1a93650692fb6b9d570c9a889f6d9",
+        "7818486c079cd200e020ea73a5e8c91e02dc03d3c8dc943fe81ee30b36dc882f",
+        "8b80253807cbe5d4cda4675272ab22f1572e963cbcbafe60e5e496622d31da93",
+        "fe5c5250ec5de2a34996f5548de97a059a10f4d1891724da0a0c5cb3527fa027"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38111620514,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-x64",
+      "suite": "core",
+      "workload": "combined-kernels-parallel-large",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "incomplete-or-failed",
+      "diagnostic": "1:1: native code exceeds runner capacity",
+      "original_evidence_sha256": [
+        "083de0c24d7407dd9a6779b60b8bfa25f4cfb1918e1b77d3fb6f1a2c5f23aa00",
+        "0902fd05b3c2d70acab1f8de0318a1043a3e243b5d2af7847d822c9e727157c5",
+        "7818486c079cd200e020ea73a5e8c91e02dc03d3c8dc943fe81ee30b36dc882f",
+        "8b80253807cbe5d4cda4675272ab22f1572e963cbcbafe60e5e496622d31da93",
+        "94281cd293b40ce7d7e172c9da90c200ca4d82e0938e8b82fc552a4425c84afa",
+        "c50e193dfb2d91e2cf54a5860bee9ab88c6468b4eff5e25b06ed2bdbaec482b3",
+        "fe5c5250ec5de2a34996f5548de97a059a10f4d1891724da0a0c5cb3527fa027"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38111620514,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-x64",
+      "suite": "linalg",
+      "workload": "solve-general-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "not-yet-reviewed",
+      "diagnostic": "<driver-smoke>:1:1: native code exceeds runner capacity",
+      "original_evidence_sha256": [
+        "083de0c24d7407dd9a6779b60b8bfa25f4cfb1918e1b77d3fb6f1a2c5f23aa00",
+        "0902fd05b3c2d70acab1f8de0318a1043a3e243b5d2af7847d822c9e727157c5",
+        "6c5652118083a43a375c73f1005b2f93eea4be8f5724b0e11dbcbd8a53dec95e",
+        "7818486c079cd200e020ea73a5e8c91e02dc03d3c8dc943fe81ee30b36dc882f",
+        "8b80253807cbe5d4cda4675272ab22f1572e963cbcbafe60e5e496622d31da93",
+        "fe5c5250ec5de2a34996f5548de97a059a10f4d1891724da0a0c5cb3527fa027"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38111620514,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-x64",
+      "suite": "linalg",
+      "workload": "least-squares-tall-96x48",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "not-yet-reviewed",
+      "diagnostic": "<driver-smoke>:1:1: native code exceeds runner capacity",
+      "original_evidence_sha256": [
+        "083de0c24d7407dd9a6779b60b8bfa25f4cfb1918e1b77d3fb6f1a2c5f23aa00",
+        "0902fd05b3c2d70acab1f8de0318a1043a3e243b5d2af7847d822c9e727157c5",
+        "14922d8d9b334059e2c07d32c2730881a5962e60d97828dc6fd6ddcec5f8dd64",
+        "7818486c079cd200e020ea73a5e8c91e02dc03d3c8dc943fe81ee30b36dc882f",
+        "8b80253807cbe5d4cda4675272ab22f1572e963cbcbafe60e5e496622d31da93",
+        "fe5c5250ec5de2a34996f5548de97a059a10f4d1891724da0a0c5cb3527fa027"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38111620514,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-x64",
+      "suite": "linalg",
+      "workload": "lu-general-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "not-yet-reviewed",
+      "diagnostic": "<driver-smoke>:1:1: native code exceeds runner capacity",
+      "original_evidence_sha256": [
+        "083de0c24d7407dd9a6779b60b8bfa25f4cfb1918e1b77d3fb6f1a2c5f23aa00",
+        "0902fd05b3c2d70acab1f8de0318a1043a3e243b5d2af7847d822c9e727157c5",
+        "7818486c079cd200e020ea73a5e8c91e02dc03d3c8dc943fe81ee30b36dc882f",
+        "8b80253807cbe5d4cda4675272ab22f1572e963cbcbafe60e5e496622d31da93",
+        "e2f9b153bddb2fdcf0e42f9210d5c2af9a8ed6bcb8e5d522c05541450b79109c",
+        "fe5c5250ec5de2a34996f5548de97a059a10f4d1891724da0a0c5cb3527fa027"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38111620514,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-x64",
+      "suite": "linalg",
+      "workload": "qr-tall-96x48",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "not-yet-reviewed",
+      "diagnostic": "<driver-smoke>:1:1: native code exceeds runner capacity",
+      "original_evidence_sha256": [
+        "083de0c24d7407dd9a6779b60b8bfa25f4cfb1918e1b77d3fb6f1a2c5f23aa00",
+        "0902fd05b3c2d70acab1f8de0318a1043a3e243b5d2af7847d822c9e727157c5",
+        "7818486c079cd200e020ea73a5e8c91e02dc03d3c8dc943fe81ee30b36dc882f",
+        "8b80253807cbe5d4cda4675272ab22f1572e963cbcbafe60e5e496622d31da93",
+        "97c659b99fc7c01445c6191080a683cfda3405f9bcee2fcb00f8642617f91a0a",
+        "fe5c5250ec5de2a34996f5548de97a059a10f4d1891724da0a0c5cb3527fa027"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38111620514,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-x64",
+      "suite": "linalg",
+      "workload": "cholesky-spd-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "not-yet-reviewed",
+      "diagnostic": "<driver-smoke>:1:1: native code exceeds runner capacity",
+      "original_evidence_sha256": [
+        "083de0c24d7407dd9a6779b60b8bfa25f4cfb1918e1b77d3fb6f1a2c5f23aa00",
+        "0902fd05b3c2d70acab1f8de0318a1043a3e243b5d2af7847d822c9e727157c5",
+        "7818486c079cd200e020ea73a5e8c91e02dc03d3c8dc943fe81ee30b36dc882f",
+        "8b80253807cbe5d4cda4675272ab22f1572e963cbcbafe60e5e496622d31da93",
+        "a2b216e0406eb2d0db887befbe97183810dea1f66063e7af532bc0d6b8f3eaba",
+        "fe5c5250ec5de2a34996f5548de97a059a10f4d1891724da0a0c5cb3527fa027"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38111620514,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-x64",
+      "suite": "linalg",
+      "workload": "svd-tall-96x48",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "not-yet-reviewed",
+      "diagnostic": "<driver-smoke>:1:1: native code exceeds runner capacity",
+      "original_evidence_sha256": [
+        "083de0c24d7407dd9a6779b60b8bfa25f4cfb1918e1b77d3fb6f1a2c5f23aa00",
+        "0902fd05b3c2d70acab1f8de0318a1043a3e243b5d2af7847d822c9e727157c5",
+        "7818486c079cd200e020ea73a5e8c91e02dc03d3c8dc943fe81ee30b36dc882f",
+        "8b80253807cbe5d4cda4675272ab22f1572e963cbcbafe60e5e496622d31da93",
+        "ee8ad681843d83082f2997c6090bb51232bd5f875d07be8a54e9edf9f89d0955",
+        "fe5c5250ec5de2a34996f5548de97a059a10f4d1891724da0a0c5cb3527fa027"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38111620514,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-x64",
+      "suite": "linalg",
+      "workload": "eigen-symmetric-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "not-yet-reviewed",
+      "diagnostic": "<driver-smoke>:1:1: native code exceeds runner capacity",
+      "original_evidence_sha256": [
+        "083de0c24d7407dd9a6779b60b8bfa25f4cfb1918e1b77d3fb6f1a2c5f23aa00",
+        "0902fd05b3c2d70acab1f8de0318a1043a3e243b5d2af7847d822c9e727157c5",
+        "7818486c079cd200e020ea73a5e8c91e02dc03d3c8dc943fe81ee30b36dc882f",
+        "8b80253807cbe5d4cda4675272ab22f1572e963cbcbafe60e5e496622d31da93",
+        "ee1304a17dd1072bbdd2e5627415a973992652800a35cfae621c63354b3a88d5",
+        "fe5c5250ec5de2a34996f5548de97a059a10f4d1891724da0a0c5cb3527fa027"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38111620514,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-x64",
+      "suite": "symbolic",
+      "workload": "expand1",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "not-yet-reviewed",
+      "diagnostic": "1:1: native code exceeds runner capacity",
+      "original_evidence_sha256": [
+        "083de0c24d7407dd9a6779b60b8bfa25f4cfb1918e1b77d3fb6f1a2c5f23aa00",
+        "0902fd05b3c2d70acab1f8de0318a1043a3e243b5d2af7847d822c9e727157c5",
+        "7818486c079cd200e020ea73a5e8c91e02dc03d3c8dc943fe81ee30b36dc882f",
+        "8b80253807cbe5d4cda4675272ab22f1572e963cbcbafe60e5e496622d31da93",
+        "f725f29711f88d996a1af9359ae222920e640d7b8be8f54fbc9ff01e5358543f",
+        "fe5c5250ec5de2a34996f5548de97a059a10f4d1891724da0a0c5cb3527fa027"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38111620514,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-x64",
+      "suite": "symbolic",
+      "workload": "expand2",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "not-yet-reviewed",
+      "diagnostic": "1:1: native code exceeds runner capacity",
+      "original_evidence_sha256": [
+        "083de0c24d7407dd9a6779b60b8bfa25f4cfb1918e1b77d3fb6f1a2c5f23aa00",
+        "0902fd05b3c2d70acab1f8de0318a1043a3e243b5d2af7847d822c9e727157c5",
+        "7818486c079cd200e020ea73a5e8c91e02dc03d3c8dc943fe81ee30b36dc882f",
+        "7c8c7ea49990aa99dd397db8bbdb516e747cd5289dc26b946a5560d9973d50da",
+        "8b80253807cbe5d4cda4675272ab22f1572e963cbcbafe60e5e496622d31da93",
+        "fe5c5250ec5de2a34996f5548de97a059a10f4d1891724da0a0c5cb3527fa027"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38111620514,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-x64",
+      "suite": "symbolic",
+      "workload": "add1",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "peer-incomplete-or-failed",
+      "diagnostic": "Original peers missing or failed: vkf",
+      "original_evidence_sha256": [
+        "083de0c24d7407dd9a6779b60b8bfa25f4cfb1918e1b77d3fb6f1a2c5f23aa00",
+        "0902fd05b3c2d70acab1f8de0318a1043a3e243b5d2af7847d822c9e727157c5",
+        "55d3f401340c7b29106c437cefa3e53b96e357923b6bf379ee2d5ee8ab13d1b6",
+        "7818486c079cd200e020ea73a5e8c91e02dc03d3c8dc943fe81ee30b36dc882f",
+        "8b80253807cbe5d4cda4675272ab22f1572e963cbcbafe60e5e496622d31da93",
+        "fe5c5250ec5de2a34996f5548de97a059a10f4d1891724da0a0c5cb3527fa027"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38111620514,
+      "origin_attempt": null,
+      "terminal_command_exit": 0
+    },
+    {
+      "platform": "macos-x64",
+      "suite": "symbolic",
+      "workload": "series",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "peer-incomplete-or-failed",
+      "diagnostic": "Original peers missing or failed: vkf",
+      "original_evidence_sha256": [
+        "083de0c24d7407dd9a6779b60b8bfa25f4cfb1918e1b77d3fb6f1a2c5f23aa00",
+        "0902fd05b3c2d70acab1f8de0318a1043a3e243b5d2af7847d822c9e727157c5",
+        "7818486c079cd200e020ea73a5e8c91e02dc03d3c8dc943fe81ee30b36dc882f",
+        "8b80253807cbe5d4cda4675272ab22f1572e963cbcbafe60e5e496622d31da93",
+        "c4afe7b69fd51b41c77ae6d3a5629d5da2245629f5eb13d9d7cf79682c2d0924",
+        "fe5c5250ec5de2a34996f5548de97a059a10f4d1891724da0a0c5cb3527fa027"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38111620514,
+      "origin_attempt": null,
+      "terminal_command_exit": 0
     }
   ]
 }

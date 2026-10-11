@@ -1,12 +1,12 @@
 # Source983 0.7.2 preview report — execution ongoing
 
-44/64 primary workload attempts terminal; 24
-qualified comparisons; 20 failed or unqualified;
-20 pending. Intel is additional coverage. Availability probe38111143757
+48/64 primary workload attempts terminal; 26
+qualified comparisons; 22 failed or unqualified;
+16 pending. Intel is additional coverage (16/16 terminal, 2 qualified). Availability probe38111143757
 is infrastructure evidence only. Public execution run38111620514 and local symbolic118
 retain actual runner/host identities and original failures. Missing jobs receive no credit.
 
-`raw-samples.json` contains163 reviewed ten-sample timing series;
+`raw-samples.json` contains272 reviewed ten-sample timing series;
 `sample-summary.csv` provides means, medians and sample standard deviations.
 Individually valid peers and scalar-only parallel diagnostics remain observations
 without full comparison credit. Symbolic attempts and failures are separately retained.

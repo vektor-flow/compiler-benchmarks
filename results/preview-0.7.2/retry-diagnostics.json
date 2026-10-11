@@ -1,0 +1,29 @@
+{
+  "scope": "Retained metadata-capture failures before focused134 retry; no compiler source changes or successful timing credit",
+  "failures": [
+    {
+      "attempt": "pp-wasm-peer-identities133",
+      "workload": "spectral-norm-large",
+      "language": "cpp",
+      "phase": "compile-or-warmup",
+      "diagnostic": "Expected values to be strictly equal:\n\n1 !== 2\n",
+      "successful_timing_credit": false
+    },
+    {
+      "attempt": "pp-wasm-peer-identities133",
+      "workload": "fannkuch-redux-large",
+      "language": "cpp",
+      "phase": "compile-or-warmup",
+      "diagnostic": "Expected values to be strictly equal:\n\n1 !== 2\n",
+      "successful_timing_credit": false
+    },
+    {
+      "attempt": "pp-wasm-peer-identities133",
+      "workload": "n-body-large",
+      "language": "cpp",
+      "phase": "compile-or-warmup",
+      "diagnostic": "Expected values to be strictly equal:\n\n1 !== 2\n",
+      "successful_timing_credit": false
+    }
+  ]
+}
