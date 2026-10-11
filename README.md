@@ -1,80 +1,72 @@
 # Vektor Flow compiler benchmarks
 
-Public workflow repository for reproducible Vektor Flow compiler benchmarks on
-standard Linux, Windows and macOS GitHub-hosted runners. WASM runs use the Linux
-host. Public standard runner compute is free under GitHub's current billing rules:
-https://docs.github.com/en/billing/concepts/product-billing/github-actions
-Artifact and cache storage have separate allowances.
+This repository publishes the Source983 0.7.2 preview workflows, selected original
+benchmark harness files and reviewed results. [The preview report](results/preview-0.7.2/README.md)
+separates terminal workload attempts, qualified comparisons and failed observations.
+The 64 primary rows cover Linux, macOS ARM, Windows and WASM: five original core,
+seven linalg and four symbolic workloads per platform, ten measured repetitions
+for each working case. macOS Intel is additional coverage.
 
-The initial workflow checks actual runner availability and records tool versions.
-It does not run the compiler benchmark suite or claim benchmark completion.
-Linux x64, Windows x64, macOS ARM and additional macOS Intel probes are manually
-dispatched. Only this repository's newly written workflow/probe code is public;
-no private compiler source or credentials have been copied here.
+## Trusted hosted execution
 
-The integration coordinator will connect exact isolated0.7.2 inputs and the
-original ten-repetition five-core, seven-linalg and four-symbolic workloads.
-Compiler source remains private. A narrowly scoped read credential or encrypted
-input bundle can supply it inside the temporary runner workspace. The public
-GITHUB_TOKEN alone does not grant cross-repository private access:
-https://docs.github.com/en/actions/concepts/security/github_token
+Manually dispatch `.github/workflows/preview-072.yml` on `working` with target
+`windows-x64`, `macos-arm64`, `macos-x64` or `all`. These use standard GitHub-hosted
+Windows 2022, macOS 15 ARM and macOS 15 Intel runners. `suites=auto` selects the remaining
+native coverage; `core`, `linalg` and `symbolic` permit a focused evidence retry.
+Linux native and WASM results adopt matching original compiler/input identities
+and retain their actual host conditions; they are not relabeled as hosted runs.
+Runner-availability probe 38111143757 succeeded but supplies no benchmark evidence.
+Historical private-run billing refusals remain external evidence; no spending
+settings have been changed.
 
-Public commits, logs and uploaded artifacts can remain accessible after a run.
-Commit and upload only selected harness files and reviewed result summaries.
-Retain full private raw evidence in the coordinator's existing evidence store.
-Public runner availability, diagnostic preview measurements and full compiler
-acceptance are separate claims. No P0/C0 or physical GPU acceptance is implied.
+Inputs are the original candidate11 archive/manifest 58, benchmark revision
+`7d19ea16551b6956a044af3d4c99da49d4767b25`. The selected public `harness/` files have
+individual original-file hashes in `harness/original-inputs.json`; execution uses
+the complete 414-file pinned harness inside authenticated encrypted inputs.
+Core retains C++/Rust/Zig, linalg retains Eigen/faer/SciPy, and symbolic retains
+SymEngine/SymPy/Symbolics. Original workloads, oracles, timing boundaries and
+sample counts remain unchanged.
 
-## Source983 preview execution
+## Private inputs and frozen compilers
 
-`preview-072.yml` runs trusted manual jobs on standard Windows 2022, macOS ARM
-and additional macOS Intel hosts. Successful availability run38111143757
-is infrastructure evidence only. Inputs use AES-256-GCM in
-`inputs/source983-01.enc`; the key exists only in the repository Actions secret
-and coordinator's private store. Compiler source and private Git history
-remain encrypted; no read credential or unrestricted build tree is public.
+`inputs/source983-01.enc` uses AES-256-GCM with a separately held key supplied by
+the repository Actions secret `SOURCE983_INPUT_KEY`. The runner verifies the
+ciphertext/plaintext archive pins, exact recipe and source-file manifest before
+execution. Source pin is `fb41913c619e0dac6c66b08ee44e1ee18ce67aa8`; recipe11 SHA256 is
+`3c4e14a9df56328078ad79bd56e13003af8cbd01c504192737fe27b41642aaa7`.
+No credentials, plaintext compiler source, private repository history or unrestricted
+build directory is published. The repository read-only Actions token only fetches
+this repository's selected encrypted artifacts; it provides no private source access.
 
-Windows builds the exact compiler once and freezes its complete tool bundle.
-macOS adopts previously built, hash-verified Source983 tools from run38095145038.
-ARM's five valid core results and seven original linalg failures are adopted;
-remaining symbolic cases run here. Intel runs all three suites as additional
-coverage. Existing Linux native and WASM evidence retain their original host
-identities; symbolic attempt118 remains the sole Linux full-peer attempt.
+Windows reconstructs the exact source, builds once per measurement attempt and
+freezes the selected compiler tools for every case/repetition. macOS adopts the
+hash-verified frozen Source983 compiler from run 38095145038. ARM core raw-phase capture
+reuses that same compiler. Linux and WASM use their retained frozen compiler pins.
+The initial Windows public attempt 38111620514 built successfully but failed peer
+CMake setup before workloads. Those ephemeral binaries were not retained, so
+retry 38112707596 necessarily builds a second compiler; no workload measurement
+rebuilds it. This exception and both identities remain disclosed.
 
-Selected original workload/oracle/peer files are in `harness/`; each public
-file is checked against candidate11's original benchmark manifest58. This is
-a selected inspection set; actual execution uses the complete pinned harness
-inside encrypted inputs. Numerical gates, ten valid repetitions and timing
-boundaries stay exact. Failed programs retain diagnostics and earn no timing
-credit. Jobs expose only phase names, exit codes, hashes and safe status.
-Selected raw receipts, diagnostics and samples are encrypted in an allowlisted
-artifact for coordinator review; source and build directories are excluded.
-Only reviewed results become public JSON/CSV/Markdown.
+Subsequent jobs retain `frozen-tools.enc`, an encrypted allowlisted executable/tool
+bundle with its exact source proof and file hashes. For a measured Windows retry,
+set `frozen_tools_run` to its terminal originating run. Authenticated decryption,
+source/recipe proof and every tool hash must match before adoption; this skips
+compiler rebuilding. Actions artifacts have short retention, so the coordinator
+retains original sealed evidence and reviewed durable results separately.
 
-Primary reporting has64 rows: Linux, macOS ARM, Windows and WASM, each with
-5 core,7 linalg and4 symbolic workloads. Completed attempts, successful
-comparisons and compiler acceptance are separate counts. PP portable browser
-artifact SHA256:
+## Evidence and preview scope
+
+Jobs expose safe phase names, exit codes, hashes and status. Selected receipts,
+raw logs and results are encrypted for coordinator review; compiler sources and
+build trees are excluded from evidence uploads. Only reviewed field allowlists
+become public JSON/CSV/Markdown. Raw valid ten-sample series, rejected arrays,
+correctness outcomes, failures, compiler/toolchain/runner identities and
+comparison qualification are separately recorded under `results/preview-0.7.2/`.
+Failed or unstarted jobs receive no successful timing credit. Historical samples
+and diagnostic retries are preserved without replacing current failures.
+
+Portable Platonic Play browser artifact SHA256:
 `9011f6cfd67a925043cbdb33cbc3d55553db7d5a4470949c4d838cf37534629b`.
-
-Windows attempt38111620514 built the exact compiler but stopped before workloads:
-SymEngineConfig.cmake parsed a backslash in BOOST_ROOT as an invalid escape.
-No Windows row is credited from that setup attempt. Retry uses forward-slash
-CMake paths and a fresh hosted runner. The first tool identity is preserved;
-its binaries were not retained before the ephemeral runner ended. Each measurement
-attempt still freezes one compiler and reuses it for all repetitions. Subsequent
-jobs retain an encrypted, hash-verified selected frozen-tool bundle so setup
-failures do not require another compiler build. No source or build tree is uploaded.
-
-For a measured setup retry after frozen tools have been retained, set
-`frozen_tools_run` to that terminal Windows run. The workflow's repository-scoped
-read-only Actions token downloads the encrypted selected tool artifact; exact
-Source/recipe/binary hashes and the full728-file source proof must match before
-adoption. This skips compiler rebuilding. It never reads another private repository.
-
-Suite selection (`suites`) supports focused retries of a measured evidence gap.
-The original ARM core kernels already have ten valid numerical samples, preserved
-as adopted evidence, but their older report omitted raw compile/process arrays.
-A core-only ARM capture reuses the identical frozen compiler and exact workloads
-with the existing metadata adapter; it fills that reporting gap without symbolic
-peer setup or another compiler build. Original reports are retained separately.
+This is a preview, not P0/C0, a stable release or quiet-host performance acceptance.
+Original 419 repair progress remains separate: 17 historical closures, 402 open,
+pending current-Source983 requalification. Physical GPU STOP remains in force.

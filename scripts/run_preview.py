@@ -9,7 +9,7 @@ HEADER=b'VKFBENCH1'
 p=argparse.ArgumentParser();p.add_argument('--target',required=True);p.add_argument('--frozen-tools-run',default=os.environ.get('VKF_FROZEN_TOOLS_RUN',''));a=p.parse_args()
 repository=Path(__file__).resolve().parents[1]
 pins=json.loads((repository/'inputs/pins.json').read_text());assert pins['compiler_source']==SOURCE
-key=base64.b64decode(os.environ['SOURCE983_INPUT_KEY']);assert len(key)==32
+key=base64.b64decode(os.environ.pop('SOURCE983_INPUT_KEY'));assert len(key)==32
 private=Path(os.environ.get('RUNNER_TEMP',str(repository.parent)))/('vkf-private-'+a.target)
 assert not private.exists();private.mkdir()
 public=repository/'job-results';public.mkdir(exist_ok=True)
@@ -119,6 +119,7 @@ try:
         assert receipt['bundle_sha256']==pins['portable_manifest_sha256'];state['adopted_compiler_origin_run']=pins['frozen_origin_run'];(private/'compiler-identity.json').write_text(json.dumps(receipt,indent=2)+'\n')
         suites='symbolic'if a.target=='macos-arm64'else 'core,linalg,symbolic'
     requested=os.environ.get('VKF_BENCH_SUITES','auto')
+    os.environ.pop('GH_TOKEN',None)  # Artifact adoption is complete; benchmark children need no credential.
     assert requested in ['auto','core','linalg','symbolic']
     if requested!='auto':suites=requested
     state['requested_suites']=suites
