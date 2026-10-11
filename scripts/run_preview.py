@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Trusted manual preview job: sealed inputs, frozen tools, sealed selected evidence."""
-import argparse,base64,gzip,hashlib,json,os,platform,shutil,subprocess,sys,tarfile,time
+import argparse,base64,gzip,hashlib,io,json,os,platform,shutil,subprocess,sys,tarfile,time,zipfile
 from pathlib import Path
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
 SOURCE='fb41913c619e0dac6c66b08ee44e1ee18ce67aa8'
 HEADER=b'VKFBENCH1'
-p=argparse.ArgumentParser();p.add_argument('--target',required=True);a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--target',required=True);p.add_argument('--frozen-tools-run',default=os.environ.get('VKF_FROZEN_TOOLS_RUN',''));a=p.parse_args()
 repository=Path(__file__).resolve().parents[1]
 pins=json.loads((repository/'inputs/pins.json').read_text());assert pins['compiler_source']==SOURCE
 key=base64.b64decode(os.environ['SOURCE983_INPUT_KEY']);assert len(key)==32
@@ -30,6 +30,36 @@ def run(label,command,timeout=1800,cwd=None,extra_env=None,required=True):
     state['phases'].append({'label':label,'exit':code,'seconds':time.monotonic()-start,'log_sha256':sha(log)});save();print(label,code,flush=True)
     if required and code:raise RuntimeError('Phase failed: '+label)
     return code
+
+def adopt_windows_tools(run_id):
+    assert run_id.isdecimal() and int(run_id)>0
+    # The workflow token can read only this public repository's Actions artifacts.
+    command=['gh','api',f'repos/vektor-flow/compiler-benchmarks/actions/runs/{run_id}/artifacts']
+    metadata=json.loads(subprocess.check_output(command,stderr=subprocess.PIPE))
+    matches=[x for x in metadata['artifacts'] if x['name']=='preview072-windows-x64' and not x['expired']]
+    assert len(matches)==1
+    data=subprocess.check_output(['gh','api',f'repos/vektor-flow/compiler-benchmarks/actions/artifacts/{matches[0]["id"]}/zip'],stderr=subprocess.PIPE)
+    with zipfile.ZipFile(io.BytesIO(data)) as z:
+        status=json.loads(z.read('status.json'));sealed=z.read('frozen-tools.enc')
+    assert status['compiler_source']==SOURCE and status['recipe_sha256']==pins['recipe_sha256']
+    assert status['target']=='windows-x64' and sealed[:len(HEADER)]==HEADER
+    plain=AESGCM(key).decrypt(sealed[len(HEADER):len(HEADER)+12],sealed[len(HEADER)+12:],HEADER)
+    frozen=private/'adopted-frozen-tools';frozen.mkdir()
+    with tarfile.open(fileobj=io.BytesIO(plain),mode='r:gz') as t:
+        for item in t:
+            name=Path(item.name)
+            assert item.isfile() and not name.is_absolute() and '..' not in name.parts
+            assert item.name=='compiler-identity.json' or (len(name.parts)==2 and name.parts[0]=='bin' and name.suffix in ['.exe','.dll'])
+            dest=frozen/name;dest.parent.mkdir(exist_ok=True);dest.write_bytes(t.extractfile(item).read())
+    receipt=json.loads((frozen/'compiler-identity.json').read_text())
+    assert receipt['compiler_source']==SOURCE and receipt['recipe_sha256']==pins['recipe_sha256']
+    expected={Path(name.replace('\\','/')).name:digest for name,digest in receipt['frozen_files'].items()}
+    actual={f.name:sha(f)for f in (frozen/'bin').iterdir()if f.is_file()}
+    assert actual==expected==status['frozen_files'] and sha(frozen/'bin/vkf-strict.exe')==receipt['compiler_sha256']
+    assert receipt['source_unchanged'] and receipt['source_files_verified']==728
+    shutil.copyfile(frozen/'compiler-identity.json',private/'compiler-identity.json')
+    state['adopted_compiler_origin_run']=run_id;state['frozen_tool_artifact_id']=matches[0]['id']
+    return frozen/'bin'
 
 def build_windows(bundle):
     manifest=json.loads((bundle/'manifest.json').read_text());source=private/'compiler-source';source.mkdir()
@@ -80,7 +110,9 @@ try:
     with tarfile.open(archive)as f:f.extractall(inputs,filter='data')
     identity=json.loads((inputs/'identity.json').read_text());assert all(sha(inputs/name)==digest for name,digest in identity['private_files'].items());assert sha(inputs/'preview-recipe11.json')==pins['recipe_sha256']
     bundle=inputs/'candidate11'
-    if a.target=='windows-x64':compiler_bin=build_windows(bundle);suites='core,linalg,symbolic'
+    if a.target=='windows-x64':
+        compiler_bin=adopt_windows_tools(a.frozen_tools_run) if a.frozen_tools_run else build_windows(bundle)
+        suites='core,linalg,symbolic'
     else:
         root=inputs/'frozen'/a.target;receipt=json.loads((root/'receipt.json').read_text());compiler_bin=root/'bin'
         assert all(sha(compiler_bin/name)==digest for name,digest in receipt['frozen_files'].items())

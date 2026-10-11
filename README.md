@@ -65,3 +65,9 @@ its binaries were not retained before the ephemeral runner ended. Each measureme
 attempt still freezes one compiler and reuses it for all repetitions. Subsequent
 jobs retain an encrypted, hash-verified selected frozen-tool bundle so setup
 failures do not require another compiler build. No source or build tree is uploaded.
+
+For a measured setup retry after frozen tools have been retained, set
+`frozen_tools_run` to that terminal Windows run. The workflow's repository-scoped
+read-only Actions token downloads the encrypted selected tool artifact; exact
+Source/recipe/binary hashes and the full728-file source proof must match before
+adoption. This skips compiler rebuilding. It never reads another private repository.
