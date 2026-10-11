@@ -16,9 +16,12 @@
   "P0": false,
   "stable_release": false,
   "physical_gpu_tested": false,
-  "generated_utc": "2026-10-11T04:34:09.060539+00:00",
-  "completed_attempts": 40,
-  "failed_or_unqualified_completed_attempts": 19,
+  "completed_attempts": 41,
+  "failed_or_unqualified_attempts": 20,
+  "pending_attempts": 23,
+  "complete": false,
+  "all_comparisons_qualified": false,
+  "generated_utc": "2026-10-11T04:45:22.688504+00:00",
   "rows": [
     {
       "platform": "linux",
@@ -31,7 +34,10 @@
       "original_evidence_sha256": [
         "e1fd7ebbe680724b69e8a3e26e3923d518569b3b823705fd614ee55200786a69"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "linux",
@@ -44,7 +50,10 @@
       "original_evidence_sha256": [
         "06c994c31b40520916b42717b4c1dff44422fa22b391968ab05daa7102130442"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "linux",
@@ -57,7 +66,10 @@
       "original_evidence_sha256": [
         "8c17a62c977ae893fc7bc9454d8cf953ad24418941aab764f82884a1598353d2"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "linux",
@@ -70,7 +82,10 @@
       "original_evidence_sha256": [
         "d627253b6220273310eff8f1f1b150007f2f499dd0e1781d567064b2702d3884"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "linux",
@@ -83,7 +98,10 @@
       "original_evidence_sha256": [
         "797fbd591e1735c96714b3ca9ab499ff22957eb8cf9c56b5e4f78f7bffd78bce"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "linux",
@@ -96,7 +114,10 @@
       "original_evidence_sha256": [
         "5ec4ea76a61908fc93b9f03a19789414702bee79d001454aacde814dc35b8f53"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "linux",
@@ -109,7 +130,10 @@
       "original_evidence_sha256": [
         "daf2393fb09cc451f1a2123a19f1b5f9020fd4081fc5c0b960902f923b2de299"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "linux",
@@ -122,7 +146,10 @@
       "original_evidence_sha256": [
         "5cac0d6571327e4ef18dc598f1796b8da9de93303ffe1236ec5ce3047f288866"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "linux",
@@ -135,7 +162,10 @@
       "original_evidence_sha256": [
         "82637456eb3f6327677fdb75d3a3d9e91d9058fa6b929c91f9f8aed8cc375a2e"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "linux",
@@ -148,7 +178,10 @@
       "original_evidence_sha256": [
         "6acf418bb11f4dab0a54832f1f6f48f6ff01706c89e4ed5571c964e6eff3cfca"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "linux",
@@ -161,7 +194,10 @@
       "original_evidence_sha256": [
         "ebfe6898cd7440bb15f79206b718ef9c666a27a33e343b8a12832b6688691cf2"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "linux",
@@ -174,20 +210,27 @@
       "original_evidence_sha256": [
         "a04200123e22abddf117f2991d21859851694c5af6e091162bd6ef9c7d039210"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "linux",
       "suite": "symbolic",
       "workload": "expand1",
-      "completed_attempt": false,
+      "completed_attempt": true,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
-      "diagnostic": null,
+      "status": "peer-incomplete-or-failed",
+      "diagnostic": "symbolics: spawnSync /dev/shm/vkf-architecture-0136/symbolic-peers105/julia-1.12.6/bin/julia ETIMEDOUT",
       "original_evidence_sha256": [
-        "49acf27bb770d4ef91c8e1f75d7b89fb60c9111dffb6aa1e13941272c5933f87"
+        "872a2f6112c41e8382c35d7e8639b25e8192b3e057cb68c32993f692040757e2",
+        "f2de67287d53f6f90d364121136aeab51cd437dfc745c2072e88aad5dff17ac8"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": "pp-full-symbolic118",
+      "terminal_command_exit": 1
     },
     {
       "platform": "linux",
@@ -195,12 +238,15 @@
       "workload": "expand2",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [
         "e36ef38aa24412a9cee2e063088d3a3c88737bb36bcdece1ce07f8c7715cc17a"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "linux",
@@ -208,12 +254,15 @@
       "workload": "add1",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [
         "367530b4f3ba4de7c471221a5ebe54ffedaa71b56a34685badbb59223de6291d"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "linux",
@@ -221,12 +270,15 @@
       "workload": "series",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [
         "9ad35964935f3de276d68174a962fd583cf336f1045a4574246649995e79d002"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "macos-arm64",
@@ -239,7 +291,10 @@
       "original_evidence_sha256": [
         "ee92f570ac41d59ca969d9fa7a89a18f4e7a70942dbdf9c4561c7ceb26ba16df"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "macos-arm64",
@@ -252,7 +307,10 @@
       "original_evidence_sha256": [
         "50e37754f904b4544c420b20f29cb32836427738de76713715618fde766a1761"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "macos-arm64",
@@ -265,7 +323,10 @@
       "original_evidence_sha256": [
         "7a934a340d75f3d8962295856f0c71cbabb7f6fa453756ee687bbe652199af33"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "macos-arm64",
@@ -278,7 +339,10 @@
       "original_evidence_sha256": [
         "df9d26b3caf54ff3acbd003776330b1325c4b52fba76735503fd1794073400dc"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "macos-arm64",
@@ -291,7 +355,10 @@
       "original_evidence_sha256": [
         "1ef80fdb70daad0aab4613e8825a8baba1efb0728806a4acaf6239a0715a40f6"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "macos-arm64",
@@ -300,9 +367,15 @@
       "completed_attempt": true,
       "qualified_comparison": false,
       "status": "compiler-failed",
-      "diagnostic": "arm64 private ABI argument overflow",
-      "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "diagnostic": "<driver-smoke>:1:1: direct arm64 backend unsupported: arm64 private ABI argument overflow",
+      "original_evidence_sha256": [
+        "97530de051db222f1db5a83cd62e6ac6fdbf8574a659ddf51e3f877140dd25d9",
+        "e3ce6685a1eb6112631713058c18f5f24622db929166899fa85a80bd26a50c84"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38095145038,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
     },
     {
       "platform": "macos-arm64",
@@ -311,9 +384,15 @@
       "completed_attempt": true,
       "qualified_comparison": false,
       "status": "compiler-failed",
-      "diagnostic": "arm64 private ABI argument overflow",
-      "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "diagnostic": "<driver-smoke>:1:1: direct arm64 backend unsupported: arm64 list literal is too large",
+      "original_evidence_sha256": [
+        "5e6cbc5798237ed6cd1fa1e65ba480d383370415d9a841685afae94aca94558c",
+        "97530de051db222f1db5a83cd62e6ac6fdbf8574a659ddf51e3f877140dd25d9"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38095145038,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
     },
     {
       "platform": "macos-arm64",
@@ -322,9 +401,15 @@
       "completed_attempt": true,
       "qualified_comparison": false,
       "status": "compiler-failed",
-      "diagnostic": "arm64 private ABI argument overflow",
-      "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "diagnostic": "<driver-smoke>:1:1: direct arm64 backend unsupported: arm64 private ABI argument overflow",
+      "original_evidence_sha256": [
+        "5610b073328e4d4b27f65ae53accbe1538bfa20527f4eedb218f287e4b3ae596",
+        "97530de051db222f1db5a83cd62e6ac6fdbf8574a659ddf51e3f877140dd25d9"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38095145038,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
     },
     {
       "platform": "macos-arm64",
@@ -333,9 +418,15 @@
       "completed_attempt": true,
       "qualified_comparison": false,
       "status": "compiler-failed",
-      "diagnostic": "arm64 private ABI argument overflow",
-      "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "diagnostic": "<driver-smoke>:1:1: direct arm64 backend unsupported: arm64 private ABI argument overflow",
+      "original_evidence_sha256": [
+        "84259e4af4e03ef80793b5ee2ca3e3d489393cb0ab1c4775217d423ed7ded224",
+        "97530de051db222f1db5a83cd62e6ac6fdbf8574a659ddf51e3f877140dd25d9"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38095145038,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
     },
     {
       "platform": "macos-arm64",
@@ -344,9 +435,15 @@
       "completed_attempt": true,
       "qualified_comparison": false,
       "status": "compiler-failed",
-      "diagnostic": "arm64 private ABI argument overflow",
-      "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "diagnostic": "<driver-smoke>:1:1: direct arm64 backend unsupported: arm64 private ABI argument overflow",
+      "original_evidence_sha256": [
+        "2c4ea9d7c5010c7e0f54d2d8d6d02d1b9b74241619aaccfe19525223d60058a7",
+        "97530de051db222f1db5a83cd62e6ac6fdbf8574a659ddf51e3f877140dd25d9"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38095145038,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
     },
     {
       "platform": "macos-arm64",
@@ -355,9 +452,15 @@
       "completed_attempt": true,
       "qualified_comparison": false,
       "status": "compiler-failed",
-      "diagnostic": "arm64 private ABI argument overflow",
-      "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "diagnostic": "<driver-smoke>:1:1: direct arm64 backend unsupported: arm64 list literal is too large",
+      "original_evidence_sha256": [
+        "97530de051db222f1db5a83cd62e6ac6fdbf8574a659ddf51e3f877140dd25d9",
+        "ec3de0647ee2ccab41c84482ed5399610ef0b52417a5c0b5672bff84996fe7cb"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38095145038,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
     },
     {
       "platform": "macos-arm64",
@@ -366,9 +469,15 @@
       "completed_attempt": true,
       "qualified_comparison": false,
       "status": "compiler-failed",
-      "diagnostic": "arm64 private ABI argument overflow",
-      "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "diagnostic": "<driver-smoke>:1:1: direct arm64 backend unsupported: arm64 list literal is too large",
+      "original_evidence_sha256": [
+        "849fae525b6c780ac4025261ec4786804c9a4cee62c17db8458bfc09bef25c40",
+        "97530de051db222f1db5a83cd62e6ac6fdbf8574a659ddf51e3f877140dd25d9"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38095145038,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
     },
     {
       "platform": "macos-arm64",
@@ -376,10 +485,13 @@
       "workload": "expand1",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "macos-arm64",
@@ -387,10 +499,13 @@
       "workload": "expand2",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "macos-arm64",
@@ -398,10 +513,13 @@
       "workload": "add1",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "macos-arm64",
@@ -409,10 +527,13 @@
       "workload": "series",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "windows",
@@ -420,10 +541,13 @@
       "workload": "spectral-norm-large",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "windows",
@@ -431,10 +555,13 @@
       "workload": "fannkuch-redux-large",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "windows",
@@ -442,10 +569,13 @@
       "workload": "n-body-large",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "windows",
@@ -453,10 +583,13 @@
       "workload": "combined-kernels-large",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "windows",
@@ -464,10 +597,13 @@
       "workload": "combined-kernels-parallel-large",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "windows",
@@ -475,10 +611,13 @@
       "workload": "solve-general-96",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "windows",
@@ -486,10 +625,13 @@
       "workload": "least-squares-tall-96x48",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "windows",
@@ -497,10 +639,13 @@
       "workload": "lu-general-96",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "windows",
@@ -508,10 +653,13 @@
       "workload": "qr-tall-96x48",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "windows",
@@ -519,10 +667,13 @@
       "workload": "cholesky-spd-96",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "windows",
@@ -530,10 +681,13 @@
       "workload": "svd-tall-96x48",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "windows",
@@ -541,10 +695,13 @@
       "workload": "eigen-symmetric-96",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "windows",
@@ -552,10 +709,13 @@
       "workload": "expand1",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "windows",
@@ -563,10 +723,13 @@
       "workload": "expand2",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "windows",
@@ -574,10 +737,13 @@
       "workload": "add1",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "windows",
@@ -585,10 +751,13 @@
       "workload": "series",
       "completed_attempt": false,
       "qualified_comparison": false,
-      "status": "remaining-full-peer-attempt-running-or-pending",
+      "status": "running-or-pending",
       "diagnostic": null,
       "original_evidence_sha256": [],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "wasm",
@@ -599,11 +768,14 @@
       "status": "qualified-kernel-measurements",
       "diagnostic": null,
       "original_evidence_sha256": [
+        "1aac174c192d34a37058cbb84a4aea4c31dfd3a28480a1c43787b390cc941a7d",
         "5a06ea1af5941dfe63272e1f8126029818199d5e6a5a59bc11ec1a650160e3be",
-        "8f7151676e61cbec173dbfff0bbe66374a5d332768c50a6e9742eb3125118c09",
-        "1aac174c192d34a37058cbb84a4aea4c31dfd3a28480a1c43787b390cc941a7d"
+        "8f7151676e61cbec173dbfff0bbe66374a5d332768c50a6e9742eb3125118c09"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "wasm",
@@ -614,11 +786,14 @@
       "status": "qualified-kernel-measurements",
       "diagnostic": null,
       "original_evidence_sha256": [
+        "1aac174c192d34a37058cbb84a4aea4c31dfd3a28480a1c43787b390cc941a7d",
         "1bb96114434bea388aaee9513664e8f2ece8d09374b31b611b908799e87b3720",
-        "8f7151676e61cbec173dbfff0bbe66374a5d332768c50a6e9742eb3125118c09",
-        "1aac174c192d34a37058cbb84a4aea4c31dfd3a28480a1c43787b390cc941a7d"
+        "8f7151676e61cbec173dbfff0bbe66374a5d332768c50a6e9742eb3125118c09"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "wasm",
@@ -630,10 +805,13 @@
       "diagnostic": null,
       "original_evidence_sha256": [
         "1bb96114434bea388aaee9513664e8f2ece8d09374b31b611b908799e87b3720",
-        "8f7151676e61cbec173dbfff0bbe66374a5d332768c50a6e9742eb3125118c09",
-        "2e357f453286089bd14df189271f44acb58b80ef18effbba73485dc1b65d9fa4"
+        "2e357f453286089bd14df189271f44acb58b80ef18effbba73485dc1b65d9fa4",
+        "8f7151676e61cbec173dbfff0bbe66374a5d332768c50a6e9742eb3125118c09"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "wasm",
@@ -644,12 +822,15 @@
       "status": "qualified-kernel-measurements",
       "diagnostic": null,
       "original_evidence_sha256": [
+        "1aac174c192d34a37058cbb84a4aea4c31dfd3a28480a1c43787b390cc941a7d",
         "1bb96114434bea388aaee9513664e8f2ece8d09374b31b611b908799e87b3720",
-        "e9bd818d787535b07480683e281b9f40c4c2bf0f85f779fca34c6545694a3cb6",
         "8f7151676e61cbec173dbfff0bbe66374a5d332768c50a6e9742eb3125118c09",
-        "1aac174c192d34a37058cbb84a4aea4c31dfd3a28480a1c43787b390cc941a7d"
+        "e9bd818d787535b07480683e281b9f40c4c2bf0f85f779fca34c6545694a3cb6"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "wasm",
@@ -660,12 +841,15 @@
       "status": "incomplete-or-failed",
       "diagnostic": "Numerical execution only; required two-worker concurrency is not verified",
       "original_evidence_sha256": [
+        "1aac174c192d34a37058cbb84a4aea4c31dfd3a28480a1c43787b390cc941a7d",
         "1bb96114434bea388aaee9513664e8f2ece8d09374b31b611b908799e87b3720",
-        "e9bd818d787535b07480683e281b9f40c4c2bf0f85f779fca34c6545694a3cb6",
         "8f7151676e61cbec173dbfff0bbe66374a5d332768c50a6e9742eb3125118c09",
-        "1aac174c192d34a37058cbb84a4aea4c31dfd3a28480a1c43787b390cc941a7d"
+        "e9bd818d787535b07480683e281b9f40c4c2bf0f85f779fca34c6545694a3cb6"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "wasm",
@@ -678,7 +862,10 @@
       "original_evidence_sha256": [
         "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "wasm",
@@ -691,7 +878,10 @@
       "original_evidence_sha256": [
         "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "wasm",
@@ -704,7 +894,10 @@
       "original_evidence_sha256": [
         "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "wasm",
@@ -717,7 +910,10 @@
       "original_evidence_sha256": [
         "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "wasm",
@@ -730,7 +926,10 @@
       "original_evidence_sha256": [
         "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "wasm",
@@ -743,7 +942,10 @@
       "original_evidence_sha256": [
         "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "wasm",
@@ -756,7 +958,10 @@
       "original_evidence_sha256": [
         "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "wasm",
@@ -769,7 +974,10 @@
       "original_evidence_sha256": [
         "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "wasm",
@@ -782,7 +990,10 @@
       "original_evidence_sha256": [
         "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "wasm",
@@ -795,7 +1006,10 @@
       "original_evidence_sha256": [
         "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     },
     {
       "platform": "wasm",
@@ -808,11 +1022,14 @@
       "original_evidence_sha256": [
         "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
       ],
-      "ten_valid_original_oracle_samples_required": true
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
     }
   ],
-  "complete": false,
-  "ongoing_public_run": 38111620514,
-  "ongoing_linux_symbolic_attempt": "pp-full-symbolic118",
-  "progress_definition": "Completed required attempts include exact compiler/runtime failures; qualified comparisons require all original peers with ten valid samples. Missing or unstarted work is pending. Historical C0 closure is separate."
+  "progress_definition": "All64 primary rows require an actual terminal workload attempt. Working series require ten valid original-oracle samples. Failed cases receive no successful comparison timing credit; individually valid peer samples remain raw observations. Missing or unstarted jobs remain pending. C0 progress is separate.",
+  "public_execution_run": 38111620514,
+  "recipe_sha256": "3c4e14a9df56328078ad79bd56e13003af8cbd01c504192737fe27b41642aaa7",
+  "portable_browser_tar_sha256": "9011f6cfd67a925043cbdb33cbc3d55553db7d5a4470949c4d838cf37534629b"
 }

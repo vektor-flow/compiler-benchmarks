@@ -1,0 +1,336 @@
+{
+  "scope": "Terminal failed or unqualified required comparisons; zero successful full comparison credit",
+  "rows": [
+    {
+      "platform": "linux",
+      "suite": "symbolic",
+      "workload": "expand1",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "peer-incomplete-or-failed",
+      "diagnostic": "symbolics: spawnSync /dev/shm/vkf-architecture-0136/symbolic-peers105/julia-1.12.6/bin/julia ETIMEDOUT",
+      "original_evidence_sha256": [
+        "872a2f6112c41e8382c35d7e8639b25e8192b3e057cb68c32993f692040757e2",
+        "f2de67287d53f6f90d364121136aeab51cd437dfc745c2072e88aad5dff17ac8"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": "pp-full-symbolic118",
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "linalg",
+      "workload": "solve-general-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "compiler-failed",
+      "diagnostic": "<driver-smoke>:1:1: direct arm64 backend unsupported: arm64 private ABI argument overflow",
+      "original_evidence_sha256": [
+        "97530de051db222f1db5a83cd62e6ac6fdbf8574a659ddf51e3f877140dd25d9",
+        "e3ce6685a1eb6112631713058c18f5f24622db929166899fa85a80bd26a50c84"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38095145038,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "linalg",
+      "workload": "least-squares-tall-96x48",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "compiler-failed",
+      "diagnostic": "<driver-smoke>:1:1: direct arm64 backend unsupported: arm64 list literal is too large",
+      "original_evidence_sha256": [
+        "5e6cbc5798237ed6cd1fa1e65ba480d383370415d9a841685afae94aca94558c",
+        "97530de051db222f1db5a83cd62e6ac6fdbf8574a659ddf51e3f877140dd25d9"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38095145038,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "linalg",
+      "workload": "lu-general-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "compiler-failed",
+      "diagnostic": "<driver-smoke>:1:1: direct arm64 backend unsupported: arm64 private ABI argument overflow",
+      "original_evidence_sha256": [
+        "5610b073328e4d4b27f65ae53accbe1538bfa20527f4eedb218f287e4b3ae596",
+        "97530de051db222f1db5a83cd62e6ac6fdbf8574a659ddf51e3f877140dd25d9"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38095145038,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "linalg",
+      "workload": "qr-tall-96x48",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "compiler-failed",
+      "diagnostic": "<driver-smoke>:1:1: direct arm64 backend unsupported: arm64 private ABI argument overflow",
+      "original_evidence_sha256": [
+        "84259e4af4e03ef80793b5ee2ca3e3d489393cb0ab1c4775217d423ed7ded224",
+        "97530de051db222f1db5a83cd62e6ac6fdbf8574a659ddf51e3f877140dd25d9"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38095145038,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "linalg",
+      "workload": "cholesky-spd-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "compiler-failed",
+      "diagnostic": "<driver-smoke>:1:1: direct arm64 backend unsupported: arm64 private ABI argument overflow",
+      "original_evidence_sha256": [
+        "2c4ea9d7c5010c7e0f54d2d8d6d02d1b9b74241619aaccfe19525223d60058a7",
+        "97530de051db222f1db5a83cd62e6ac6fdbf8574a659ddf51e3f877140dd25d9"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38095145038,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "linalg",
+      "workload": "svd-tall-96x48",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "compiler-failed",
+      "diagnostic": "<driver-smoke>:1:1: direct arm64 backend unsupported: arm64 list literal is too large",
+      "original_evidence_sha256": [
+        "97530de051db222f1db5a83cd62e6ac6fdbf8574a659ddf51e3f877140dd25d9",
+        "ec3de0647ee2ccab41c84482ed5399610ef0b52417a5c0b5672bff84996fe7cb"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38095145038,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "linalg",
+      "workload": "eigen-symmetric-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "compiler-failed",
+      "diagnostic": "<driver-smoke>:1:1: direct arm64 backend unsupported: arm64 list literal is too large",
+      "original_evidence_sha256": [
+        "849fae525b6c780ac4025261ec4786804c9a4cee62c17db8458bfc09bef25c40",
+        "97530de051db222f1db5a83cd62e6ac6fdbf8574a659ddf51e3f877140dd25d9"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38095145038,
+      "origin_attempt": null,
+      "terminal_command_exit": 1
+    },
+    {
+      "platform": "wasm",
+      "suite": "core",
+      "workload": "combined-kernels-parallel-large",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "incomplete-or-failed",
+      "diagnostic": "Numerical execution only; required two-worker concurrency is not verified",
+      "original_evidence_sha256": [
+        "1aac174c192d34a37058cbb84a4aea4c31dfd3a28480a1c43787b390cc941a7d",
+        "1bb96114434bea388aaee9513664e8f2ece8d09374b31b611b908799e87b3720",
+        "8f7151676e61cbec173dbfff0bbe66374a5d332768c50a6e9742eb3125118c09",
+        "e9bd818d787535b07480683e281b9f40c4c2bf0f85f779fca34c6545694a3cb6"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
+    },
+    {
+      "platform": "wasm",
+      "suite": "linalg",
+      "workload": "solve-general-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "unreachable",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
+    },
+    {
+      "platform": "wasm",
+      "suite": "linalg",
+      "workload": "least-squares-tall-96x48",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "unreachable",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
+    },
+    {
+      "platform": "wasm",
+      "suite": "linalg",
+      "workload": "lu-general-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "unreachable",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
+    },
+    {
+      "platform": "wasm",
+      "suite": "linalg",
+      "workload": "qr-tall-96x48",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "unreachable",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
+    },
+    {
+      "platform": "wasm",
+      "suite": "linalg",
+      "workload": "cholesky-spd-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "unreachable",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
+    },
+    {
+      "platform": "wasm",
+      "suite": "linalg",
+      "workload": "svd-tall-96x48",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "unreachable",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
+    },
+    {
+      "platform": "wasm",
+      "suite": "linalg",
+      "workload": "eigen-symmetric-96",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "unreachable",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
+    },
+    {
+      "platform": "wasm",
+      "suite": "symbolic",
+      "workload": "expand1",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "Original internal monotonic timer is unavailable or did not measure execution; no zero-time score",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
+    },
+    {
+      "platform": "wasm",
+      "suite": "symbolic",
+      "workload": "expand2",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "unreachable",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
+    },
+    {
+      "platform": "wasm",
+      "suite": "symbolic",
+      "workload": "add1",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "Expected values to be strictly equal:\n\n0 !== 2998\n",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
+    },
+    {
+      "platform": "wasm",
+      "suite": "symbolic",
+      "workload": "series",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "failed",
+      "diagnostic": "Original internal monotonic timer is unavailable or did not measure execution; no zero-time score",
+      "original_evidence_sha256": [
+        "fedc6ad3cff88d8dd995f49ce041d70dfcd1a4488bd8cc1cac03f22abfb1ffd2"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": null,
+      "origin_attempt": null,
+      "terminal_command_exit": null
+    }
+  ]
+}
