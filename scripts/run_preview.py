@@ -59,10 +59,10 @@ def prepare_peers(harness):
     assert sha(boost)=='1bed88e40401b2cb7a1f76d4bab499e352fa4d0c5f31c0dbae64e24d34d7513b'
     with tarfile.open(boost)as f:f.extractall(peers,members=(m for m in f if m.name.startswith('boost_1_86_0/boost/')),filter='data')
     sym=peers/'symengine';run('symengine-init',['git','init',sym]);run('symengine-remote',['git','-C',sym,'remote','add','origin','https://github.com/symengine/symengine.git']);run('symengine-fetch',['git','-C',sym,'fetch','--depth','1','origin','0c183629a35dd9d8123fafcc47b0e0283bbae80d']);run('symengine-checkout',['git','-C',sym,'checkout','--detach','FETCH_HEAD'])
-    boost_args=['-DBoost_DIR='+str(harness/'benchmarks/symbolic-comparison/cmake'),'-DBOOST_ROOT='+str(peers/'boost_1_86_0')]
+    boost_args=['-DBoost_DIR='+(harness/'benchmarks/symbolic-comparison/cmake').as_posix(),'-DBOOST_ROOT='+(peers/'boost_1_86_0').as_posix()]
     run('symengine-configure',['cmake','-S',sym,'-B',peers/'symengine-build','-G','Ninja','-DCMAKE_BUILD_TYPE=Release','-DINTEGER_CLASS=boostmp','-DBUILD_TESTS=OFF','-DBUILD_BENCHMARKS=OFF',*boost_args])
     run('symengine-build',['cmake','--build',peers/'symengine-build','--parallel','2'],timeout=2400)
-    run('symengine-runner-configure',['cmake','-S',harness/'benchmarks/symbolic-comparison/competitors','-B',peers/'symengine-runner','-G','Ninja','-DCMAKE_BUILD_TYPE=Release','-DSymEngine_DIR='+str(peers/'symengine-build'),*boost_args])
+    run('symengine-runner-configure',['cmake','-S',harness/'benchmarks/symbolic-comparison/competitors','-B',peers/'symengine-runner','-G','Ninja','-DCMAKE_BUILD_TYPE=Release','-DSymEngine_DIR='+(peers/'symengine-build').as_posix(),*boost_args])
     run('symengine-runner-build',['cmake','--build',peers/'symengine-runner','--parallel','2'])
     julia=Path(shutil.which('julia')).resolve();assert subprocess.check_output([julia,'--version'],text=True).strip()=='julia version 1.12.6'
     project=peers/'julia-project';shutil.copytree(harness/'benchmarks/symbolic-comparison/julia',project)
@@ -106,6 +106,16 @@ except Exception as error:
     (private/'failure.txt').write_text(str(error)+'\n')
 finally:
     save()
+    if 'compiler_bin' in globals() and (private/'compiler-identity.json').is_file():
+        frozen_archive=private/'frozen-tools.tar.gz'
+        with tarfile.open(frozen_archive,'w:gz') as f:
+            f.add(private/'compiler-identity.json',arcname='compiler-identity.json',recursive=False)
+            for name,digest in state['frozen_files'].items():
+                file=compiler_bin/name;assert file.is_file() and sha(file)==digest
+                assert file.suffix in ['.exe','.dll','.so',''] or file.name.startswith('libvkf')
+                f.add(file,arcname='bin/'+name,recursive=False)
+        nonce=os.urandom(12)
+        (public/'frozen-tools.enc').write_bytes(HEADER+nonce+AESGCM(key).encrypt(nonce,frozen_archive.read_bytes(),HEADER))
     evidence=private/'selected-evidence.tar.gz'
     selected=[private/'execution.json',private/'compiler-identity.json',private/'failure.txt',*private.glob('*.log')]
     selected+=list((private/'measurements').glob('receipt.json'))+list((private/'measurements').glob('command-*.log'))

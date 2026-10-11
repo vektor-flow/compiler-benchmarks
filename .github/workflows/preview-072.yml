@@ -76,5 +76,6 @@ jobs:
           path: |
             job-results/status.json
             job-results/selected-evidence.enc
+            job-results/frozen-tools.enc
           if-no-files-found: error
           retention-days: 3

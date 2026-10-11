@@ -56,3 +56,12 @@ Primary reporting has64 rows: Linux, macOS ARM, Windows and WASM, each with
 comparisons and compiler acceptance are separate counts. PP portable browser
 artifact SHA256:
 `9011f6cfd67a925043cbdb33cbc3d55553db7d5a4470949c4d838cf37534629b`.
+
+Windows attempt38111620514 built the exact compiler but stopped before workloads:
+SymEngineConfig.cmake parsed a backslash in BOOST_ROOT as an invalid escape.
+No Windows row is credited from that setup attempt. Retry uses forward-slash
+CMake paths and a fresh hosted runner. The first tool identity is preserved;
+its binaries were not retained before the ephemeral runner ended. Each measurement
+attempt still freezes one compiler and reuses it for all repetitions. Subsequent
+jobs retain an encrypted, hash-verified selected frozen-tool bundle so setup
+failures do not require another compiler build. No source or build tree is uploaded.
