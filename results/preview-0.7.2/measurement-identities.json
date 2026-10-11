@@ -357,10 +357,10 @@
       }
     },
     {
-      "original_report_sha256": "e36ef38aa24412a9cee2e063088d3a3c88737bb36bcdece1ce07f8c7715cc17a",
+      "original_report_sha256": "78e20f3f15ece124d292ef5e80556ab55adc5c6d1dceefb436beb637088036da",
       "schema": "vkf.symbolic-comparison",
       "schemaVersion": 3,
-      "generatedAt": "2026-10-11T00:51:50.497Z",
+      "generatedAt": "2026-10-11T04:37:57.054Z",
       "revision": "7d19ea16551b6956a044af3d4c99da49d4767b25",
       "machine": {
         "hostname": "ubuntu-station",
@@ -376,7 +376,14 @@
         "compilerSha256": "295987e38f2d506965d94b0ce12972e6d397ccdd2d43657fa6f9660d0bb5f237",
         "python": "Python 3.14.4",
         "sympy": "1.14.0",
-        "sympyRunnerSha256": "9a0d37646e0a4d075a7fef5e286f52a10b20898752186fabf341e204f81fde52"
+        "sympyRunnerSha256": "9a0d37646e0a4d075a7fef5e286f52a10b20898752186fabf341e204f81fde52",
+        "julia": "julia version 1.12.6",
+        "symbolics": "7.31.0",
+        "symbolicsProjectSha256": "04dd883aa58f7e7cd7f8f837772613d1c2f8b1f7d06c749d5b3d3baaa95a440b",
+        "symbolicsRunnerSha256": "09ed383bb83aad8561f43b12e6c4eaf6e27ee9d32fd0add5732355b896e66252",
+        "symengineCommit": "0c183629a35dd9d8123fafcc47b0e0283bbae80d",
+        "symengineRunnerSha256": "c4596bd7d1df07b6ef858a0722454091e0126ddbbed0d5d8c3baba21409f387e",
+        "symengineExecutableSha256": "6c7a4c40e05504aa877ff8dad85624ceab55239bcec1da76d68f4a5c7adf6827"
       },
       "sources": {
         "expand2": {
@@ -393,7 +400,9 @@
         ],
         "languages": [
           "vkf",
-          "sympy"
+          "symengine",
+          "sympy",
+          "symbolics"
         ],
         "scheduling": "rotating same-host process order within every kernel round",
         "timer": "each language times only its symbolic operation; process startup and setup are excluded",
@@ -401,10 +410,10 @@
       }
     },
     {
-      "original_report_sha256": "367530b4f3ba4de7c471221a5ebe54ffedaa71b56a34685badbb59223de6291d",
+      "original_report_sha256": "1a4976bea0a5d9ce2293a04320bb988c1f7195b95eb65aeb74d8797cd83db126",
       "schema": "vkf.symbolic-comparison",
       "schemaVersion": 3,
-      "generatedAt": "2026-10-11T00:57:54.299Z",
+      "generatedAt": "2026-10-11T04:45:10.368Z",
       "revision": "7d19ea16551b6956a044af3d4c99da49d4767b25",
       "machine": {
         "hostname": "ubuntu-station",
@@ -420,7 +429,14 @@
         "compilerSha256": "295987e38f2d506965d94b0ce12972e6d397ccdd2d43657fa6f9660d0bb5f237",
         "python": "Python 3.14.4",
         "sympy": "1.14.0",
-        "sympyRunnerSha256": "9a0d37646e0a4d075a7fef5e286f52a10b20898752186fabf341e204f81fde52"
+        "sympyRunnerSha256": "9a0d37646e0a4d075a7fef5e286f52a10b20898752186fabf341e204f81fde52",
+        "julia": "julia version 1.12.6",
+        "symbolics": "7.31.0",
+        "symbolicsProjectSha256": "04dd883aa58f7e7cd7f8f837772613d1c2f8b1f7d06c749d5b3d3baaa95a440b",
+        "symbolicsRunnerSha256": "09ed383bb83aad8561f43b12e6c4eaf6e27ee9d32fd0add5732355b896e66252",
+        "symengineCommit": "0c183629a35dd9d8123fafcc47b0e0283bbae80d",
+        "symengineRunnerSha256": "c4596bd7d1df07b6ef858a0722454091e0126ddbbed0d5d8c3baba21409f387e",
+        "symengineExecutableSha256": "6c7a4c40e05504aa877ff8dad85624ceab55239bcec1da76d68f4a5c7adf6827"
       },
       "sources": {
         "add1": {
@@ -437,7 +453,9 @@
         ],
         "languages": [
           "vkf",
-          "sympy"
+          "symengine",
+          "sympy",
+          "symbolics"
         ],
         "scheduling": "rotating same-host process order within every kernel round",
         "timer": "each language times only its symbolic operation; process startup and setup are excluded",
@@ -445,10 +463,10 @@
       }
     },
     {
-      "original_report_sha256": "9ad35964935f3de276d68174a962fd583cf336f1045a4574246649995e79d002",
+      "original_report_sha256": "03700a2c64beed76a0827cc68e2229a819260f9775c89c455e49e0bcec60145c",
       "schema": "vkf.symbolic-comparison",
       "schemaVersion": 3,
-      "generatedAt": "2026-10-11T00:58:20.116Z",
+      "generatedAt": "2026-10-11T04:46:13.351Z",
       "revision": "7d19ea16551b6956a044af3d4c99da49d4767b25",
       "machine": {
         "hostname": "ubuntu-station",
@@ -464,7 +482,14 @@
         "compilerSha256": "295987e38f2d506965d94b0ce12972e6d397ccdd2d43657fa6f9660d0bb5f237",
         "python": "Python 3.14.4",
         "sympy": "1.14.0",
-        "sympyRunnerSha256": "9a0d37646e0a4d075a7fef5e286f52a10b20898752186fabf341e204f81fde52"
+        "sympyRunnerSha256": "9a0d37646e0a4d075a7fef5e286f52a10b20898752186fabf341e204f81fde52",
+        "julia": "julia version 1.12.6",
+        "symbolics": "7.31.0",
+        "symbolicsProjectSha256": "04dd883aa58f7e7cd7f8f837772613d1c2f8b1f7d06c749d5b3d3baaa95a440b",
+        "symbolicsRunnerSha256": "09ed383bb83aad8561f43b12e6c4eaf6e27ee9d32fd0add5732355b896e66252",
+        "symengineCommit": "0c183629a35dd9d8123fafcc47b0e0283bbae80d",
+        "symengineRunnerSha256": "c4596bd7d1df07b6ef858a0722454091e0126ddbbed0d5d8c3baba21409f387e",
+        "symengineExecutableSha256": "6c7a4c40e05504aa877ff8dad85624ceab55239bcec1da76d68f4a5c7adf6827"
       },
       "sources": {
         "series": {
@@ -481,7 +506,9 @@
         ],
         "languages": [
           "vkf",
-          "sympy"
+          "symengine",
+          "sympy",
+          "symbolics"
         ],
         "scheduling": "rotating same-host process order within every kernel round",
         "timer": "each language times only its symbolic operation; process startup and setup are excluded",

@@ -10,18 +10,18 @@
   ],
   "macos_intel": "Additional validation and results; not counted as a fifth compiler",
   "denominator": 64,
-  "qualified": 21,
-  "percent": 32.8125,
+  "qualified": 24,
+  "percent": 37.5,
   "C0": false,
   "P0": false,
   "stable_release": false,
   "physical_gpu_tested": false,
-  "completed_attempts": 41,
+  "completed_attempts": 44,
   "failed_or_unqualified_attempts": 20,
-  "pending_attempts": 23,
+  "pending_attempts": 20,
   "complete": false,
   "all_comparisons_qualified": false,
-  "generated_utc": "2026-10-11T04:45:22.688504+00:00",
+  "generated_utc": "2026-10-11T04:51:53.123075+00:00",
   "rows": [
     {
       "platform": "linux",
@@ -236,49 +236,52 @@
       "platform": "linux",
       "suite": "symbolic",
       "workload": "expand2",
-      "completed_attempt": false,
-      "qualified_comparison": false,
-      "status": "running-or-pending",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
       "diagnostic": null,
       "original_evidence_sha256": [
-        "e36ef38aa24412a9cee2e063088d3a3c88737bb36bcdece1ce07f8c7715cc17a"
+        "1169f56e089c00afdb2f6f04bf5700d28bf214372a519066b08565da02f59b39",
+        "78e20f3f15ece124d292ef5e80556ab55adc5c6d1dceefb436beb637088036da"
       ],
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": null,
-      "origin_attempt": null,
-      "terminal_command_exit": null
+      "origin_attempt": "pp-full-symbolic118",
+      "terminal_command_exit": 0
     },
     {
       "platform": "linux",
       "suite": "symbolic",
       "workload": "add1",
-      "completed_attempt": false,
-      "qualified_comparison": false,
-      "status": "running-or-pending",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
       "diagnostic": null,
       "original_evidence_sha256": [
-        "367530b4f3ba4de7c471221a5ebe54ffedaa71b56a34685badbb59223de6291d"
+        "132049c05337ffe795b395990938952fb6d94423849bd80dc4e1bb31348e2995",
+        "1a4976bea0a5d9ce2293a04320bb988c1f7195b95eb65aeb74d8797cd83db126"
       ],
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": null,
-      "origin_attempt": null,
-      "terminal_command_exit": null
+      "origin_attempt": "pp-full-symbolic118",
+      "terminal_command_exit": 0
     },
     {
       "platform": "linux",
       "suite": "symbolic",
       "workload": "series",
-      "completed_attempt": false,
-      "qualified_comparison": false,
-      "status": "running-or-pending",
+      "completed_attempt": true,
+      "qualified_comparison": true,
+      "status": "qualified-kernel-measurements",
       "diagnostic": null,
       "original_evidence_sha256": [
-        "9ad35964935f3de276d68174a962fd583cf336f1045a4574246649995e79d002"
+        "03700a2c64beed76a0827cc68e2229a819260f9775c89c455e49e0bcec60145c",
+        "c92653a551475f10f7adc8581ed65c2a2e88951da852c3c6d567ad04561e5c8d"
       ],
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": null,
-      "origin_attempt": null,
-      "terminal_command_exit": null
+      "origin_attempt": "pp-full-symbolic118",
+      "terminal_command_exit": 0
     },
     {
       "platform": "macos-arm64",

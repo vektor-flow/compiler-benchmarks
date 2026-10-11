@@ -22,8 +22,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 1705,
+        "lines": 62,
+        "sha256": "692b733c35a89dc6125aec416494aee607a27d595c34bf43448b87404fc8411e",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/cpp.cpp",
+        "templateSha256": "dc6d8025d0d52636b0317503919efc0b0f57b73ce64e8a86d25e2654033732d1"
+      },
+      "native_code_sha256": "62b40abfbd86a3ccb666b4149b0082d4204e8d441429a86d51036a65278a92b4",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1.2742241159529055,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         7.025689,
         7.034239,
@@ -56,8 +82,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 1705,
+        "lines": 62,
+        "sha256": "692b733c35a89dc6125aec416494aee607a27d595c34bf43448b87404fc8411e",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/cpp.cpp",
+        "templateSha256": "dc6d8025d0d52636b0317503919efc0b0f57b73ce64e8a86d25e2654033732d1"
+      },
+      "native_code_sha256": "62b40abfbd86a3ccb666b4149b0082d4204e8d441429a86d51036a65278a92b4",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1.2742241159529055,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         176.18780600000173,
         173.3273360000021,
@@ -90,8 +142,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 1705,
+        "lines": 62,
+        "sha256": "692b733c35a89dc6125aec416494aee607a27d595c34bf43448b87404fc8411e",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/cpp.cpp",
+        "templateSha256": "dc6d8025d0d52636b0317503919efc0b0f57b73ce64e8a86d25e2654033732d1"
+      },
+      "native_code_sha256": "62b40abfbd86a3ccb666b4149b0082d4204e8d441429a86d51036a65278a92b4",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1.2742241159529055,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         9.726716999997734,
         9.786277999999584,
@@ -124,8 +202,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "rustc 1.93.1 (01f6ddf75 2026-02-11) (built from a source tarball)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 1327,
+        "lines": 53,
+        "sha256": "03c7f878032856ba576a97b3e7dfda02e19c63ace23f1f6c0db72125754f0b37",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/rust.rs",
+        "templateSha256": "03c7f878032856ba576a97b3e7dfda02e19c63ace23f1f6c0db72125754f0b37"
+      },
+      "native_code_sha256": "e4e4128da8c65ecc1336b40b55ece89d14fa6f0bfcffabe4922c04193b037ed1",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1.2742241159529055,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         11.727075,
         11.704084,
@@ -158,8 +262,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "rustc 1.93.1 (01f6ddf75 2026-02-11) (built from a source tarball)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 1327,
+        "lines": 53,
+        "sha256": "03c7f878032856ba576a97b3e7dfda02e19c63ace23f1f6c0db72125754f0b37",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/rust.rs",
+        "templateSha256": "03c7f878032856ba576a97b3e7dfda02e19c63ace23f1f6c0db72125754f0b37"
+      },
+      "native_code_sha256": "e4e4128da8c65ecc1336b40b55ece89d14fa6f0bfcffabe4922c04193b037ed1",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1.2742241159529055,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         219.3918629999971,
         214.93821000000025,
@@ -192,8 +322,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "rustc 1.93.1 (01f6ddf75 2026-02-11) (built from a source tarball)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 1327,
+        "lines": 53,
+        "sha256": "03c7f878032856ba576a97b3e7dfda02e19c63ace23f1f6c0db72125754f0b37",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/rust.rs",
+        "templateSha256": "03c7f878032856ba576a97b3e7dfda02e19c63ace23f1f6c0db72125754f0b37"
+      },
+      "native_code_sha256": "e4e4128da8c65ecc1336b40b55ece89d14fa6f0bfcffabe4922c04193b037ed1",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1.2742241159529055,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         14.301741000002949,
         14.594575000002806,
@@ -226,8 +382,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 1087,
+        "lines": 43,
+        "sha256": "0f2caef3f8ac8c87120d2f8b089a4825ff5dafd1ac1ad1e9a7684a3b11d82a5c",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/vkf.vkf",
+        "templateSha256": "0f2caef3f8ac8c87120d2f8b089a4825ff5dafd1ac1ad1e9a7684a3b11d82a5c"
+      },
+      "native_code_sha256": "65081229f19b25078a6052125c1f8a54a06482183b03b037b1f73590b5dcf641",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1.2742241159529055,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         1.774794,
         1.772045,
@@ -260,8 +442,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 1087,
+        "lines": 43,
+        "sha256": "0f2caef3f8ac8c87120d2f8b089a4825ff5dafd1ac1ad1e9a7684a3b11d82a5c",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/vkf.vkf",
+        "templateSha256": "0f2caef3f8ac8c87120d2f8b089a4825ff5dafd1ac1ad1e9a7684a3b11d82a5c"
+      },
+      "native_code_sha256": "65081229f19b25078a6052125c1f8a54a06482183b03b037b1f73590b5dcf641",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1.2742241159529055,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         1030.0031729999973,
         981.6030629999987,
@@ -294,8 +502,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 1087,
+        "lines": 43,
+        "sha256": "0f2caef3f8ac8c87120d2f8b089a4825ff5dafd1ac1ad1e9a7684a3b11d82a5c",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/vkf.vkf",
+        "templateSha256": "0f2caef3f8ac8c87120d2f8b089a4825ff5dafd1ac1ad1e9a7684a3b11d82a5c"
+      },
+      "native_code_sha256": "65081229f19b25078a6052125c1f8a54a06482183b03b037b1f73590b5dcf641",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1.2742241159529055,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         4.81532700000389,
         4.921698999998625,
@@ -328,8 +562,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1351,
+        "lines": 50,
+        "sha256": "48ea906c8beec1af399f904aba36a0a5e46caa7240910790f104c3092aa13c8f",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/zig.zig",
+        "templateSha256": "48ea906c8beec1af399f904aba36a0a5e46caa7240910790f104c3092aa13c8f"
+      },
+      "native_code_sha256": "3bc6c77e52da5a1c3883c01f77d0568e1d04447f5a14c2c84778b050a1a10f00",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1.2742241159529055,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         11.676314,
         11.679514,
@@ -362,8 +622,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1351,
+        "lines": 50,
+        "sha256": "48ea906c8beec1af399f904aba36a0a5e46caa7240910790f104c3092aa13c8f",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/zig.zig",
+        "templateSha256": "48ea906c8beec1af399f904aba36a0a5e46caa7240910790f104c3092aa13c8f"
+      },
+      "native_code_sha256": "3bc6c77e52da5a1c3883c01f77d0568e1d04447f5a14c2c84778b050a1a10f00",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1.2742241159529055,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         155.28251199999795,
         153.10469100000046,
@@ -396,8 +682,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1351,
+        "lines": 50,
+        "sha256": "48ea906c8beec1af399f904aba36a0a5e46caa7240910790f104c3092aa13c8f",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/zig.zig",
+        "templateSha256": "48ea906c8beec1af399f904aba36a0a5e46caa7240910790f104c3092aa13c8f"
+      },
+      "native_code_sha256": "3bc6c77e52da5a1c3883c01f77d0568e1d04447f5a14c2c84778b050a1a10f00",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1.2742241159529055,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         14.367291000002297,
         14.421003000003111,
@@ -430,8 +742,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 1601,
+        "lines": 53,
+        "sha256": "3bd979df7330649c0726cf635fd1cab31a6135a974379fc54816747286e9906e",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/cpp.cpp",
+        "templateSha256": "6ee9a1f6978fc0ce743c6815b2634277b5f3c17e08061821d54e362defa591f9"
+      },
+      "native_code_sha256": "ce5a229554e37c1e1de61f0ead2e10fee77a9152a62383223401de1f9bff25d2",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 7319638,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         142.788737,
         142.808156,
@@ -464,8 +802,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 1601,
+        "lines": 53,
+        "sha256": "3bd979df7330649c0726cf635fd1cab31a6135a974379fc54816747286e9906e",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/cpp.cpp",
+        "templateSha256": "6ee9a1f6978fc0ce743c6815b2634277b5f3c17e08061821d54e362defa591f9"
+      },
+      "native_code_sha256": "ce5a229554e37c1e1de61f0ead2e10fee77a9152a62383223401de1f9bff25d2",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 7319638,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         71.71695800000452,
         71.6472270000013,
@@ -498,8 +862,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 1601,
+        "lines": 53,
+        "sha256": "3bd979df7330649c0726cf635fd1cab31a6135a974379fc54816747286e9906e",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/cpp.cpp",
+        "templateSha256": "6ee9a1f6978fc0ce743c6815b2634277b5f3c17e08061821d54e362defa591f9"
+      },
+      "native_code_sha256": "ce5a229554e37c1e1de61f0ead2e10fee77a9152a62383223401de1f9bff25d2",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 7319638,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         144.86180499999318,
         144.38637900000322,
@@ -532,8 +922,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "rustc 1.93.1 (01f6ddf75 2026-02-11) (built from a source tarball)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 1431,
+        "lines": 45,
+        "sha256": "3ebbb45b42ddcf5f2e21b0136ef92f2b68930ad0dbcb69193ffea520095939d6",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/rust.rs",
+        "templateSha256": "3ebbb45b42ddcf5f2e21b0136ef92f2b68930ad0dbcb69193ffea520095939d6"
+      },
+      "native_code_sha256": "551919008dd7c9e5aecb56156ef82c702380b74a05942e4bbb50bb26624fd44e",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 7319638,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         169.169697,
         169.144507,
@@ -566,8 +982,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "rustc 1.93.1 (01f6ddf75 2026-02-11) (built from a source tarball)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 1431,
+        "lines": 45,
+        "sha256": "3ebbb45b42ddcf5f2e21b0136ef92f2b68930ad0dbcb69193ffea520095939d6",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/rust.rs",
+        "templateSha256": "3ebbb45b42ddcf5f2e21b0136ef92f2b68930ad0dbcb69193ffea520095939d6"
+      },
+      "native_code_sha256": "551919008dd7c9e5aecb56156ef82c702380b74a05942e4bbb50bb26624fd44e",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 7319638,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         223.2010070000033,
         223.09371499999543,
@@ -600,8 +1042,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "rustc 1.93.1 (01f6ddf75 2026-02-11) (built from a source tarball)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 1431,
+        "lines": 45,
+        "sha256": "3ebbb45b42ddcf5f2e21b0136ef92f2b68930ad0dbcb69193ffea520095939d6",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/rust.rs",
+        "templateSha256": "3ebbb45b42ddcf5f2e21b0136ef92f2b68930ad0dbcb69193ffea520095939d6"
+      },
+      "native_code_sha256": "551919008dd7c9e5aecb56156ef82c702380b74a05942e4bbb50bb26624fd44e",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 7319638,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         171.9771260000125,
         173.25235500000417,
@@ -634,8 +1102,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 1894,
+        "lines": 54,
+        "sha256": "17d1f923c93606b7b7ccb7c53b96d32e852c0708f0356537aebd85bf7d031403",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/vkf.vkf",
+        "templateSha256": "17d1f923c93606b7b7ccb7c53b96d32e852c0708f0356537aebd85bf7d031403"
+      },
+      "native_code_sha256": "b67f13210915c12adf5059eb022da546924478b815188626f2774817070d2771",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 7319638,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         307.726194,
         307.838656,
@@ -668,8 +1162,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 1894,
+        "lines": 54,
+        "sha256": "17d1f923c93606b7b7ccb7c53b96d32e852c0708f0356537aebd85bf7d031403",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/vkf.vkf",
+        "templateSha256": "17d1f923c93606b7b7ccb7c53b96d32e852c0708f0356537aebd85bf7d031403"
+      },
+      "native_code_sha256": "b67f13210915c12adf5059eb022da546924478b815188626f2774817070d2771",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 7319638,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         244.22811099999672,
         242.84427199999482,
@@ -702,8 +1222,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 1894,
+        "lines": 54,
+        "sha256": "17d1f923c93606b7b7ccb7c53b96d32e852c0708f0356537aebd85bf7d031403",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/vkf.vkf",
+        "templateSha256": "17d1f923c93606b7b7ccb7c53b96d32e852c0708f0356537aebd85bf7d031403"
+      },
+      "native_code_sha256": "b67f13210915c12adf5059eb022da546924478b815188626f2774817070d2771",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 7319638,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         311.46941700000025,
         315.5683840000129,
@@ -736,8 +1282,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1550,
+        "lines": 46,
+        "sha256": "ed4f7cc69dd9ae8a66e05417808a2e1bb16d2874be9bb77656fce26938f189e3",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/zig.zig",
+        "templateSha256": "ed4f7cc69dd9ae8a66e05417808a2e1bb16d2874be9bb77656fce26938f189e3"
+      },
+      "native_code_sha256": "44a6c170f3e51968ac476752bda82ba0bb1ceb7892bad375c1cf1b4f063c303d",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 7319638,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         188.710162,
         188.751152,
@@ -770,8 +1342,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1550,
+        "lines": 46,
+        "sha256": "ed4f7cc69dd9ae8a66e05417808a2e1bb16d2874be9bb77656fce26938f189e3",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/zig.zig",
+        "templateSha256": "ed4f7cc69dd9ae8a66e05417808a2e1bb16d2874be9bb77656fce26938f189e3"
+      },
+      "native_code_sha256": "44a6c170f3e51968ac476752bda82ba0bb1ceb7892bad375c1cf1b4f063c303d",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 7319638,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         149.64084200000798,
         160.68153800000437,
@@ -804,8 +1402,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1550,
+        "lines": 46,
+        "sha256": "ed4f7cc69dd9ae8a66e05417808a2e1bb16d2874be9bb77656fce26938f189e3",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/zig.zig",
+        "templateSha256": "ed4f7cc69dd9ae8a66e05417808a2e1bb16d2874be9bb77656fce26938f189e3"
+      },
+      "native_code_sha256": "44a6c170f3e51968ac476752bda82ba0bb1ceb7892bad375c1cf1b4f063c303d",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 7319638,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         190.6705890000012,
         190.059030000004,
@@ -838,8 +1462,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 3125,
+        "lines": 74,
+        "sha256": "8df9d2e5196a0f2519bc1a571833ef93f2b9a8397d164eb09d93205b04498b0b",
+        "template": "benchmarks/core-comparison/published/n-body-large/cpp.cpp",
+        "templateSha256": "84e3a6000309ff1c28dd83a696fa8d2c3ab92fc87ba8988772be2c2c30bf8b09"
+      },
+      "native_code_sha256": "581a0f9406beb8d610e46039bfac7b7aa81a24c5b36817fa7c3617780b90dce8",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 0.1779462269170188,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         11.328426,
         11.409008,
@@ -872,8 +1522,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 3125,
+        "lines": 74,
+        "sha256": "8df9d2e5196a0f2519bc1a571833ef93f2b9a8397d164eb09d93205b04498b0b",
+        "template": "benchmarks/core-comparison/published/n-body-large/cpp.cpp",
+        "templateSha256": "84e3a6000309ff1c28dd83a696fa8d2c3ab92fc87ba8988772be2c2c30bf8b09"
+      },
+      "native_code_sha256": "581a0f9406beb8d610e46039bfac7b7aa81a24c5b36817fa7c3617780b90dce8",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 0.1779462269170188,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         167.56645600000047,
         169.8437269999995,
@@ -906,8 +1582,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 3125,
+        "lines": 74,
+        "sha256": "8df9d2e5196a0f2519bc1a571833ef93f2b9a8397d164eb09d93205b04498b0b",
+        "template": "benchmarks/core-comparison/published/n-body-large/cpp.cpp",
+        "templateSha256": "84e3a6000309ff1c28dd83a696fa8d2c3ab92fc87ba8988772be2c2c30bf8b09"
+      },
+      "native_code_sha256": "581a0f9406beb8d610e46039bfac7b7aa81a24c5b36817fa7c3617780b90dce8",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 0.1779462269170188,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         15.723366999998689,
         14.142144999997981,
@@ -940,8 +1642,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "rustc 1.93.1 (01f6ddf75 2026-02-11) (built from a source tarball)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 2202,
+        "lines": 37,
+        "sha256": "be264511206dfa6ecf4ae7d184c354b3706995bbabfb47e29de3185d747ee51c",
+        "template": "benchmarks/core-comparison/published/n-body-large/rust.rs",
+        "templateSha256": "be264511206dfa6ecf4ae7d184c354b3706995bbabfb47e29de3185d747ee51c"
+      },
+      "native_code_sha256": "731cdaa2043f481e3feabf0fc8b73a20eb5c4f0381579fe1838f88fb7c7cd238",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 0.1779462269170188,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         7.9611,
         7.9329,
@@ -974,8 +1702,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "rustc 1.93.1 (01f6ddf75 2026-02-11) (built from a source tarball)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 2202,
+        "lines": 37,
+        "sha256": "be264511206dfa6ecf4ae7d184c354b3706995bbabfb47e29de3185d747ee51c",
+        "template": "benchmarks/core-comparison/published/n-body-large/rust.rs",
+        "templateSha256": "be264511206dfa6ecf4ae7d184c354b3706995bbabfb47e29de3185d747ee51c"
+      },
+      "native_code_sha256": "731cdaa2043f481e3feabf0fc8b73a20eb5c4f0381579fe1838f88fb7c7cd238",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 0.1779462269170188,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         241.27973499999644,
         242.14584800000011,
@@ -1008,8 +1762,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "rustc 1.93.1 (01f6ddf75 2026-02-11) (built from a source tarball)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 2202,
+        "lines": 37,
+        "sha256": "be264511206dfa6ecf4ae7d184c354b3706995bbabfb47e29de3185d747ee51c",
+        "template": "benchmarks/core-comparison/published/n-body-large/rust.rs",
+        "templateSha256": "be264511206dfa6ecf4ae7d184c354b3706995bbabfb47e29de3185d747ee51c"
+      },
+      "native_code_sha256": "731cdaa2043f481e3feabf0fc8b73a20eb5c4f0381579fe1838f88fb7c7cd238",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 0.1779462269170188,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         11.097602999994706,
         11.479318999998213,
@@ -1042,8 +1822,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 2542,
+        "lines": 71,
+        "sha256": "9c895264b9e574bdc88328373c175bd11c69deb1908b1d77dadc1d8c38c61b93",
+        "template": "benchmarks/core-comparison/published/n-body-large/vkf.vkf",
+        "templateSha256": "9c895264b9e574bdc88328373c175bd11c69deb1908b1d77dadc1d8c38c61b93"
+      },
+      "native_code_sha256": "30e2cdddf786558f3ae85a6f25044df17eb83e89c4c42519d0026040a33bcccd",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 0.1779462269170188,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         34.168963,
         34.195842,
@@ -1076,8 +1882,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 2542,
+        "lines": 71,
+        "sha256": "9c895264b9e574bdc88328373c175bd11c69deb1908b1d77dadc1d8c38c61b93",
+        "template": "benchmarks/core-comparison/published/n-body-large/vkf.vkf",
+        "templateSha256": "9c895264b9e574bdc88328373c175bd11c69deb1908b1d77dadc1d8c38c61b93"
+      },
+      "native_code_sha256": "30e2cdddf786558f3ae85a6f25044df17eb83e89c4c42519d0026040a33bcccd",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 0.1779462269170188,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         535.4406419999941,
         530.5153129999962,
@@ -1110,8 +1942,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 2542,
+        "lines": 71,
+        "sha256": "9c895264b9e574bdc88328373c175bd11c69deb1908b1d77dadc1d8c38c61b93",
+        "template": "benchmarks/core-comparison/published/n-body-large/vkf.vkf",
+        "templateSha256": "9c895264b9e574bdc88328373c175bd11c69deb1908b1d77dadc1d8c38c61b93"
+      },
+      "native_code_sha256": "30e2cdddf786558f3ae85a6f25044df17eb83e89c4c42519d0026040a33bcccd",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 0.1779462269170188,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         35.41673899999296,
         34.85882199999469,
@@ -1144,8 +2002,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1774,
+        "lines": 19,
+        "sha256": "b194bb44e2a6121356e111c4da16b9d7c547460687d842b6480d4789ee4aca46",
+        "template": "benchmarks/core-comparison/published/n-body-large/zig.zig",
+        "templateSha256": "b194bb44e2a6121356e111c4da16b9d7c547460687d842b6480d4789ee4aca46"
+      },
+      "native_code_sha256": "fdede0f9d08f26ea0a6f41473b8fd5322938bc334108ecbfdec666ebc966ce5e",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 0.17794622691804032,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         15.882939,
         15.88021,
@@ -1178,8 +2062,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1774,
+        "lines": 19,
+        "sha256": "b194bb44e2a6121356e111c4da16b9d7c547460687d842b6480d4789ee4aca46",
+        "template": "benchmarks/core-comparison/published/n-body-large/zig.zig",
+        "templateSha256": "b194bb44e2a6121356e111c4da16b9d7c547460687d842b6480d4789ee4aca46"
+      },
+      "native_code_sha256": "fdede0f9d08f26ea0a6f41473b8fd5322938bc334108ecbfdec666ebc966ce5e",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 0.17794622691804032,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         148.14450800000486,
         154.32084300000133,
@@ -1212,8 +2122,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1774,
+        "lines": 19,
+        "sha256": "b194bb44e2a6121356e111c4da16b9d7c547460687d842b6480d4789ee4aca46",
+        "template": "benchmarks/core-comparison/published/n-body-large/zig.zig",
+        "templateSha256": "b194bb44e2a6121356e111c4da16b9d7c547460687d842b6480d4789ee4aca46"
+      },
+      "native_code_sha256": "fdede0f9d08f26ea0a6f41473b8fd5322938bc334108ecbfdec666ebc966ce5e",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 0.17794622691804032,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         18.78816899999947,
         17.996448999998393,
@@ -1246,8 +2182,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 6863,
+        "lines": 200,
+        "sha256": "decdfdf4bd5b32f7dd050d05b8d68dd61f99453a1cb91b6be613088b4853572b",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/cpp.cpp",
+        "templateSha256": "46880583626b585e176684c42a2a71cda0c4b634ee70c1bf833891b0099eefaf"
+      },
+      "native_code_sha256": "abb1d2870157ddf305a1043f50cde850c19545540732f1e15be26c8566fbe797",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         177.21418,
         176.907086,
@@ -1280,8 +2242,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 6863,
+        "lines": 200,
+        "sha256": "decdfdf4bd5b32f7dd050d05b8d68dd61f99453a1cb91b6be613088b4853572b",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/cpp.cpp",
+        "templateSha256": "46880583626b585e176684c42a2a71cda0c4b634ee70c1bf833891b0099eefaf"
+      },
+      "native_code_sha256": "abb1d2870157ddf305a1043f50cde850c19545540732f1e15be26c8566fbe797",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         281.4984919999988,
         284.719906000013,
@@ -1314,8 +2302,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 6863,
+        "lines": 200,
+        "sha256": "decdfdf4bd5b32f7dd050d05b8d68dd61f99453a1cb91b6be613088b4853572b",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/cpp.cpp",
+        "templateSha256": "46880583626b585e176684c42a2a71cda0c4b634ee70c1bf833891b0099eefaf"
+      },
+      "native_code_sha256": "abb1d2870157ddf305a1043f50cde850c19545540732f1e15be26c8566fbe797",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         82.03528399999777,
         81.93497299999581,
@@ -1348,8 +2362,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "rustc 1.93.1 (01f6ddf75 2026-02-11) (built from a source tarball)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 4691,
+        "lines": 114,
+        "sha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/rust.rs",
+        "templateSha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7"
+      },
+      "native_code_sha256": "515842ab101782919768fe26a92f9fe502b26d35f5c63ce6447f3d8b057ebdde",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         109.057627,
         109.059438,
@@ -1382,8 +2422,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "rustc 1.93.1 (01f6ddf75 2026-02-11) (built from a source tarball)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 4691,
+        "lines": 114,
+        "sha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/rust.rs",
+        "templateSha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7"
+      },
+      "native_code_sha256": "515842ab101782919768fe26a92f9fe502b26d35f5c63ce6447f3d8b057ebdde",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         291.9908870000072,
         321.6383560000104,
@@ -1416,8 +2482,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "rustc 1.93.1 (01f6ddf75 2026-02-11) (built from a source tarball)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 4691,
+        "lines": 114,
+        "sha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/rust.rs",
+        "templateSha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7"
+      },
+      "native_code_sha256": "515842ab101782919768fe26a92f9fe502b26d35f5c63ce6447f3d8b057ebdde",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         112.46504500000447,
         113.45618799999647,
@@ -1450,8 +2542,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 5493,
+        "lines": 156,
+        "sha256": "d7ba2ecb9495d6ed5f6b61466cf83f79094c094aa5c93d7734c2df37580c6da1",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/vkf.vkf",
+        "templateSha256": "d7ba2ecb9495d6ed5f6b61466cf83f79094c094aa5c93d7734c2df37580c6da1"
+      },
+      "native_code_sha256": "2b93669c6e86f1bb3e1f78c111bc6a9e51e2559ff3f247a7118556171d2ad250",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         95.753674,
         95.806054,
@@ -1484,8 +2602,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 5493,
+        "lines": 156,
+        "sha256": "d7ba2ecb9495d6ed5f6b61466cf83f79094c094aa5c93d7734c2df37580c6da1",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/vkf.vkf",
+        "templateSha256": "d7ba2ecb9495d6ed5f6b61466cf83f79094c094aa5c93d7734c2df37580c6da1"
+      },
+      "native_code_sha256": "2b93669c6e86f1bb3e1f78c111bc6a9e51e2559ff3f247a7118556171d2ad250",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         1123.8628270000045,
         1110.223877000004,
@@ -1518,8 +2662,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 5493,
+        "lines": 156,
+        "sha256": "d7ba2ecb9495d6ed5f6b61466cf83f79094c094aa5c93d7734c2df37580c6da1",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/vkf.vkf",
+        "templateSha256": "d7ba2ecb9495d6ed5f6b61466cf83f79094c094aa5c93d7734c2df37580c6da1"
+      },
+      "native_code_sha256": "2b93669c6e86f1bb3e1f78c111bc6a9e51e2559ff3f247a7118556171d2ad250",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         99.29229199999827,
         99.55619699999806,
@@ -1552,8 +2722,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 4432,
+        "lines": 98,
+        "sha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/zig.zig",
+        "templateSha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129"
+      },
+      "native_code_sha256": "63f6ba6ab8e742cf7e046c1a4f2d6c28ffd3f7e0b12650dc2d2cfcfe0389f846",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         95.986767,
         95.977387,
@@ -1586,8 +2782,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 4432,
+        "lines": 98,
+        "sha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/zig.zig",
+        "templateSha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129"
+      },
+      "native_code_sha256": "63f6ba6ab8e742cf7e046c1a4f2d6c28ffd3f7e0b12650dc2d2cfcfe0389f846",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         199.06315099999483,
         190.75556700000016,
@@ -1620,8 +2842,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 4432,
+        "lines": 98,
+        "sha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/zig.zig",
+        "templateSha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129"
+      },
+      "native_code_sha256": "63f6ba6ab8e742cf7e046c1a4f2d6c28ffd3f7e0b12650dc2d2cfcfe0389f846",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         98.91860700001416,
         98.25341900000058,
@@ -1654,8 +2902,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 6863,
+        "lines": 200,
+        "sha256": "decdfdf4bd5b32f7dd050d05b8d68dd61f99453a1cb91b6be613088b4853572b",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/cpp.cpp",
+        "templateSha256": "46880583626b585e176684c42a2a71cda0c4b634ee70c1bf833891b0099eefaf"
+      },
+      "native_code_sha256": "abb1d2870157ddf305a1043f50cde850c19545540732f1e15be26c8566fbe797",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         179.105826,
         179.209097,
@@ -1688,8 +2962,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 6863,
+        "lines": 200,
+        "sha256": "decdfdf4bd5b32f7dd050d05b8d68dd61f99453a1cb91b6be613088b4853572b",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/cpp.cpp",
+        "templateSha256": "46880583626b585e176684c42a2a71cda0c4b634ee70c1bf833891b0099eefaf"
+      },
+      "native_code_sha256": "abb1d2870157ddf305a1043f50cde850c19545540732f1e15be26c8566fbe797",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         277.4778559999977,
         276.90563699998893,
@@ -1722,8 +3022,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 6863,
+        "lines": 200,
+        "sha256": "decdfdf4bd5b32f7dd050d05b8d68dd61f99453a1cb91b6be613088b4853572b",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/cpp.cpp",
+        "templateSha256": "46880583626b585e176684c42a2a71cda0c4b634ee70c1bf833891b0099eefaf"
+      },
+      "native_code_sha256": "abb1d2870157ddf305a1043f50cde850c19545540732f1e15be26c8566fbe797",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         82.4582100000116,
         82.66661299999396,
@@ -1756,8 +3082,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "rustc 1.93.1 (01f6ddf75 2026-02-11) (built from a source tarball)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 4691,
+        "lines": 114,
+        "sha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/rust.rs",
+        "templateSha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7"
+      },
+      "native_code_sha256": "b61102ff894bc93ca865486c7ffaa86b6a44e886fc51c2e023c5e7ce774223c7",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         108.483489,
         108.673713,
@@ -1790,8 +3142,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "rustc 1.93.1 (01f6ddf75 2026-02-11) (built from a source tarball)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 4691,
+        "lines": 114,
+        "sha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/rust.rs",
+        "templateSha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7"
+      },
+      "native_code_sha256": "b61102ff894bc93ca865486c7ffaa86b6a44e886fc51c2e023c5e7ce774223c7",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         297.92482899999595,
         296.2468050000025,
@@ -1824,8 +3202,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "rustc 1.93.1 (01f6ddf75 2026-02-11) (built from a source tarball)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 4691,
+        "lines": 114,
+        "sha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/rust.rs",
+        "templateSha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7"
+      },
+      "native_code_sha256": "b61102ff894bc93ca865486c7ffaa86b6a44e886fc51c2e023c5e7ce774223c7",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         112.71430799999507,
         112.64555799998925,
@@ -1858,8 +3262,39 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 5633,
+        "lines": 162,
+        "sha256": "ee456edb7010d3a95e3a89bf319961eaf004b1b1fc0175926a27921ecb305cdb",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/vkf.vkf",
+        "templateSha256": "d7ba2ecb9495d6ed5f6b61466cf83f79094c094aa5c93d7734c2df37580c6da1"
+      },
+      "native_code_sha256": "0be46726ba57932ce4ddff0e3f649bfc07bf0b9300d32fbfebccf562985e8c4a",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": {
+        "width": 2,
+        "threadsCreated": 1,
+        "threadsJoined": 1,
+        "threadHandlesClosed": 1
+      },
       "samples_ms": [
         66.859735,
         58.263685,
@@ -1892,8 +3327,39 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 5633,
+        "lines": 162,
+        "sha256": "ee456edb7010d3a95e3a89bf319961eaf004b1b1fc0175926a27921ecb305cdb",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/vkf.vkf",
+        "templateSha256": "d7ba2ecb9495d6ed5f6b61466cf83f79094c094aa5c93d7734c2df37580c6da1"
+      },
+      "native_code_sha256": "0be46726ba57932ce4ddff0e3f649bfc07bf0b9300d32fbfebccf562985e8c4a",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": {
+        "width": 2,
+        "threadsCreated": 1,
+        "threadsJoined": 1,
+        "threadHandlesClosed": 1
+      },
       "samples_ms": [
         1187.5072960000034,
         1178.1101359999957,
@@ -1926,8 +3392,39 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 5633,
+        "lines": 162,
+        "sha256": "ee456edb7010d3a95e3a89bf319961eaf004b1b1fc0175926a27921ecb305cdb",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/vkf.vkf",
+        "templateSha256": "d7ba2ecb9495d6ed5f6b61466cf83f79094c094aa5c93d7734c2df37580c6da1"
+      },
+      "native_code_sha256": "0be46726ba57932ce4ddff0e3f649bfc07bf0b9300d32fbfebccf562985e8c4a",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": {
+        "width": 2,
+        "threadsCreated": 1,
+        "threadsJoined": 1,
+        "threadHandlesClosed": 1
+      },
       "samples_ms": [
         61.85974499999429,
         60.85054100000707,
@@ -1960,8 +3457,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 4432,
+        "lines": 98,
+        "sha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/zig.zig",
+        "templateSha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129"
+      },
+      "native_code_sha256": "b4fb4526e9fe281bbd8a6ba83aeff559bf53c2b46c7d7bed0bc49eef58933a7d",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         96.092839,
         96.097238,
@@ -1994,8 +3517,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 4432,
+        "lines": 98,
+        "sha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/zig.zig",
+        "templateSha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129"
+      },
+      "native_code_sha256": "b4fb4526e9fe281bbd8a6ba83aeff559bf53c2b46c7d7bed0bc49eef58933a7d",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         193.00871799999732,
         194.58328900000197,
@@ -2028,8 +3577,34 @@
         "logicalCpuCount": 16,
         "node": "v22.22.1"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 4432,
+        "lines": 98,
+        "sha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/zig.zig",
+        "templateSha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129"
+      },
+      "native_code_sha256": "b4fb4526e9fe281bbd8a6ba83aeff559bf53c2b46c7d7bed0bc49eef58933a7d",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         98.97187900000426,
         99.09352999999828,
@@ -3951,11 +5526,11 @@
       "language": "vkf",
       "phase": "operation",
       "count": 10,
-      "mean_ms": 268.59390340105165,
-      "median_ms": 268.94187449943274,
-      "sample_stddev_ms": 1.1996965583112709,
-      "sha256": "e36ef38aa24412a9cee2e063088d3a3c88737bb36bcdece1ce07f8c7715cc17a",
-      "samples_are_comparison_credit": false,
+      "mean_ms": 267.6361918944167,
+      "median_ms": 267.527666001115,
+      "sample_stddev_ms": 3.983468075383015,
+      "sha256": "78e20f3f15ece124d292ef5e80556ab55adc5c6d1dceefb436beb637088036da",
+      "samples_are_comparison_credit": true,
       "measurement_conditions": {
         "runs": 10,
         "timeoutMs": 120000,
@@ -3966,7 +5541,9 @@
         ],
         "languages": [
           "vkf",
-          "sympy"
+          "symengine",
+          "sympy",
+          "symbolics"
         ],
         "scheduling": "rotating same-host process order within every kernel round",
         "timer": "each language times only its symbolic operation; process startup and setup are excluded",
@@ -3997,16 +5574,83 @@
         true
       ],
       "samples_ms": [
-        267.44900198536925,
-        269.5459590177052,
-        267.2908540116623,
-        269.4779479934368,
-        269.2115340032615,
-        269.7765820194036,
-        268.672214995604,
-        267.01611300813965,
-        267.34715700149536,
-        270.15166997443885
+        273.0567169783171,
+        267.36494299257174,
+        262.90995700401254,
+        267.45310399564914,
+        267.60222800658084,
+        263.32936898688786,
+        268.67557101650164,
+        267.8724009892903,
+        263.2475779973902,
+        274.8500509769656
+      ]
+    },
+    {
+      "platform": "linux",
+      "suite": "symbolic",
+      "workload": "expand2",
+      "language": "symengine",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 296.22090000000003,
+      "median_ms": 296.327,
+      "sample_stddev_ms": 2.8042266689964865,
+      "sha256": "78e20f3f15ece124d292ef5e80556ab55adc5c6d1dceefb436beb637088036da",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "expand2"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "ubuntu-station",
+        "platform": "linux",
+        "architecture": "x64",
+        "osRelease": "7.0.0-38-generic",
+        "cpu": "AMD Ryzen 7 3700X 8-Core Processor",
+        "logicalCpus": 16,
+        "memoryBytes": 32521691136
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 6272,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        297.079,
+        294.121,
+        297.886,
+        296.418,
+        299.805,
+        296.236,
+        300.998,
+        293.451,
+        292.895,
+        293.32
       ]
     },
     {
@@ -4016,11 +5660,11 @@
       "language": "sympy",
       "phase": "operation",
       "count": 10,
-      "mean_ms": 33516.9157624,
-      "median_ms": 33482.863119500005,
-      "sample_stddev_ms": 316.1131679256857,
-      "sha256": "e36ef38aa24412a9cee2e063088d3a3c88737bb36bcdece1ce07f8c7715cc17a",
-      "samples_are_comparison_credit": false,
+      "mean_ms": 32691.1271098,
+      "median_ms": 32652.534449500003,
+      "sample_stddev_ms": 302.0433791257702,
+      "sha256": "78e20f3f15ece124d292ef5e80556ab55adc5c6d1dceefb436beb637088036da",
+      "samples_are_comparison_credit": true,
       "measurement_conditions": {
         "runs": 10,
         "timeoutMs": 120000,
@@ -4031,7 +5675,9 @@
         ],
         "languages": [
           "vkf",
-          "sympy"
+          "symengine",
+          "sympy",
+          "symbolics"
         ],
         "scheduling": "rotating same-host process order within every kernel round",
         "timer": "each language times only its symbolic operation; process startup and setup are excluded",
@@ -4062,16 +5708,83 @@
         true
       ],
       "samples_ms": [
-        33926.811706,
-        33280.342776,
-        33202.430375,
-        33980.400272,
-        33804.134129,
-        33307.060783,
-        33635.572344,
-        33066.679,
-        33393.414228,
-        33572.312011
+        32652.500259,
+        32778.376455,
+        32376.164974,
+        32526.008684,
+        32189.531615,
+        33115.666647,
+        32594.508153,
+        32652.56864,
+        33146.537282,
+        32879.408389
+      ]
+    },
+    {
+      "platform": "linux",
+      "suite": "symbolic",
+      "workload": "expand2",
+      "language": "symbolics",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 4005.8568726,
+      "median_ms": 4018.872889,
+      "sample_stddev_ms": 30.46730794069527,
+      "sha256": "78e20f3f15ece124d292ef5e80556ab55adc5c6d1dceefb436beb637088036da",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "expand2"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "ubuntu-station",
+        "platform": "linux",
+        "architecture": "x64",
+        "osRelease": "7.0.0-38-generic",
+        "cpu": "AMD Ryzen 7 3700X 8-Core Processor",
+        "logicalCpus": 16,
+        "memoryBytes": 32521691136
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 6272,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        4043.522935,
+        4021.223665,
+        4031.644549,
+        3958.684237,
+        4019.227188,
+        3991.307966,
+        4033.253119,
+        4018.51859,
+        3973.819855,
+        3967.366622
       ]
     },
     {
@@ -4081,11 +5794,11 @@
       "language": "vkf",
       "phase": "operation",
       "count": 10,
-      "mean_ms": 0.46588159748353064,
-      "median_ms": 0.4601914988597855,
-      "sample_stddev_ms": 0.017932358937321605,
-      "sha256": "367530b4f3ba4de7c471221a5ebe54ffedaa71b56a34685badbb59223de6291d",
-      "samples_are_comparison_credit": false,
+      "mean_ms": 0.4574700986267999,
+      "median_ms": 0.45731001591775566,
+      "sample_stddev_ms": 0.005046240356099978,
+      "sha256": "1a4976bea0a5d9ce2293a04320bb988c1f7195b95eb65aeb74d8797cd83db126",
+      "samples_are_comparison_credit": true,
       "measurement_conditions": {
         "runs": 10,
         "timeoutMs": 120000,
@@ -4096,7 +5809,9 @@
         ],
         "languages": [
           "vkf",
-          "sympy"
+          "symengine",
+          "sympy",
+          "symbolics"
         ],
         "scheduling": "rotating same-host process order within every kernel round",
         "timer": "each language times only its symbolic operation; process startup and setup are excluded",
@@ -4127,30 +5842,30 @@
         true
       ],
       "samples_ms": [
-        0.5164069880265743,
-        0.46093700802884996,
-        0.4577770014293492,
-        0.4640170081984252,
-        0.45777601189911366,
-        0.45914697693660855,
-        0.46305698924697936,
-        0.45944598969072104,
-        0.4568859876599163,
-        0.46336601371876895
+        0.4541149828583002,
+        0.45663502532988787,
+        0.46424497850239277,
+        0.4599160165525973,
+        0.46371499774977565,
+        0.4526650009211153,
+        0.4491549916565418,
+        0.45407499419525266,
+        0.4621949919965118,
+        0.45798500650562346
       ]
     },
     {
       "platform": "linux",
       "suite": "symbolic",
       "workload": "add1",
-      "language": "sympy",
+      "language": "symengine",
       "phase": "operation",
       "count": 10,
-      "mean_ms": 26.2300059,
-      "median_ms": 25.7956155,
-      "sample_stddev_ms": 0.9654933707926453,
-      "sha256": "367530b4f3ba4de7c471221a5ebe54ffedaa71b56a34685badbb59223de6291d",
-      "samples_are_comparison_credit": false,
+      "mean_ms": 137.4879,
+      "median_ms": 137.24,
+      "sample_stddev_ms": 2.733651138028483,
+      "sha256": "1a4976bea0a5d9ce2293a04320bb988c1f7195b95eb65aeb74d8797cd83db126",
+      "samples_are_comparison_credit": true,
       "measurement_conditions": {
         "runs": 10,
         "timeoutMs": 120000,
@@ -4161,7 +5876,9 @@
         ],
         "languages": [
           "vkf",
-          "sympy"
+          "symengine",
+          "sympy",
+          "symbolics"
         ],
         "scheduling": "rotating same-host process order within every kernel round",
         "timer": "each language times only its symbolic operation; process startup and setup are excluded",
@@ -4192,16 +5909,150 @@
         true
       ],
       "samples_ms": [
-        27.5283,
-        25.793745,
-        25.769325,
-        25.797486,
-        25.728555,
-        25.769336,
-        25.3495,
-        28.414063,
-        25.905747,
-        26.244002
+        134.584,
+        139.804,
+        137.446,
+        135.608,
+        133.989,
+        137.092,
+        136.15,
+        137.388,
+        139.832,
+        142.986
+      ]
+    },
+    {
+      "platform": "linux",
+      "suite": "symbolic",
+      "workload": "add1",
+      "language": "sympy",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 25.5181785,
+      "median_ms": 25.5020735,
+      "sample_stddev_ms": 0.43400305170336495,
+      "sha256": "1a4976bea0a5d9ce2293a04320bb988c1f7195b95eb65aeb74d8797cd83db126",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "add1"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "ubuntu-station",
+        "platform": "linux",
+        "architecture": "x64",
+        "osRelease": "7.0.0-38-generic",
+        "cpu": "AMD Ryzen 7 3700X 8-Core Processor",
+        "logicalCpus": 16,
+        "memoryBytes": 32521691136
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 2998,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        25.929608,
+        26.05819,
+        25.749176,
+        25.278881,
+        25.933118,
+        25.288631,
+        25.304031,
+        24.639163,
+        25.300871,
+        25.700116
+      ]
+    },
+    {
+      "platform": "linux",
+      "suite": "symbolic",
+      "workload": "add1",
+      "language": "symbolics",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 819.0939888,
+      "median_ms": 820.0845125000001,
+      "sample_stddev_ms": 9.080774093457633,
+      "sha256": "1a4976bea0a5d9ce2293a04320bb988c1f7195b95eb65aeb74d8797cd83db126",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "add1"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "ubuntu-station",
+        "platform": "linux",
+        "architecture": "x64",
+        "osRelease": "7.0.0-38-generic",
+        "cpu": "AMD Ryzen 7 3700X 8-Core Processor",
+        "logicalCpus": 16,
+        "memoryBytes": 32521691136
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 2998,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        825.318672,
+        809.627122,
+        816.496381,
+        812.04231,
+        825.617126,
+        823.876296,
+        823.672644,
+        835.722642,
+        810.259769,
+        808.306926
       ]
     },
     {
@@ -4211,11 +6062,11 @@
       "language": "vkf",
       "phase": "operation",
       "count": 10,
-      "mean_ms": 2.835122193209827,
-      "median_ms": 2.7152034890605137,
-      "sample_stddev_ms": 0.2833344551084157,
-      "sha256": "9ad35964935f3de276d68174a962fd583cf336f1045a4574246649995e79d002",
-      "samples_are_comparison_credit": false,
+      "mean_ms": 2.7826600009575486,
+      "median_ms": 2.6717529981397092,
+      "sample_stddev_ms": 0.20035128123235377,
+      "sha256": "03700a2c64beed76a0827cc68e2229a819260f9775c89c455e49e0bcec60145c",
+      "samples_are_comparison_credit": true,
       "measurement_conditions": {
         "runs": 10,
         "timeoutMs": 120000,
@@ -4226,7 +6077,9 @@
         ],
         "languages": [
           "vkf",
-          "sympy"
+          "symengine",
+          "sympy",
+          "symbolics"
         ],
         "scheduling": "rotating same-host process order within every kernel round",
         "timer": "each language times only its symbolic operation; process startup and setup are excluded",
@@ -4257,16 +6110,83 @@
         true
       ],
       "samples_ms": [
-        2.7235079905949533,
-        2.870670985430479,
-        2.706898987526074,
-        2.683348982827738,
-        2.689607994398102,
-        2.9309210076462477,
-        3.6056709941476583,
-        2.699409000342712,
-        2.73730797925964,
-        2.703878009924665
+        2.6566509914118797,
+        2.937554003437981,
+        2.663930004928261,
+        2.680058008991182,
+        2.6684080075938255,
+        2.6404370146337897,
+        2.655657008290291,
+        2.675097988685593,
+        3.157673985697329,
+        3.0911329959053546
+      ]
+    },
+    {
+      "platform": "linux",
+      "suite": "symbolic",
+      "workload": "series",
+      "language": "symengine",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 104.2584,
+      "median_ms": 103.479,
+      "sample_stddev_ms": 2.87529531623372,
+      "sha256": "03700a2c64beed76a0827cc68e2229a819260f9775c89c455e49e0bcec60145c",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "series"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "ubuntu-station",
+        "platform": "linux",
+        "architecture": "x64",
+        "osRelease": "7.0.0-38-generic",
+        "cpu": "AMD Ryzen 7 3700X 8-Core Processor",
+        "logicalCpus": 16,
+        "memoryBytes": 32521691136
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 166167000,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        104.68,
+        101.353,
+        107.182,
+        101.643,
+        109.891,
+        106.824,
+        103.357,
+        103.601,
+        102.691,
+        101.362
       ]
     },
     {
@@ -4276,11 +6196,11 @@
       "language": "sympy",
       "phase": "operation",
       "count": 10,
-      "mean_ms": 82.88410999999999,
-      "median_ms": 82.837815,
-      "sample_stddev_ms": 0.5897164607956407,
-      "sha256": "9ad35964935f3de276d68174a962fd583cf336f1045a4574246649995e79d002",
-      "samples_are_comparison_credit": false,
+      "mean_ms": 79.21192930000001,
+      "median_ms": 79.22468599999999,
+      "sample_stddev_ms": 0.8809466883689597,
+      "sha256": "03700a2c64beed76a0827cc68e2229a819260f9775c89c455e49e0bcec60145c",
+      "samples_are_comparison_credit": true,
       "measurement_conditions": {
         "runs": 10,
         "timeoutMs": 120000,
@@ -4291,7 +6211,9 @@
         ],
         "languages": [
           "vkf",
-          "sympy"
+          "symengine",
+          "sympy",
+          "symbolics"
         ],
         "scheduling": "rotating same-host process order within every kernel round",
         "timer": "each language times only its symbolic operation; process startup and setup are excluded",
@@ -4322,16 +6244,83 @@
         true
       ],
       "samples_ms": [
-        82.196215,
-        82.102843,
-        82.767254,
-        82.982167,
-        83.2717,
-        82.706792,
-        84.228604,
-        82.958936,
-        82.718213,
-        82.908376
+        78.972578,
+        77.880346,
+        79.98256,
+        80.717796,
+        78.562526,
+        78.13873,
+        79.294767,
+        79.377918,
+        79.154605,
+        80.037467
+      ]
+    },
+    {
+      "platform": "linux",
+      "suite": "symbolic",
+      "workload": "series",
+      "language": "symbolics",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 1512.2246515,
+      "median_ms": 1512.794534,
+      "sample_stddev_ms": 10.13458376143582,
+      "sha256": "03700a2c64beed76a0827cc68e2229a819260f9775c89c455e49e0bcec60145c",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "series"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "ubuntu-station",
+        "platform": "linux",
+        "architecture": "x64",
+        "osRelease": "7.0.0-38-generic",
+        "cpu": "AMD Ryzen 7 3700X 8-Core Processor",
+        "logicalCpus": 16,
+        "memoryBytes": 32521691136
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 166167000,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        1520.904883,
+        1492.069521,
+        1512.694349,
+        1504.861996,
+        1504.769645,
+        1515.552016,
+        1510.196331,
+        1528.193234,
+        1512.894719,
+        1520.109821
       ]
     },
     {
@@ -4353,8 +6342,34 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "Apple clang version 17.0.0 (clang-1700.0.13.5)",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 1705,
+        "lines": 62,
+        "sha256": "692b733c35a89dc6125aec416494aee607a27d595c34bf43448b87404fc8411e",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/cpp.cpp",
+        "templateSha256": "dc6d8025d0d52636b0317503919efc0b0f57b73ce64e8a86d25e2654033732d1"
+      },
+      "native_code_sha256": "07bd509271db126924490b0efbd62ec81e31361861d50c967acad8544b0c9710",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1.2742241159529055,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         8.1,
         8.092,
@@ -4387,8 +6402,34 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "rustc 1.98.1 (48a229cea 2026-09-01)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 1327,
+        "lines": 53,
+        "sha256": "03c7f878032856ba576a97b3e7dfda02e19c63ace23f1f6c0db72125754f0b37",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/rust.rs",
+        "templateSha256": "03c7f878032856ba576a97b3e7dfda02e19c63ace23f1f6c0db72125754f0b37"
+      },
+      "native_code_sha256": "f0af0c67038ae5851b7cdd11901d6297b46e752e9da01dc0de2acac8290e3a11",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1.2742241159529055,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         8.126,
         8.118,
@@ -4421,8 +6462,34 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "VKF 0.7.2; built with Apple clang version 17.0.0 (clang-1700.0.13.5)",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct arm64 artifact",
+      "source_identity": {
+        "bytes": 1087,
+        "lines": 43,
+        "sha256": "0f2caef3f8ac8c87120d2f8b089a4825ff5dafd1ac1ad1e9a7684a3b11d82a5c",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/vkf.vkf",
+        "templateSha256": "0f2caef3f8ac8c87120d2f8b089a4825ff5dafd1ac1ad1e9a7684a3b11d82a5c"
+      },
+      "native_code_sha256": "e4aea6d8c2b10bf4e7515b9d196d5a9e13f22e1b2cbeb4a06503d63f715f5523",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1.2742241159529055,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         20.548,
         20.515,
@@ -4455,8 +6522,34 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1351,
+        "lines": 50,
+        "sha256": "48ea906c8beec1af399f904aba36a0a5e46caa7240910790f104c3092aa13c8f",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/zig.zig",
+        "templateSha256": "48ea906c8beec1af399f904aba36a0a5e46caa7240910790f104c3092aa13c8f"
+      },
+      "native_code_sha256": "1a97049c95fc4cb040b19c1feb756c1f0955aaddc87378d2de1e08829f89c5f5",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1.2742241159529055,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         8.09,
         8.104,
@@ -4489,8 +6582,34 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "Apple clang version 17.0.0 (clang-1700.0.13.5)",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 1601,
+        "lines": 53,
+        "sha256": "3bd979df7330649c0726cf635fd1cab31a6135a974379fc54816747286e9906e",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/cpp.cpp",
+        "templateSha256": "6ee9a1f6978fc0ce743c6815b2634277b5f3c17e08061821d54e362defa591f9"
+      },
+      "native_code_sha256": "ee8463889704d42b9cfdcbdda93cd73d15ec2bdcb0f63bb98230a694e116b318",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 7319638,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         188.127,
         190.423,
@@ -4523,8 +6642,34 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "rustc 1.98.1 (48a229cea 2026-09-01)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 1431,
+        "lines": 45,
+        "sha256": "3ebbb45b42ddcf5f2e21b0136ef92f2b68930ad0dbcb69193ffea520095939d6",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/rust.rs",
+        "templateSha256": "3ebbb45b42ddcf5f2e21b0136ef92f2b68930ad0dbcb69193ffea520095939d6"
+      },
+      "native_code_sha256": "b066c2e66b3a94b916e02b9a954945854d7a9397a80007dae799bff4e19c1d89",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 7319638,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         200.537,
         196.451,
@@ -4557,8 +6702,34 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "VKF 0.7.2; built with Apple clang version 17.0.0 (clang-1700.0.13.5)",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct arm64 artifact",
+      "source_identity": {
+        "bytes": 1894,
+        "lines": 54,
+        "sha256": "17d1f923c93606b7b7ccb7c53b96d32e852c0708f0356537aebd85bf7d031403",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/vkf.vkf",
+        "templateSha256": "17d1f923c93606b7b7ccb7c53b96d32e852c0708f0356537aebd85bf7d031403"
+      },
+      "native_code_sha256": "27dca3280f7a4a2dcb6a4e7d447a658f5a249a2fa19ee2ee515b3333fdb69e51",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 7319638,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         900.257,
         869.328,
@@ -4591,8 +6762,34 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1550,
+        "lines": 46,
+        "sha256": "ed4f7cc69dd9ae8a66e05417808a2e1bb16d2874be9bb77656fce26938f189e3",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/zig.zig",
+        "templateSha256": "ed4f7cc69dd9ae8a66e05417808a2e1bb16d2874be9bb77656fce26938f189e3"
+      },
+      "native_code_sha256": "c26aff2634deff7e4c14d87e692dcaad63948bbe75a746fee6747278dcebf9eb",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 7319638,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         191.429,
         189.15,
@@ -4625,8 +6822,34 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "Apple clang version 17.0.0 (clang-1700.0.13.5)",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 3125,
+        "lines": 74,
+        "sha256": "8df9d2e5196a0f2519bc1a571833ef93f2b9a8397d164eb09d93205b04498b0b",
+        "template": "benchmarks/core-comparison/published/n-body-large/cpp.cpp",
+        "templateSha256": "84e3a6000309ff1c28dd83a696fa8d2c3ab92fc87ba8988772be2c2c30bf8b09"
+      },
+      "native_code_sha256": "f55b71b39b9253325b7a5e2f78c677a5faa6900f8c1adef12e00400698a1f6ea",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 0.1779462269170188,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         7.448,
         7.465,
@@ -4659,8 +6882,34 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "rustc 1.98.1 (48a229cea 2026-09-01)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 2202,
+        "lines": 37,
+        "sha256": "be264511206dfa6ecf4ae7d184c354b3706995bbabfb47e29de3185d747ee51c",
+        "template": "benchmarks/core-comparison/published/n-body-large/rust.rs",
+        "templateSha256": "be264511206dfa6ecf4ae7d184c354b3706995bbabfb47e29de3185d747ee51c"
+      },
+      "native_code_sha256": "809473c42ceb8640c86bb4fdd9fe60bdc8e2416cc45ae46dcc3dce54e298edd1",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 0.1779462269170188,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         7.316,
         7.31,
@@ -4693,8 +6942,34 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "VKF 0.7.2; built with Apple clang version 17.0.0 (clang-1700.0.13.5)",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct arm64 artifact",
+      "source_identity": {
+        "bytes": 2542,
+        "lines": 71,
+        "sha256": "9c895264b9e574bdc88328373c175bd11c69deb1908b1d77dadc1d8c38c61b93",
+        "template": "benchmarks/core-comparison/published/n-body-large/vkf.vkf",
+        "templateSha256": "9c895264b9e574bdc88328373c175bd11c69deb1908b1d77dadc1d8c38c61b93"
+      },
+      "native_code_sha256": "1c1de227b7202812a3d1669e3f7b00ca7bfacdc6228bb54d1347d296fd433570",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 0.1779462269170188,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         77.232,
         81.774,
@@ -4727,8 +7002,34 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1774,
+        "lines": 19,
+        "sha256": "b194bb44e2a6121356e111c4da16b9d7c547460687d842b6480d4789ee4aca46",
+        "template": "benchmarks/core-comparison/published/n-body-large/zig.zig",
+        "templateSha256": "b194bb44e2a6121356e111c4da16b9d7c547460687d842b6480d4789ee4aca46"
+      },
+      "native_code_sha256": "9007b0b0aeed4e7f24be8b55816ac07d3acc4b55a1b4365f9911b2d32a0695bf",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 0.17794622691804032,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         9.194,
         9.164,
@@ -4761,8 +7062,34 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "Apple clang version 17.0.0 (clang-1700.0.13.5)",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 6863,
+        "lines": 200,
+        "sha256": "decdfdf4bd5b32f7dd050d05b8d68dd61f99453a1cb91b6be613088b4853572b",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/cpp.cpp",
+        "templateSha256": "46880583626b585e176684c42a2a71cda0c4b634ee70c1bf833891b0099eefaf"
+      },
+      "native_code_sha256": "d6b694cce99d006aa8d4977e832d2c71fe3c848fd777ee198fe2f1a3213387c2",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         78.794,
         78.939,
@@ -4795,8 +7122,34 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "rustc 1.98.1 (48a229cea 2026-09-01)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 4691,
+        "lines": 114,
+        "sha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/rust.rs",
+        "templateSha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7"
+      },
+      "native_code_sha256": "92bfd31019abc4ba7726ac4672683953661fd32b1f12c4a0ed99e8dbf589de67",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         93.432,
         93.181,
@@ -4829,8 +7182,34 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "VKF 0.7.2; built with Apple clang version 17.0.0 (clang-1700.0.13.5)",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct arm64 artifact",
+      "source_identity": {
+        "bytes": 5493,
+        "lines": 156,
+        "sha256": "d7ba2ecb9495d6ed5f6b61466cf83f79094c094aa5c93d7734c2df37580c6da1",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/vkf.vkf",
+        "templateSha256": "d7ba2ecb9495d6ed5f6b61466cf83f79094c094aa5c93d7734c2df37580c6da1"
+      },
+      "native_code_sha256": "9dddd870faa9fbdcb284722cd5d9906afe10e4fe899dfcf50a2ad26afd34a698",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         365.748,
         363.663,
@@ -4863,8 +7242,34 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 4432,
+        "lines": 98,
+        "sha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/zig.zig",
+        "templateSha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129"
+      },
+      "native_code_sha256": "0f72d5669a2b0d897e709f7a301e0c9d63b0469f68f7eeea843f9f2326d10552",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         69.489,
         69.164,
@@ -4897,8 +7302,34 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "Apple clang version 17.0.0 (clang-1700.0.13.5)",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 6863,
+        "lines": 200,
+        "sha256": "decdfdf4bd5b32f7dd050d05b8d68dd61f99453a1cb91b6be613088b4853572b",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/cpp.cpp",
+        "templateSha256": "46880583626b585e176684c42a2a71cda0c4b634ee70c1bf833891b0099eefaf"
+      },
+      "native_code_sha256": "ff0bdabbd20001f4cd3b03cd58c3f727a506a4db50f77e3ad5f83b0938206b10",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         78.697,
         78.98,
@@ -4931,8 +7362,34 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "rustc 1.98.1 (48a229cea 2026-09-01)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 4691,
+        "lines": 114,
+        "sha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/rust.rs",
+        "templateSha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7"
+      },
+      "native_code_sha256": "a24340ca07365adbd6c85410e5799807cdbd2aaff0ea2985284c15fd0c6ad3c2",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         83.163,
         83.256,
@@ -4965,8 +7422,39 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "VKF 0.7.2; built with Apple clang version 17.0.0 (clang-1700.0.13.5)",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct arm64 artifact",
+      "source_identity": {
+        "bytes": 5633,
+        "lines": 162,
+        "sha256": "ee456edb7010d3a95e3a89bf319961eaf004b1b1fc0175926a27921ecb305cdb",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/vkf.vkf",
+        "templateSha256": "d7ba2ecb9495d6ed5f6b61466cf83f79094c094aa5c93d7734c2df37580c6da1"
+      },
+      "native_code_sha256": "b3b4e25c21bf0c2266dff93f2d604cfe3bd64dcc3d541c6c089a20e7fb2f14c6",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": {
+        "width": 2,
+        "threadsCreated": 1,
+        "threadsJoined": 1,
+        "threadHandlesClosed": 1
+      },
       "samples_ms": [
         218.045,
         212.262,
@@ -4999,8 +7487,34 @@
         "logicalCpuCount": 5,
         "node": "v22.23.2"
       },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 4432,
+        "lines": 98,
+        "sha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/zig.zig",
+        "templateSha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129"
+      },
+      "native_code_sha256": "08d75f72f540b7d66962edce8956e44800487ee90265abb7d38dba5c39a791ad",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
       "value": 1725861.452170343,
       "original_oracle_passed": true,
+      "parallel_receipt": null,
       "samples_ms": [
         70.828,
         71.333,

@@ -1,0 +1,74 @@
+{
+  "compiler_source": "fb41913c619e0dac6c66b08ee44e1ee18ce67aa8",
+  "recipe_sha256": "3c4e14a9df56328078ad79bd56e13003af8cbd01c504192737fe27b41642aaa7",
+  "seed": "beb8516575c85b49bd6c904da74ffe52cfca51d6",
+  "portable_browser_tar_sha256": "9011f6cfd67a925043cbdb33cbc3d55553db7d5a4470949c4d838cf37534629b",
+  "platforms": {
+    "linux": {
+      "compiler_sha256": "295987e38f2d506965d94b0ce12972e6d397ccdd2d43657fa6f9660d0bb5f237",
+      "frozen_files": {
+        "libvkf-concurrent-runtime.so": "2fd3ffa674b62aef1b0a8d3bf28e25194770cea96bc8fcf2607351fdb06ad7ca",
+        "vkf": "edd6ba407393691df4b1456c2e9037e92a880b6c1a67788cfdb6b1818f05ce52",
+        "vkf_lexer_cursor_smoke": "74ea03a1b63a865c0cfb55db153afbef82ddab827abe8ff23d811bb9d7ad8a8c",
+        "vkf_parser_token_stream_smoke": "0169b2358b60a354bf9e0b6929f9bd9bacf90977f29ed1699dcf33f199898895",
+        "vkf_ast_to_ir_smoke": "127671d145a8379ab95c7b862feb55820aeb55ca663c8d45fdc394d419ba82ed",
+        "vkf_retained_scene_packet_probe": "61210bb60643b04f6a853daa22d04ddaac82b0e619e0e0f815c70f941d48fda4",
+        "vkf-strict": "295987e38f2d506965d94b0ce12972e6d397ccdd2d43657fa6f9660d0bb5f237",
+        "vkf_wasm_artifact_smoke": "d589034b8a68faceef2f8d129e3b580af292e8d7bc6d311e17fd118844401e93",
+        "vkf-linux-ui-package": "13cfdce8b2828f714c3daa7dffc2c1e7055cf9e79b9c911054afdc97dfa2d4eb",
+        "vkf_compiler_artifact_smoke": "05b31517db33f977d1553645c3d174e6fda106202a6a81662dfb228d37fd870a",
+        "vkf_x64_artifact": "1e3a879beb6264f3b38533c61a307b8733aa2962dae80684376acf7be7d73c34",
+        "vkf_x64_runner_template": "c0a62d1d815ee2a0c2d5becaf3ec6de94c5831f1e468ab53f519c3aed24f017a"
+      },
+      "frozen_files_unchanged_after_symbolic118": true,
+      "host": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+      "native_build_reused_for_all_cases": true
+    },
+    "wasm": {
+      "compiler_wasm_sha256": "2455d249026f0c9d1250920c52640a421e4d99746665ddbeb176102c2a1b07b5",
+      "engine_scope": "Node V8 WebAssembly diagnostic execution; software browser PP artifact has separate pin"
+    },
+    "macos-arm64": {
+      "compiler_sha256": "9f7d207dac99d263a3286fa554eec5de95ff5e7d59e4bbbcc80f2f71b6143e91",
+      "frozen_files": {
+        "libvkf-concurrent-runtime.dylib": "07992e9e39b4f9f0f14ea14083c99df9ebb65feb772f02320acaf1e4073725ee",
+        "vkf_parser_token_stream_smoke": "c4ac8a64dc13d42d5c43023af4373a94e921c53133563e7dd5426a9de07e9fd0",
+        "vkf-strict": "9f7d207dac99d263a3286fa554eec5de95ff5e7d59e4bbbcc80f2f71b6143e91",
+        "vkf_compiler_artifact_smoke": "d322dcfb06fd860cdac0cc892602fc47bcb6a05591b71dcbdc303f8de3b78d2f",
+        "vkf": "2df9a42e4ac6b8fb4b3ddec0effc7bad8192c6ebdf38510c6556b5d97787656a",
+        "vkf_lexer_cursor_smoke": "6dd8dd22b544b255c9bb6bcd9b4883fc949ad393ce19aa78dc6618a8f332276d",
+        "vkf_ast_to_ir_smoke": "ce6244f7eaa7db438d25e82b36def07ce72ad18646f76730b603972e913b406f",
+        "vkf_retained_scene_packet_probe": "dacbf3307db07e8ed70e1a36f04d4c47406028b690c310f6c6c784d5e3bd7531"
+      },
+      "origin_run": 38095145038,
+      "host": "macOS-15.7.9-arm64-arm-64bit",
+      "machine": "arm64",
+      "build_passed": true,
+      "source_files_verified": 728,
+      "source_restored": true,
+      "portable_manifest_sha256": "d5791f8afefc58dd6177001a4c2d4167430a86caacb21ebde2456a3cf180ac89"
+    },
+    "macos-x64": {
+      "compiler_sha256": "8924de4a997075d9999f3ec8a4d12064f1c8f0a686ba33603a691c059c1ba885",
+      "frozen_files": {
+        "libvkf-concurrent-runtime.dylib": "474c78286cb3fd1c6106345407a7b61c00b1dbbbcaa2a1868608f3253287581f",
+        "vkf_x64_runner_template": "92c2f3db00176f2009fe0503faacc85a7cc7b43b2a9ba14393866f7a802d5214",
+        "vkf_parser_token_stream_smoke": "7cfedae3f984577abd597ad0e21ae8ea2de3cb5d47c2b54adada9bb0df09e3bc",
+        "vkf-strict": "8924de4a997075d9999f3ec8a4d12064f1c8f0a686ba33603a691c059c1ba885",
+        "vkf_compiler_artifact_smoke": "e536385b7c94c6eae4d7b6e94a7458ae4024bde18cd69a2b54aeffa3370bae04",
+        "vkf": "eb7bf97b5d63acdb4455b619d94e3f6e2eb424fdeca7167ea5dae800fd1439ff",
+        "vkf_lexer_cursor_smoke": "cbdba229262f829413e261f77ba55cf2a0b8411a32ad8fe8bfbd27661fa460fb",
+        "vkf_ast_to_ir_smoke": "328b72a56f84595024de9a8fa1e434ece81391310958addd82e4d2f56fe04b44",
+        "vkf_x64_artifact": "8bac9304ac9c9db0cefb54d05bc946c6e1886f7906cd97e84b24c99e0a08e184",
+        "vkf_retained_scene_packet_probe": "6f06bd2718a956b7059d96359e349c7e8cb687d8e9e34ffd1d2fd123a9327514"
+      },
+      "origin_run": 38095145038,
+      "host": "macOS-15.7.9-x86_64-i386-64bit",
+      "machine": "x86_64",
+      "build_passed": true,
+      "source_files_verified": 728,
+      "source_restored": true,
+      "portable_manifest_sha256": "d5791f8afefc58dd6177001a4c2d4167430a86caacb21ebde2456a3cf180ac89"
+    }
+  }
+}
