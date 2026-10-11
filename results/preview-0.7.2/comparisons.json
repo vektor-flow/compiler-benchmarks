@@ -1,5 +1,5 @@
 {
-  "scope": "Only positive finite ten-sample original-oracle series; no failed or zero-timer speedup claims; workload credit requires all original peers",
+  "scope": "Positive finite ten-sample original-oracle comparisons; full workload qualification is explicit",
   "pairs": [
     {
       "platform": "linux",
@@ -1159,7 +1159,7 @@
       "ratio_vkf_over_peer": 637.0863189060451,
       "repetitions_each": 10,
       "qualified_full_workload_comparison": false,
-      "scope": "Original operation/kernel boundaries; separate peer windows remain diagnostic and are not quiet-host acceptance",
+      "scope": "Scalar numerical diagnostic only; required two-worker execution is unverified",
       "vkf_report_sha256": "1bb96114434bea388aaee9513664e8f2ece8d09374b31b611b908799e87b3720",
       "peer_report_sha256": "fef5720c6e65923f45e5bda3f615450dddfca975092daf16179c03d452d79bd7"
     },
@@ -1173,7 +1173,7 @@
       "ratio_vkf_over_peer": 575.6125694031418,
       "repetitions_each": 10,
       "qualified_full_workload_comparison": false,
-      "scope": "Original operation/kernel boundaries; separate peer windows remain diagnostic and are not quiet-host acceptance",
+      "scope": "Scalar numerical diagnostic only; required two-worker execution is unverified",
       "vkf_report_sha256": "1bb96114434bea388aaee9513664e8f2ece8d09374b31b611b908799e87b3720",
       "peer_report_sha256": "fef5720c6e65923f45e5bda3f615450dddfca975092daf16179c03d452d79bd7"
     },
@@ -1187,7 +1187,7 @@
       "ratio_vkf_over_peer": 667.0106991116919,
       "repetitions_each": 10,
       "qualified_full_workload_comparison": false,
-      "scope": "Original operation/kernel boundaries; separate peer windows remain diagnostic and are not quiet-host acceptance",
+      "scope": "Scalar numerical diagnostic only; required two-worker execution is unverified",
       "vkf_report_sha256": "1bb96114434bea388aaee9513664e8f2ece8d09374b31b611b908799e87b3720",
       "peer_report_sha256": "fef5720c6e65923f45e5bda3f615450dddfca975092daf16179c03d452d79bd7"
     },

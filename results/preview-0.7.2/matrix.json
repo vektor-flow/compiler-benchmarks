@@ -8,7 +8,7 @@
     "windows",
     "wasm"
   ],
-  "macos_intel": "Additional validation and results; not counted as a fifth compiler",
+  "macos_intel": "Additional native platform coverage; excluded from64 primary rows",
   "denominator": 64,
   "qualified": 26,
   "percent": 40.625,
@@ -317,7 +317,7 @@
       "completed_attempt": true,
       "qualified_comparison": false,
       "status": "peer-incomplete-or-failed",
-      "diagnostic": "Original peers missing or failed: vkf",
+      "diagnostic": "Ten zero internal timing samples; no successful timing credit: vkf",
       "original_evidence_sha256": [
         "083de0c24d7407dd9a6779b60b8bfa25f4cfb1918e1b77d3fb6f1a2c5f23aa00",
         "0902fd05b3c2d70acab1f8de0318a1043a3e243b5d2af7847d822c9e727157c5",
@@ -338,7 +338,7 @@
       "completed_attempt": true,
       "qualified_comparison": false,
       "status": "peer-incomplete-or-failed",
-      "diagnostic": "Original peers missing or failed: vkf",
+      "diagnostic": "Ten zero internal timing samples; no successful timing credit: vkf",
       "original_evidence_sha256": [
         "083de0c24d7407dd9a6779b60b8bfa25f4cfb1918e1b77d3fb6f1a2c5f23aa00",
         "0902fd05b3c2d70acab1f8de0318a1043a3e243b5d2af7847d822c9e727157c5",
@@ -364,7 +364,7 @@
   "pending_attempts": 16,
   "complete": false,
   "all_comparisons_qualified": false,
-  "generated_utc": "2026-10-11T05:24:35.044675+00:00",
+  "generated_utc": "2026-10-11T05:52:23.514321+00:00",
   "rows": [
     {
       "platform": "linux",

@@ -21,3 +21,33 @@ Compiler source, private repository history and unrestricted build/log directori
 private. Reviewed identities and selected diagnostics are public; sealed originals are retained.
 Original419 C0 counts remain17 historical closures and402 open, pending Source983
 requalification. Physical GPU STOP remains; no hardware sessions occurred.
+
+| Platform | Terminal attempts | Qualified | Failed or unqualified |
+| --- | ---: | ---: | ---: |
+| linux | 16/16 | 15 | 1 |
+| macos-arm64 | 16/16 | 7 | 9 |
+| windows | 0/16 | 0 | 0 |
+| wasm | 16/16 | 4 | 12 |
+| macos-x64 (additional) | 16/16 | 2 | 14 |
+
+The remaining preview limitations include ARM private ABI argument overflow and
+oversized list literals, a current ARM parallel entry-timer failure, Intel native
+runner code capacity and zero internal timers, and WASM execution traps, unavailable
+internal timers and unverified two-worker execution. Symbolics expand1 exceeded the
+original120000ms process deadline on Linux and ARM. Exact diagnostics and all failed
+attempts are retained; these observations do not establish a new C0 fault count.
+See `failures.json`, `symbolic-outcomes.json` and `measurement-identities.json`.
+
+The first public Windows attempt built its exact compiler but stopped at a peer
+CMake path-escape setup error before any workload. Its original ephemeral tools
+were not retained, so the setup retry necessarily built a second compiler. That
+retry freezes one exact compiler for every actual Windows measurement, then seals
+selected tools for future adoption. No workload measurement rebuilds the compiler.
+macOS uses the existing exact frozen compiler for all suites; ARM core raw-phase
+capture reuses it. Linux and WASM adopt matching existing compiler identities.
+
+The core comparison report retains kernel, compilation and process boundaries.
+Linalg and symbolic comparisons retain their original operation boundary. Historical
+ARM kernel samples and WASM adapter retry diagnostics remain separate observations;
+failed comparisons never receive successful timing credit. This report records a
+preview attempt matrix, independently from compiler repair and acceptance gates.
