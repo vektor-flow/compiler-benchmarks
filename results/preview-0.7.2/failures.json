@@ -16,7 +16,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": null,
       "origin_attempt": "pp-full-symbolic118",
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": false
     },
     {
       "platform": "macos-arm64",
@@ -37,7 +38,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38113175395,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-arm64",
@@ -54,7 +56,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38095145038,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-arm64",
@@ -71,7 +74,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38095145038,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-arm64",
@@ -88,7 +92,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38095145038,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-arm64",
@@ -105,7 +110,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38095145038,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-arm64",
@@ -122,7 +128,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38095145038,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-arm64",
@@ -139,7 +146,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38095145038,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-arm64",
@@ -156,7 +164,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38095145038,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-arm64",
@@ -178,7 +187,54 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38111620514,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": false
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-parallel-large",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "incomplete-or-failed",
+      "diagnostic": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\vektor-flow-core-comparison\\native-compiler\\native-entry-timer.exe C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\vektor-flow-core-comparison\\combined-kernels-parallel-large\\sources\\.vkfbuild\\vkf\\x64-code.bin C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\vektor-flow-core-comparison\\combined-kernels-parallel-large\\sources\\.vkfbuild\\vkf\\x64-data.bin 5 5 2 failed:",
+      "original_evidence_sha256": [
+        "2701b906bd39cf821d558b762678912756d1088bacd1c775350f9f2875b250fe",
+        "5bc006f5f8485c5e883a6d5df63540bc4bea830d2c89d427a7e405c1e8d1c789",
+        "69f10d09196a3212e8b31af7e2198c5142839b20ba115cf1859bc03ca176c6cb",
+        "9d3ce8ae1eb3188f5d6c2f320a30c8e5049ca251e70d17472bca9bb18e20f873",
+        "ac478793611d77f796e5c149c9810d20262be96f0705ad0a7b39e54a1ec04bca",
+        "d21377227f2845950dbfdfe8a5bd9d7fa112da99d85540d9f032edf0a1ae853e",
+        "ea671a3040c37ca6c26781f6d61d14dae3a95033a0d9bf00766eb7aa5bf45e4d"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38112707596,
+      "origin_attempt": null,
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "expand1",
+      "completed_attempt": true,
+      "qualified_comparison": false,
+      "status": "peer-incomplete-or-failed",
+      "diagnostic": "symbolics: spawnSync C:\\hostedtoolcache\\windows\\julia\\1.12.6\\x64\\bin\\julia.exe ETIMEDOUT",
+      "original_evidence_sha256": [
+        "01b52683c64e2b10c50fb7942806658bf8eea53e2fedf019d03646a2faab71b5",
+        "2701b906bd39cf821d558b762678912756d1088bacd1c775350f9f2875b250fe",
+        "3de1b247c5e4f0aa0c1a71dc5ab8cb4bd4ec25d1044ec7d3f0f6704d13af5d61",
+        "9d3ce8ae1eb3188f5d6c2f320a30c8e5049ca251e70d17472bca9bb18e20f873",
+        "ac478793611d77f796e5c149c9810d20262be96f0705ad0a7b39e54a1ec04bca",
+        "d21377227f2845950dbfdfe8a5bd9d7fa112da99d85540d9f032edf0a1ae853e",
+        "ea671a3040c37ca6c26781f6d61d14dae3a95033a0d9bf00766eb7aa5bf45e4d"
+      ],
+      "ten_valid_original_oracle_samples_required": true,
+      "origin_run": 38112707596,
+      "origin_attempt": null,
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": false
     },
     {
       "platform": "wasm",
@@ -198,7 +254,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": null,
       "origin_attempt": null,
-      "terminal_command_exit": null
+      "terminal_command_exit": null,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "wasm",
@@ -214,7 +271,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": null,
       "origin_attempt": null,
-      "terminal_command_exit": null
+      "terminal_command_exit": null,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "wasm",
@@ -230,7 +288,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": null,
       "origin_attempt": null,
-      "terminal_command_exit": null
+      "terminal_command_exit": null,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "wasm",
@@ -246,7 +305,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": null,
       "origin_attempt": null,
-      "terminal_command_exit": null
+      "terminal_command_exit": null,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "wasm",
@@ -262,7 +322,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": null,
       "origin_attempt": null,
-      "terminal_command_exit": null
+      "terminal_command_exit": null,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "wasm",
@@ -278,7 +339,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": null,
       "origin_attempt": null,
-      "terminal_command_exit": null
+      "terminal_command_exit": null,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "wasm",
@@ -294,7 +356,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": null,
       "origin_attempt": null,
-      "terminal_command_exit": null
+      "terminal_command_exit": null,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "wasm",
@@ -310,7 +373,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": null,
       "origin_attempt": null,
-      "terminal_command_exit": null
+      "terminal_command_exit": null,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "wasm",
@@ -326,7 +390,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": null,
       "origin_attempt": null,
-      "terminal_command_exit": null
+      "terminal_command_exit": null,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "wasm",
@@ -342,7 +407,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": null,
       "origin_attempt": null,
-      "terminal_command_exit": null
+      "terminal_command_exit": null,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "wasm",
@@ -358,7 +424,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": null,
       "origin_attempt": null,
-      "terminal_command_exit": null
+      "terminal_command_exit": null,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "wasm",
@@ -374,7 +441,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": null,
       "origin_attempt": null,
-      "terminal_command_exit": null
+      "terminal_command_exit": null,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-x64",
@@ -396,7 +464,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38111620514,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-x64",
@@ -418,7 +487,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38111620514,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-x64",
@@ -440,7 +510,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38111620514,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-x64",
@@ -461,7 +532,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38111620514,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-x64",
@@ -482,7 +554,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38111620514,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-x64",
@@ -503,7 +576,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38111620514,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-x64",
@@ -524,7 +598,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38111620514,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-x64",
@@ -545,7 +620,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38111620514,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-x64",
@@ -566,7 +642,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38111620514,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-x64",
@@ -587,7 +664,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38111620514,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-x64",
@@ -608,7 +686,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38111620514,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-x64",
@@ -629,7 +708,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38111620514,
       "origin_attempt": null,
-      "terminal_command_exit": 1
+      "terminal_command_exit": 1,
+      "original_benchmark_gate_passed": null
     },
     {
       "platform": "macos-x64",
@@ -650,7 +730,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38111620514,
       "origin_attempt": null,
-      "terminal_command_exit": 0
+      "terminal_command_exit": 0,
+      "original_benchmark_gate_passed": true
     },
     {
       "platform": "macos-x64",
@@ -671,7 +752,8 @@
       "ten_valid_original_oracle_samples_required": true,
       "origin_run": 38111620514,
       "origin_attempt": null,
-      "terminal_command_exit": 0
+      "terminal_command_exit": 0,
+      "original_benchmark_gate_passed": true
     }
   ]
 }

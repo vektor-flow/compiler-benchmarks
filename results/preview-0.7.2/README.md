@@ -1,12 +1,12 @@
-# Source983 0.7.2 preview report — execution ongoing
+# Source983 0.7.2 preview report — terminal
 
-48/64 primary workload attempts terminal; 26
-qualified comparisons; 22 failed or unqualified;
-16 pending. Intel is additional coverage (16/16 terminal, 2 qualified). Availability probe38111143757
+64/64 primary workload attempts terminal; 40
+qualified comparisons; 24 failed or unqualified;
+0 pending. Intel is additional coverage (16/16 terminal, 2 qualified). Availability probe38111143757
 is infrastructure evidence only. Public execution run38111620514 and local symbolic118
 retain actual runner/host identities and original failures. Missing jobs receive no credit.
 
-`raw-samples.json` contains272 reviewed ten-sample timing series;
+`raw-samples.json` contains372 reviewed ten-sample timing series;
 `sample-summary.csv` provides means, medians and sample standard deviations.
 Individually valid peers and scalar-only parallel diagnostics remain observations
 without full comparison credit. Symbolic attempts and failures are separately retained.
@@ -26,17 +26,20 @@ requalification. Physical GPU STOP remains; no hardware sessions occurred.
 | --- | ---: | ---: | ---: |
 | linux | 16/16 | 15 | 1 |
 | macos-arm64 | 16/16 | 7 | 9 |
-| windows | 0/16 | 0 | 0 |
+| windows | 16/16 | 14 | 2 |
 | wasm | 16/16 | 4 | 12 |
 | macos-x64 (additional) | 16/16 | 2 | 14 |
 
 The remaining preview limitations include ARM private ABI argument overflow and
-oversized list literals, a current ARM parallel entry-timer failure, Intel native
+oversized list literals, current ARM and Windows parallel entry-timer failures, Intel native
 runner code capacity and zero internal timers, and WASM execution traps, unavailable
 internal timers and unverified two-worker execution. Symbolics expand1 exceeded the
-original120000ms process deadline on Linux and ARM. Exact diagnostics and all failed
+original 120000ms process deadline on Linux, ARM and Windows. Exact diagnostics and all failed
 attempts are retained; these observations do not establish a new C0 fault count.
 See `failures.json`, `symbolic-outcomes.json` and `measurement-identities.json`.
+`original-gates.json` retains original report/kernel pass flags, numerical limits
+and comparison gates. A qualified timing comparison means ten valid correct
+samples for every required peer; it does not imply the original speed gate passed.
 
 The first public Windows attempt built its exact compiler but stopped at a peer
 CMake path-escape setup error before any workload. Its original ephemeral tools
@@ -51,3 +54,15 @@ Linalg and symbolic comparisons retain their original operation boundary. Histor
 ARM kernel samples and WASM adapter retry diagnostics remain separate observations;
 failed comparisons never receive successful timing credit. This report records a
 preview attempt matrix, independently from compiler repair and acceptance gates.
+
+Windows run38112707596 phase durations were 15.433 minutes for compiler build,
+2.922 minutes for SymEngine build, 7.341 minutes for Julia package setup, and
+63.974 minutes for the benchmark command phase. That phase includes compiler
+invocation, process startup and peer execution beyond the reported operation
+timers. The expand1 command took 26.752 minutes, including ten Symbolics process
+timeouts at the original 120000ms deadline; expand2 took 9.700 minutes.
+Windows VKF operation means for add1, expand1, expand2 and series were respectively
+0.8482ms, 19863.6850ms, 451.9709ms and 3.9146ms. In expand1, SymEngine averaged
+80.3609ms and SymPy 12096.7978ms: this preview does not establish universal VKF
+symbolic superiority. The slow expansion and repeated process/setup overhead
+remain measured bottlenecks. Original timing boundaries and failures are retained.

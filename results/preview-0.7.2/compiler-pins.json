@@ -132,6 +132,73 @@
       "source_files_verified": 728,
       "source_restored": true,
       "portable_manifest_sha256": "d5791f8afefc58dd6177001a4c2d4167430a86caacb21ebde2456a3cf180ac89"
+    },
+    "windows": {
+      "compiler_sha256": "79f67d62dc0ba1242ef415d8e1c5d41303c23bf695e8d616fc93dee16df8ebab",
+      "frozen_files": {
+        "vkf-concurrent-runtime.dll": "38e410401f08bd6b3c87308008dff60e5338bcb7e8d720c4e7cf63f45b144477",
+        "vkf-strict.exe": "79f67d62dc0ba1242ef415d8e1c5d41303c23bf695e8d616fc93dee16df8ebab",
+        "vkf.exe": "bdfeabeb12819b48eb6421b839db39bd9666ca4d8cd57d9e6c263906b35cb606",
+        "vkf_ast_to_ir_smoke.exe": "603ac658cda3ee0a3c7ac02dcc830cd28829f3863f0a8fac9a135c669870bfdb",
+        "vkf_compiler_artifact_smoke.exe": "fba55d0dceb574646085f4d6ae19cb46ce9db8aa3ef4ba65a1dbef4862cf6ddb",
+        "vkf_lexer_cursor_smoke.exe": "7d2b5130d2d96d4f2c4f8eac182403732397c0ced11cb2ff430f8758f6b49575",
+        "vkf_parser_token_stream_smoke.exe": "1ae6cf3bee98771d467dbaf73c5543e3c514ca2391517e977a9fce0085fe0cfe",
+        "vkf_retained_scene_packet_probe.exe": "42fe2b6576d0396b38daa81db14fc0f5dcfb1fe1ef78d157fb99c04fd9fe9a38",
+        "vkf_symbolic_kernel_artifact.exe": "0864edda5833c1bb98230d00f7d4d4c6e37f0d85508b9b5274eca531c514f233",
+        "vkf_x64_artifact.exe": "7fc67691de180f2d4503105a537e3e21df81a6e66b00387e1d2aa101d0507b6c"
+      },
+      "origin_run": 38112707596,
+      "workflow_commit": "46113d0125cd7df7f065297bb25dae7d6ecd582e",
+      "host": "Windows-2022Server-10.0.20348-SP0",
+      "machine": "AMD64",
+      "runner": {
+        "RUNNER_OS": "Windows",
+        "RUNNER_ARCH": "X64",
+        "ImageOS": "win22",
+        "ImageVersion": "20261004.326.1",
+        "GITHUB_RUN_ID": "38112707596",
+        "GITHUB_SHA": "46113d0125cd7df7f065297bb25dae7d6ecd582e"
+      },
+      "tool_versions": {
+        "node": "v22.23.3",
+        "rustc": "rustc 1.99.0 (b940084d7 2026-09-28)",
+        "cargo": "cargo 1.99.0 (5f94df478 2026-08-27)",
+        "zig": "info: Usage: zig [command] [options]\n\nCommands:\n\n  build            Build project from build.zig\n  fetch            Copy a package into global cache and print its hash\n  init             Initialize a Zig package in the current directory\n\n  build-exe        Create executable from source or object files\n  build-lib        Create library from source or object files\n  build-obj        Create object from source or object files\n  test             Perform unit testing\n  test-obj         Create object for unit testing\n  run              Create executable and run immediately\n\n  ast-check        Look for simple compile errors in any set of files\n  fmt              Reformat Zig source into canonical form\n  reduce           Minimize a bug report\n  translate-c      Convert C code to Zig code\n\n  ar               Combine object files into static archive\n  cc               Use Zig as a drop-in C compiler\n  c++              Use Zig as a drop-in C++ compiler\n  dlltool          Use Zig as a drop-in dllto",
+        "julia": "julia version 1.12.6",
+        "cmake": "cmake version 3.31.6\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake)."
+      },
+      "source_files_verified": 728,
+      "source_unchanged": true,
+      "one_frozen_compiler_reused_for_all_actual_measurements": true,
+      "frozen_tools_ciphertext_sha256": "4ade7dbd8b6f556cf28b87d149a269750c4085a0bcadc739769679b2b5cf615c",
+      "first_setup_only_build": {
+        "origin_run": 38111620514,
+        "compiler_sha256": "157c8d44bae03864d362d1d39a78009a6d749b834d1db8268ced8812efa630b8",
+        "workloads_attempted": 0,
+        "binaries_not_retained": true
+      },
+      "phases_seconds": [
+        {
+          "label": "compiler-build",
+          "seconds": 925.9840000000002,
+          "exit": 0
+        },
+        {
+          "label": "symengine-build",
+          "seconds": 175.3130000000001,
+          "exit": 0
+        },
+        {
+          "label": "julia-instantiate",
+          "seconds": 440.4380000000001,
+          "exit": 0
+        },
+        {
+          "label": "benchmarks",
+          "seconds": 3838.453,
+          "exit": 1
+        }
+      ]
     }
   }
 }

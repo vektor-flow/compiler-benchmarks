@@ -1,0 +1,703 @@
+{
+  "scope": "Original benchmark performance/correctness gate outcomes remain separate from valid numerical timing comparisons and acceptance",
+  "rows": [
+    {
+      "platform": "linux",
+      "suite": "linalg",
+      "workload": "solve-general-96",
+      "original_report_pass": false,
+      "original_kernel_pass": true,
+      "original_complete": null,
+      "original_comparisons": {
+        "eigen": {
+          "ratio": 452.1156062791097
+        },
+        "faer": {
+          "ratio": 351.5583946739635
+        },
+        "scipy": {
+          "ratio": 283.7549982876527
+        }
+      },
+      "original_limits": {
+        "residual": 3e-12,
+        "solution_error": 3e-11
+      },
+      "original_report_sha256": "5ec4ea76a61908fc93b9f03a19789414702bee79d001454aacde814dc35b8f53",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "linux",
+      "suite": "linalg",
+      "workload": "least-squares-tall-96x48",
+      "original_report_pass": false,
+      "original_kernel_pass": true,
+      "original_complete": null,
+      "original_comparisons": {
+        "eigen": {
+          "ratio": 532.34734427629
+        },
+        "faer": {
+          "ratio": 313.9039576213306
+        },
+        "scipy": {
+          "ratio": 267.6455273851061
+        }
+      },
+      "original_limits": {
+        "residual": 3e-11,
+        "solution_error": 3e-10
+      },
+      "original_report_sha256": "daf2393fb09cc451f1a2123a19f1b5f9020fd4081fc5c0b960902f923b2de299",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "linux",
+      "suite": "linalg",
+      "workload": "lu-general-96",
+      "original_report_pass": false,
+      "original_kernel_pass": true,
+      "original_complete": null,
+      "original_comparisons": {
+        "eigen": {
+          "ratio": 492.80206973854797
+        },
+        "faer": {
+          "ratio": 424.8557054229828
+        },
+        "scipy": {
+          "ratio": 613.8528769138462
+        }
+      },
+      "original_limits": {
+        "reconstruction": 3e-11
+      },
+      "original_report_sha256": "5cac0d6571327e4ef18dc598f1796b8da9de93303ffe1236ec5ce3047f288866",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "linux",
+      "suite": "linalg",
+      "workload": "qr-tall-96x48",
+      "original_report_pass": false,
+      "original_kernel_pass": true,
+      "original_complete": null,
+      "original_comparisons": {
+        "eigen": {
+          "ratio": 78.34148027499977
+        },
+        "faer": {
+          "ratio": 94.83111645107144
+        },
+        "scipy": {
+          "ratio": 95.74998124856162
+        }
+      },
+      "original_limits": {
+        "reconstruction": 3e-11,
+        "orthogonality": 3e-11
+      },
+      "original_report_sha256": "82637456eb3f6327677fdb75d3a3d9e91d9058fa6b929c91f9f8aed8cc375a2e",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "linux",
+      "suite": "linalg",
+      "workload": "cholesky-spd-96",
+      "original_report_pass": false,
+      "original_kernel_pass": true,
+      "original_complete": null,
+      "original_comparisons": {
+        "eigen": {
+          "ratio": 316.97564116737846
+        },
+        "faer": {
+          "ratio": 591.8168632057515
+        },
+        "scipy": {
+          "ratio": 410.01693559345244
+        }
+      },
+      "original_limits": {
+        "reconstruction": 3e-11
+      },
+      "original_report_sha256": "6acf418bb11f4dab0a54832f1f6f48f6ff01706c89e4ed5571c964e6eff3cfca",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "linux",
+      "suite": "linalg",
+      "workload": "svd-tall-96x48",
+      "original_report_pass": false,
+      "original_kernel_pass": true,
+      "original_complete": null,
+      "original_comparisons": {
+        "eigen": {
+          "ratio": 229.00250829969139
+        },
+        "faer": {
+          "ratio": 364.152303022163
+        },
+        "scipy": {
+          "ratio": 324.3030193648828
+        }
+      },
+      "original_limits": {
+        "reconstruction": 6e-11,
+        "orthogonality": 6e-11
+      },
+      "original_report_sha256": "ebfe6898cd7440bb15f79206b718ef9c666a27a33e343b8a12832b6688691cf2",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "linux",
+      "suite": "linalg",
+      "workload": "eigen-symmetric-96",
+      "original_report_pass": false,
+      "original_kernel_pass": true,
+      "original_complete": null,
+      "original_comparisons": {
+        "eigen": {
+          "ratio": 1054.7199748856976
+        },
+        "faer": {
+          "ratio": 1034.409423292037
+        },
+        "scipy": {
+          "ratio": 1168.980205669066
+        }
+      },
+      "original_limits": {
+        "residual": 6e-11,
+        "reconstruction": 6e-11,
+        "orthogonality": 6e-11
+      },
+      "original_report_sha256": "a04200123e22abddf117f2991d21859851694c5af6e091162bd6ef9c7d039210",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "linux",
+      "suite": "symbolic",
+      "workload": "expand1",
+      "original_report_pass": false,
+      "original_kernel_pass": false,
+      "original_complete": false,
+      "original_comparisons": {
+        "symengine": {
+          "ratio": 837.7092377829574,
+          "pass": false
+        },
+        "sympy": {
+          "ratio": 5.075153055093437,
+          "pass": false
+        },
+        "symbolics": {
+          "incomplete": true,
+          "pass": false
+        }
+      },
+      "original_limits": null,
+      "original_report_sha256": "872a2f6112c41e8382c35d7e8639b25e8192b3e057cb68c32993f692040757e2",
+      "ten_sample_numerical_comparison_qualified": false
+    },
+    {
+      "platform": "linux",
+      "suite": "symbolic",
+      "workload": "expand2",
+      "original_report_pass": true,
+      "original_kernel_pass": true,
+      "original_complete": true,
+      "original_comparisons": {
+        "symengine": {
+          "ratio": 0.9035020550353356,
+          "pass": true
+        },
+        "sympy": {
+          "ratio": 0.008186814452603743,
+          "pass": true
+        },
+        "symbolics": {
+          "ratio": 0.06681122177006477,
+          "pass": true
+        }
+      },
+      "original_limits": null,
+      "original_report_sha256": "78e20f3f15ece124d292ef5e80556ab55adc5c6d1dceefb436beb637088036da",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "linux",
+      "suite": "symbolic",
+      "workload": "add1",
+      "original_report_pass": true,
+      "original_kernel_pass": true,
+      "original_complete": true,
+      "original_comparisons": {
+        "symengine": {
+          "ratio": 0.0033273480693704676,
+          "pass": true
+        },
+        "sympy": {
+          "ratio": 0.017927223866186212,
+          "pass": true
+        },
+        "symbolics": {
+          "ratio": 0.000558507454433903,
+          "pass": true
+        }
+      },
+      "original_limits": null,
+      "original_report_sha256": "1a4976bea0a5d9ce2293a04320bb988c1f7195b95eb65aeb74d8797cd83db126",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "linux",
+      "suite": "symbolic",
+      "workload": "series",
+      "original_report_pass": true,
+      "original_kernel_pass": true,
+      "original_complete": true,
+      "original_comparisons": {
+        "symengine": {
+          "ratio": 0.026690031699676462,
+          "pass": true
+        },
+        "sympy": {
+          "ratio": 0.035129304708874806,
+          "pass": true
+        },
+        "symbolics": {
+          "ratio": 0.0018401101967206945,
+          "pass": true
+        }
+      },
+      "original_limits": null,
+      "original_report_sha256": "03700a2c64beed76a0827cc68e2229a819260f9775c89c455e49e0bcec60145c",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "symbolic",
+      "workload": "expand1",
+      "original_report_pass": false,
+      "original_kernel_pass": false,
+      "original_complete": false,
+      "original_comparisons": {
+        "symengine": {
+          "ratio": 187.2573645219908,
+          "pass": false
+        },
+        "sympy": {
+          "ratio": 1.0734495149252101,
+          "pass": false
+        },
+        "symbolics": {
+          "incomplete": true,
+          "pass": false
+        }
+      },
+      "original_limits": null,
+      "original_report_sha256": "9048c82c3719dd801652b07ad81ce3bf8e996da5d4afee20c4aeddc480775d78",
+      "ten_sample_numerical_comparison_qualified": false
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "symbolic",
+      "workload": "expand2",
+      "original_report_pass": true,
+      "original_kernel_pass": true,
+      "original_complete": true,
+      "original_comparisons": {
+        "symengine": {
+          "ratio": 0.3335612827080474,
+          "pass": true
+        },
+        "sympy": {
+          "ratio": 0.01135192591108568,
+          "pass": true
+        },
+        "symbolics": {
+          "ratio": 0.08920282559423563,
+          "pass": true
+        }
+      },
+      "original_limits": null,
+      "original_report_sha256": "9caf069ce0ae7f1da52df68b463b052e12a0aa1c92f84ac3ea9d3e61786e2bdd",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "symbolic",
+      "workload": "add1",
+      "original_report_pass": true,
+      "original_kernel_pass": true,
+      "original_complete": true,
+      "original_comparisons": {
+        "symengine": {
+          "ratio": 0.0021656524686987253,
+          "pass": true
+        },
+        "sympy": {
+          "ratio": 0.013453309192974683,
+          "pass": true
+        },
+        "symbolics": {
+          "ratio": 0.0006076865031847673,
+          "pass": true
+        }
+      },
+      "original_limits": null,
+      "original_report_sha256": "9d6bec4b0994effe2a546dbffd31975f414c56e9f2f5b3d0e43f1dbf4fd6ea95",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "macos-arm64",
+      "suite": "symbolic",
+      "workload": "series",
+      "original_report_pass": true,
+      "original_kernel_pass": true,
+      "original_complete": true,
+      "original_comparisons": {
+        "symengine": {
+          "ratio": 0.0416546753198771,
+          "pass": true
+        },
+        "sympy": {
+          "ratio": 0.05522866557804212,
+          "pass": true
+        },
+        "symbolics": {
+          "ratio": 0.004108901080492138,
+          "pass": true
+        }
+      },
+      "original_limits": null,
+      "original_report_sha256": "ca14bba3daa5fe1cd6d53ab90953cfa281d155fdb3be58853c6e74e1b42b4fa7",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "solve-general-96",
+      "original_report_pass": false,
+      "original_kernel_pass": true,
+      "original_complete": null,
+      "original_comparisons": {
+        "eigen": {
+          "ratio": 508.6666666664965
+        },
+        "faer": {
+          "ratio": 536.943188759747
+        },
+        "scipy": {
+          "ratio": 422.0049382714638
+        }
+      },
+      "original_limits": {
+        "residual": 3e-12,
+        "solution_error": 3e-11
+      },
+      "original_report_sha256": "5473fed29c0dcfe6bd1530b20716b8e4899efca203cb4e8c27a91b5b85762083",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "least-squares-tall-96x48",
+      "original_report_pass": false,
+      "original_kernel_pass": true,
+      "original_complete": null,
+      "original_comparisons": {
+        "eigen": {
+          "ratio": 932.4628445429893
+        },
+        "faer": {
+          "ratio": 941.2841402342699
+        },
+        "scipy": {
+          "ratio": 579.157570362591
+        }
+      },
+      "original_limits": {
+        "residual": 3e-11,
+        "solution_error": 3e-10
+      },
+      "original_report_sha256": "0e55e2a04ce95943fc19ad8aae8848b86ef614ff1e6045e628a5ac9fc1055257",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "lu-general-96",
+      "original_report_pass": false,
+      "original_kernel_pass": true,
+      "original_complete": null,
+      "original_comparisons": {
+        "eigen": {
+          "ratio": 709.7662628975696
+        },
+        "faer": {
+          "ratio": 623.72126946528
+        },
+        "scipy": {
+          "ratio": 917.8065264676914
+        }
+      },
+      "original_limits": {
+        "reconstruction": 3e-11
+      },
+      "original_report_sha256": "c7d30bbf990755fb4f2d5754a0d148f71eae22e3007f3e268df426de8e98706a",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "qr-tall-96x48",
+      "original_report_pass": false,
+      "original_kernel_pass": true,
+      "original_complete": null,
+      "original_comparisons": {
+        "eigen": {
+          "ratio": 109.22321578229679
+        },
+        "faer": {
+          "ratio": 111.79743721712924
+        },
+        "scipy": {
+          "ratio": 128.75228934663917
+        }
+      },
+      "original_limits": {
+        "reconstruction": 3e-11,
+        "orthogonality": 3e-11
+      },
+      "original_report_sha256": "575aae594d669417554e318b0e3f395616bdf6c6efbdb730d7c645e8c756a479",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "cholesky-spd-96",
+      "original_report_pass": false,
+      "original_kernel_pass": true,
+      "original_complete": null,
+      "original_comparisons": {
+        "eigen": {
+          "ratio": 535.5318925722091
+        },
+        "faer": {
+          "ratio": 363.68552294088767
+        },
+        "scipy": {
+          "ratio": 574.5936515081381
+        }
+      },
+      "original_limits": {
+        "reconstruction": 3e-11
+      },
+      "original_report_sha256": "9b1fea2b5c611f8ad519ab244acfcdb355c81baac1a7aed4d31946f013a185e4",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "svd-tall-96x48",
+      "original_report_pass": false,
+      "original_kernel_pass": true,
+      "original_complete": null,
+      "original_comparisons": {
+        "eigen": {
+          "ratio": 230.93416784411514
+        },
+        "faer": {
+          "ratio": 445.63877954641754
+        },
+        "scipy": {
+          "ratio": 405.59273693220814
+        }
+      },
+      "original_limits": {
+        "reconstruction": 6e-11,
+        "orthogonality": 6e-11
+      },
+      "original_report_sha256": "46332d3ee8a0486758c8f844528f1a30b47ab952b6324a7912f950101de231bd",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "eigen-symmetric-96",
+      "original_report_pass": false,
+      "original_kernel_pass": true,
+      "original_complete": null,
+      "original_comparisons": {
+        "eigen": {
+          "ratio": 1397.8144163252211
+        },
+        "faer": {
+          "ratio": 1439.4906694658632
+        },
+        "scipy": {
+          "ratio": 1589.2971881438875
+        }
+      },
+      "original_limits": {
+        "residual": 6e-11,
+        "reconstruction": 6e-11,
+        "orthogonality": 6e-11
+      },
+      "original_report_sha256": "539e6a5df940d54bebe29aa0cd05509a1a5d90bf580d3ef847650e2d14b46751",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "expand1",
+      "original_report_pass": false,
+      "original_kernel_pass": false,
+      "original_complete": false,
+      "original_comparisons": {
+        "symengine": {
+          "ratio": 247.18093660213532,
+          "pass": false
+        },
+        "sympy": {
+          "ratio": 1.6420614276682677,
+          "pass": false
+        },
+        "symbolics": {
+          "incomplete": true,
+          "pass": false
+        }
+      },
+      "original_limits": null,
+      "original_report_sha256": "3de1b247c5e4f0aa0c1a71dc5ab8cb4bd4ec25d1044ec7d3f0f6704d13af5d61",
+      "ten_sample_numerical_comparison_qualified": false
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "expand2",
+      "original_report_pass": true,
+      "original_kernel_pass": true,
+      "original_complete": true,
+      "original_comparisons": {
+        "symengine": {
+          "ratio": 0.6566228817285872,
+          "pass": true
+        },
+        "sympy": {
+          "ratio": 0.010953692295357016,
+          "pass": true
+        },
+        "symbolics": {
+          "ratio": 0.10494612724699343,
+          "pass": true
+        }
+      },
+      "original_limits": null,
+      "original_report_sha256": "60eb6d50b6db2f3d2bad69b6fec7254f4491f79fd47fb252afa1b055bdda70e2",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "add1",
+      "original_report_pass": true,
+      "original_kernel_pass": true,
+      "original_complete": true,
+      "original_comparisons": {
+        "symengine": {
+          "ratio": 0.0031397600782363385,
+          "pass": true
+        },
+        "sympy": {
+          "ratio": 0.020514991047091008,
+          "pass": true
+        },
+        "symbolics": {
+          "ratio": 0.0008157375745813347,
+          "pass": true
+        }
+      },
+      "original_limits": null,
+      "original_report_sha256": "f25dcca6058b2c9ecea00061464c87bfe0131631697309d2a7688cf91840f70f",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "series",
+      "original_report_pass": true,
+      "original_kernel_pass": true,
+      "original_complete": true,
+      "original_comparisons": {
+        "symengine": {
+          "ratio": 0.015393578003037969,
+          "pass": true
+        },
+        "sympy": {
+          "ratio": 0.03908321645434081,
+          "pass": true
+        },
+        "symbolics": {
+          "ratio": 0.002393254456337046,
+          "pass": true
+        }
+      },
+      "original_limits": null,
+      "original_report_sha256": "2f39838a511dc6ecc4f36966c18949ba733ad56f1f38572a2555e60703bdb889",
+      "ten_sample_numerical_comparison_qualified": true
+    },
+    {
+      "platform": "macos-x64",
+      "suite": "symbolic",
+      "workload": "add1",
+      "original_report_pass": true,
+      "original_kernel_pass": true,
+      "original_complete": true,
+      "original_comparisons": {
+        "symengine": {
+          "ratio": 0,
+          "pass": true
+        },
+        "sympy": {
+          "ratio": 0,
+          "pass": true
+        },
+        "symbolics": {
+          "ratio": 0,
+          "pass": true
+        }
+      },
+      "original_limits": null,
+      "original_report_sha256": "55d3f401340c7b29106c437cefa3e53b96e357923b6bf379ee2d5ee8ab13d1b6",
+      "ten_sample_numerical_comparison_qualified": false
+    },
+    {
+      "platform": "macos-x64",
+      "suite": "symbolic",
+      "workload": "series",
+      "original_report_pass": true,
+      "original_kernel_pass": true,
+      "original_complete": true,
+      "original_comparisons": {
+        "symengine": {
+          "ratio": 0,
+          "pass": true
+        },
+        "sympy": {
+          "ratio": 0,
+          "pass": true
+        },
+        "symbolics": {
+          "ratio": 0,
+          "pass": true
+        }
+      },
+      "original_limits": null,
+      "original_report_sha256": "c4afe7b69fd51b41c77ae6d3a5629d5da2245629f5eb13d9d7cf79682c2d0924",
+      "ten_sample_numerical_comparison_qualified": false
+    }
+  ]
+}

@@ -793,6 +793,521 @@
       }
     },
     {
+      "original_report_sha256": "be6fc2c3e9268e4bb843360e55e4bc925e40acc601baf4484d7fb3536b093988",
+      "schema": "vektor-flow/core-language-comparison-v1",
+      "generatedAt": "2026-10-11T05:19:26.946Z",
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "conditions": {}
+    },
+    {
+      "original_report_sha256": "b6d72f7a10f1b45a30c960a56351732fe9a81ad6ae10877ac64d163fd803cbc1",
+      "schema": "vektor-flow/core-language-comparison-v1",
+      "generatedAt": "2026-10-11T05:21:25.965Z",
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "conditions": {}
+    },
+    {
+      "original_report_sha256": "d596fa89411f49ee51ef553e8b6385570c1cfcb6b8b09491658afa14ada4b5f7",
+      "schema": "vektor-flow/core-language-comparison-v1",
+      "generatedAt": "2026-10-11T05:22:42.445Z",
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "conditions": {}
+    },
+    {
+      "original_report_sha256": "002345258cbe9fa1a06daf92986377ff8cfeb21b7e6d09611010d643f1b6da48",
+      "schema": "vektor-flow/core-language-comparison-v1",
+      "generatedAt": "2026-10-11T05:24:49.848Z",
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "conditions": {}
+    },
+    {
+      "original_report_sha256": "5bc006f5f8485c5e883a6d5df63540bc4bea830d2c89d427a7e405c1e8d1c789",
+      "schema": "vektor-flow/core-language-comparison-v1",
+      "generatedAt": "2026-10-11T05:27:10.396Z",
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "conditions": {}
+    },
+    {
+      "original_report_sha256": "5473fed29c0dcfe6bd1530b20716b8e4899efca203cb4e8c27a91b5b85762083",
+      "schema": "vkf.linalg-comparison",
+      "schemaVersion": 1,
+      "generatedAt": "2026-10-11T05:30:57.769Z",
+      "revision": "7d19ea16551b6956a044af3d4c99da49d4767b25",
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "solve-general-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      }
+    },
+    {
+      "original_report_sha256": "0e55e2a04ce95943fc19ad8aae8848b86ef614ff1e6045e628a5ac9fc1055257",
+      "schema": "vkf.linalg-comparison",
+      "schemaVersion": 1,
+      "generatedAt": "2026-10-11T05:31:39.303Z",
+      "revision": "7d19ea16551b6956a044af3d4c99da49d4767b25",
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "least-squares-tall-96x48"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      }
+    },
+    {
+      "original_report_sha256": "c7d30bbf990755fb4f2d5754a0d148f71eae22e3007f3e268df426de8e98706a",
+      "schema": "vkf.linalg-comparison",
+      "schemaVersion": 1,
+      "generatedAt": "2026-10-11T05:32:13.531Z",
+      "revision": "7d19ea16551b6956a044af3d4c99da49d4767b25",
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "lu-general-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      }
+    },
+    {
+      "original_report_sha256": "575aae594d669417554e318b0e3f395616bdf6c6efbdb730d7c645e8c756a479",
+      "schema": "vkf.linalg-comparison",
+      "schemaVersion": 1,
+      "generatedAt": "2026-10-11T05:32:56.101Z",
+      "revision": "7d19ea16551b6956a044af3d4c99da49d4767b25",
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "qr-tall-96x48"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      }
+    },
+    {
+      "original_report_sha256": "9b1fea2b5c611f8ad519ab244acfcdb355c81baac1a7aed4d31946f013a185e4",
+      "schema": "vkf.linalg-comparison",
+      "schemaVersion": 1,
+      "generatedAt": "2026-10-11T05:33:28.964Z",
+      "revision": "7d19ea16551b6956a044af3d4c99da49d4767b25",
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "cholesky-spd-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      }
+    },
+    {
+      "original_report_sha256": "46332d3ee8a0486758c8f844528f1a30b47ab952b6324a7912f950101de231bd",
+      "schema": "vkf.linalg-comparison",
+      "schemaVersion": 1,
+      "generatedAt": "2026-10-11T05:36:06.107Z",
+      "revision": "7d19ea16551b6956a044af3d4c99da49d4767b25",
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "svd-tall-96x48"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      }
+    },
+    {
+      "original_report_sha256": "539e6a5df940d54bebe29aa0cd05509a1a5d90bf580d3ef847650e2d14b46751",
+      "schema": "vkf.linalg-comparison",
+      "schemaVersion": 1,
+      "generatedAt": "2026-10-11T05:37:06.751Z",
+      "revision": "7d19ea16551b6956a044af3d4c99da49d4767b25",
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "eigen-symmetric-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      }
+    },
+    {
+      "original_report_sha256": "3de1b247c5e4f0aa0c1a71dc5ab8cb4bd4ec25d1044ec7d3f0f6704d13af5d61",
+      "schema": "vkf.symbolic-comparison",
+      "schemaVersion": 3,
+      "generatedAt": "2026-10-11T05:39:37.188Z",
+      "revision": "7d19ea16551b6956a044af3d4c99da49d4767b25",
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "tools": {
+        "vkf": "VKF 0.7.2",
+        "compilerSha256": "79f67d62dc0ba1242ef415d8e1c5d41303c23bf695e8d616fc93dee16df8ebab",
+        "python": "Python 3.12.10",
+        "sympy": "1.14.0",
+        "sympyRunnerSha256": "9a0d37646e0a4d075a7fef5e286f52a10b20898752186fabf341e204f81fde52",
+        "julia": "julia version 1.12.6",
+        "symbolics": "7.31.0",
+        "symbolicsProjectSha256": "04dd883aa58f7e7cd7f8f837772613d1c2f8b1f7d06c749d5b3d3baaa95a440b",
+        "symbolicsRunnerSha256": "09ed383bb83aad8561f43b12e6c4eaf6e27ee9d32fd0add5732355b896e66252",
+        "symengineCommit": "0c183629a35dd9d8123fafcc47b0e0283bbae80d",
+        "symengineRunnerSha256": "c4596bd7d1df07b6ef858a0722454091e0126ddbbed0d5d8c3baba21409f387e",
+        "symengineExecutableSha256": "53f68a371ade99d656f45e847399a8fa2100bc03021ee762ab852f11ea5ea847"
+      },
+      "sources": {
+        "expand1": {
+          "vkfSha256": "1398080e84149a0be1125d8fa4d14e443776b182ce49cbfbdc6ccaaf493c90dd"
+        }
+      },
+      "conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "expand1"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      }
+    },
+    {
+      "original_report_sha256": "60eb6d50b6db2f3d2bad69b6fec7254f4491f79fd47fb252afa1b055bdda70e2",
+      "schema": "vkf.symbolic-comparison",
+      "schemaVersion": 3,
+      "generatedAt": "2026-10-11T06:06:21.511Z",
+      "revision": "7d19ea16551b6956a044af3d4c99da49d4767b25",
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "tools": {
+        "vkf": "VKF 0.7.2",
+        "compilerSha256": "79f67d62dc0ba1242ef415d8e1c5d41303c23bf695e8d616fc93dee16df8ebab",
+        "python": "Python 3.12.10",
+        "sympy": "1.14.0",
+        "sympyRunnerSha256": "9a0d37646e0a4d075a7fef5e286f52a10b20898752186fabf341e204f81fde52",
+        "julia": "julia version 1.12.6",
+        "symbolics": "7.31.0",
+        "symbolicsProjectSha256": "04dd883aa58f7e7cd7f8f837772613d1c2f8b1f7d06c749d5b3d3baaa95a440b",
+        "symbolicsRunnerSha256": "09ed383bb83aad8561f43b12e6c4eaf6e27ee9d32fd0add5732355b896e66252",
+        "symengineCommit": "0c183629a35dd9d8123fafcc47b0e0283bbae80d",
+        "symengineRunnerSha256": "c4596bd7d1df07b6ef858a0722454091e0126ddbbed0d5d8c3baba21409f387e",
+        "symengineExecutableSha256": "53f68a371ade99d656f45e847399a8fa2100bc03021ee762ab852f11ea5ea847"
+      },
+      "sources": {
+        "expand2": {
+          "vkfSha256": "5efa5f113c05a8593017c5516f7cfc183c3b2bf22ff4428fd647bffef419c4a2"
+        }
+      },
+      "conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "expand2"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      }
+    },
+    {
+      "original_report_sha256": "f25dcca6058b2c9ecea00061464c87bfe0131631697309d2a7688cf91840f70f",
+      "schema": "vkf.symbolic-comparison",
+      "schemaVersion": 3,
+      "generatedAt": "2026-10-11T06:16:03.950Z",
+      "revision": "7d19ea16551b6956a044af3d4c99da49d4767b25",
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "tools": {
+        "vkf": "VKF 0.7.2",
+        "compilerSha256": "79f67d62dc0ba1242ef415d8e1c5d41303c23bf695e8d616fc93dee16df8ebab",
+        "python": "Python 3.12.10",
+        "sympy": "1.14.0",
+        "sympyRunnerSha256": "9a0d37646e0a4d075a7fef5e286f52a10b20898752186fabf341e204f81fde52",
+        "julia": "julia version 1.12.6",
+        "symbolics": "7.31.0",
+        "symbolicsProjectSha256": "04dd883aa58f7e7cd7f8f837772613d1c2f8b1f7d06c749d5b3d3baaa95a440b",
+        "symbolicsRunnerSha256": "09ed383bb83aad8561f43b12e6c4eaf6e27ee9d32fd0add5732355b896e66252",
+        "symengineCommit": "0c183629a35dd9d8123fafcc47b0e0283bbae80d",
+        "symengineRunnerSha256": "c4596bd7d1df07b6ef858a0722454091e0126ddbbed0d5d8c3baba21409f387e",
+        "symengineExecutableSha256": "53f68a371ade99d656f45e847399a8fa2100bc03021ee762ab852f11ea5ea847"
+      },
+      "sources": {
+        "add1": {
+          "vkfSha256": "e849082e865685abf796c1571cd4d09060a5738e79fac70fcd20e912743bdf11"
+        }
+      },
+      "conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "add1"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      }
+    },
+    {
+      "original_report_sha256": "2f39838a511dc6ecc4f36966c18949ba733ad56f1f38572a2555e60703bdb889",
+      "schema": "vkf.symbolic-comparison",
+      "schemaVersion": 3,
+      "generatedAt": "2026-10-11T06:18:04.282Z",
+      "revision": "7d19ea16551b6956a044af3d4c99da49d4767b25",
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "tools": {
+        "vkf": "VKF 0.7.2",
+        "compilerSha256": "79f67d62dc0ba1242ef415d8e1c5d41303c23bf695e8d616fc93dee16df8ebab",
+        "python": "Python 3.12.10",
+        "sympy": "1.14.0",
+        "sympyRunnerSha256": "9a0d37646e0a4d075a7fef5e286f52a10b20898752186fabf341e204f81fde52",
+        "julia": "julia version 1.12.6",
+        "symbolics": "7.31.0",
+        "symbolicsProjectSha256": "04dd883aa58f7e7cd7f8f837772613d1c2f8b1f7d06c749d5b3d3baaa95a440b",
+        "symbolicsRunnerSha256": "09ed383bb83aad8561f43b12e6c4eaf6e27ee9d32fd0add5732355b896e66252",
+        "symengineCommit": "0c183629a35dd9d8123fafcc47b0e0283bbae80d",
+        "symengineRunnerSha256": "c4596bd7d1df07b6ef858a0722454091e0126ddbbed0d5d8c3baba21409f387e",
+        "symengineExecutableSha256": "53f68a371ade99d656f45e847399a8fa2100bc03021ee762ab852f11ea5ea847"
+      },
+      "sources": {
+        "series": {
+          "vkfSha256": "156e118bf7a23e13e8d766752a0786bc5d3e079ed0b7378866716ca423897015"
+        }
+      },
+      "conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "series"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      }
+    },
+    {
       "original_report_sha256": "5a06ea1af5941dfe63272e1f8126029818199d5e6a5a59bc11ec1a650160e3be",
       "compiler_wasm_sha256": "2455d249026f0c9d1250920c52640a421e4d99746665ddbeb176102c2a1b07b5",
       "engine": {

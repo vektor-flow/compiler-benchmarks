@@ -10749,6 +10749,6131 @@
       ]
     },
     {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "spectral-norm-large",
+      "language": "cpp",
+      "phase": "kernel",
+      "count": 10,
+      "mean_ms": 14.30425,
+      "median_ms": 14.2941,
+      "sample_stddev_ms": 0.024227314704229702,
+      "sha256": "be6fc2c3e9268e4bb843360e55e4bc925e40acc601baf4484d7fb3536b093988",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "clang version 19.1.5",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 1705,
+        "lines": 62,
+        "sha256": "692b733c35a89dc6125aec416494aee607a27d595c34bf43448b87404fc8411e",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/cpp.cpp",
+        "templateSha256": "dc6d8025d0d52636b0317503919efc0b0f57b73ce64e8a86d25e2654033732d1"
+      },
+      "native_code_sha256": "27c3737266a73186ad1eed28071307bc7264afbc5ab3fb1595feb5d54493057f",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1.2742241159529055,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        14.2899,
+        14.2945,
+        14.3021,
+        14.2928,
+        14.2891,
+        14.3627,
+        14.3325,
+        14.2895,
+        14.2937,
+        14.2957
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "spectral-norm-large",
+      "language": "cpp",
+      "phase": "compile",
+      "count": 10,
+      "mean_ms": 174.55184000000446,
+      "median_ms": 174.58714999999938,
+      "sample_stddev_ms": 3.572823854910989,
+      "sha256": "be6fc2c3e9268e4bb843360e55e4bc925e40acc601baf4484d7fb3536b093988",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "clang version 19.1.5",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 1705,
+        "lines": 62,
+        "sha256": "692b733c35a89dc6125aec416494aee607a27d595c34bf43448b87404fc8411e",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/cpp.cpp",
+        "templateSha256": "dc6d8025d0d52636b0317503919efc0b0f57b73ce64e8a86d25e2654033732d1"
+      },
+      "native_code_sha256": "27c3737266a73186ad1eed28071307bc7264afbc5ab3fb1595feb5d54493057f",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1.2742241159529055,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        169.71300000000338,
+        172.54920000000857,
+        171.4499000000069,
+        175.79090000000724,
+        179.2543000000005,
+        170.6478000000061,
+        174.57719999999972,
+        174.59709999999905,
+        176.43850000000384,
+        180.5005000000092
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "spectral-norm-large",
+      "language": "cpp",
+      "phase": "process",
+      "count": 10,
+      "mean_ms": 35.447000000005936,
+      "median_ms": 35.47280000001774,
+      "sample_stddev_ms": 0.2664533313286031,
+      "sha256": "be6fc2c3e9268e4bb843360e55e4bc925e40acc601baf4484d7fb3536b093988",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "clang version 19.1.5",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 1705,
+        "lines": 62,
+        "sha256": "692b733c35a89dc6125aec416494aee607a27d595c34bf43448b87404fc8411e",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/cpp.cpp",
+        "templateSha256": "dc6d8025d0d52636b0317503919efc0b0f57b73ce64e8a86d25e2654033732d1"
+      },
+      "native_code_sha256": "27c3737266a73186ad1eed28071307bc7264afbc5ab3fb1595feb5d54493057f",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1.2742241159529055,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        35.42440000001807,
+        35.31459999998333,
+        35.65710000001127,
+        35.89890000000014,
+        35.33999999999651,
+        34.93920000002254,
+        35.52150000000256,
+        35.640299999999115,
+        35.521200000017416,
+        35.21280000000843
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "spectral-norm-large",
+      "language": "rust",
+      "phase": "kernel",
+      "count": 10,
+      "mean_ms": 14.26006,
+      "median_ms": 14.263449999999999,
+      "sample_stddev_ms": 0.006214177338956496,
+      "sha256": "be6fc2c3e9268e4bb843360e55e4bc925e40acc601baf4484d7fb3536b093988",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 1327,
+        "lines": 53,
+        "sha256": "03c7f878032856ba576a97b3e7dfda02e19c63ace23f1f6c0db72125754f0b37",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/rust.rs",
+        "templateSha256": "03c7f878032856ba576a97b3e7dfda02e19c63ace23f1f6c0db72125754f0b37"
+      },
+      "native_code_sha256": "566d52b7632a092d532ef4f09c20b7e4984380de043e848520a80422dfc7438c",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1.2742241159529055,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        14.2475,
+        14.2591,
+        14.2638,
+        14.2657,
+        14.2651,
+        14.2631,
+        14.2645,
+        14.2548,
+        14.2532,
+        14.2638
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "spectral-norm-large",
+      "language": "rust",
+      "phase": "compile",
+      "count": 10,
+      "mean_ms": 219.72229999999837,
+      "median_ms": 218.60254999999597,
+      "sample_stddev_ms": 4.721322274769401,
+      "sha256": "be6fc2c3e9268e4bb843360e55e4bc925e40acc601baf4484d7fb3536b093988",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 1327,
+        "lines": 53,
+        "sha256": "03c7f878032856ba576a97b3e7dfda02e19c63ace23f1f6c0db72125754f0b37",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/rust.rs",
+        "templateSha256": "03c7f878032856ba576a97b3e7dfda02e19c63ace23f1f6c0db72125754f0b37"
+      },
+      "native_code_sha256": "566d52b7632a092d532ef4f09c20b7e4984380de043e848520a80422dfc7438c",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1.2742241159529055,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        216.72299999999814,
+        229.54799999999523,
+        226.13060000000405,
+        218.46829999999318,
+        220.02260000001115,
+        214.54379999999946,
+        220.11209999999846,
+        215.19619999999122,
+        218.73679999999877,
+        217.74159999999392
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "spectral-norm-large",
+      "language": "rust",
+      "phase": "process",
+      "count": 10,
+      "mean_ms": 36.326550000000864,
+      "median_ms": 35.69769999998971,
+      "sample_stddev_ms": 1.843951624004001,
+      "sha256": "be6fc2c3e9268e4bb843360e55e4bc925e40acc601baf4484d7fb3536b093988",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 1327,
+        "lines": 53,
+        "sha256": "03c7f878032856ba576a97b3e7dfda02e19c63ace23f1f6c0db72125754f0b37",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/rust.rs",
+        "templateSha256": "03c7f878032856ba576a97b3e7dfda02e19c63ace23f1f6c0db72125754f0b37"
+      },
+      "native_code_sha256": "566d52b7632a092d532ef4f09c20b7e4984380de043e848520a80422dfc7438c",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1.2742241159529055,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        35.56660000002012,
+        36.19020000001183,
+        41.49079999999958,
+        35.72949999998673,
+        35.353100000007544,
+        35.9034999999858,
+        36.38630000001285,
+        35.41089999998803,
+        35.568700000003446,
+        35.66589999999269
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "spectral-norm-large",
+      "language": "vkf",
+      "phase": "kernel",
+      "count": 10,
+      "mean_ms": 2.33949,
+      "median_ms": 2.3305,
+      "sample_stddev_ms": 0.018320932169394625,
+      "sha256": "be6fc2c3e9268e4bb843360e55e4bc925e40acc601baf4484d7fb3536b093988",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain clang version 19.1.5",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 1087,
+        "lines": 43,
+        "sha256": "0f2caef3f8ac8c87120d2f8b089a4825ff5dafd1ac1ad1e9a7684a3b11d82a5c",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/vkf.vkf",
+        "templateSha256": "0f2caef3f8ac8c87120d2f8b089a4825ff5dafd1ac1ad1e9a7684a3b11d82a5c"
+      },
+      "native_code_sha256": "3f373181023ee1bbae47b2e1f863ea44cde239e19a4a912649da5c0746e93f5e",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1.2742241159529055,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        2.3332,
+        2.3412,
+        2.3626,
+        2.3263,
+        2.3249,
+        2.3268,
+        2.3458,
+        2.3278,
+        2.3272,
+        2.3791
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "spectral-norm-large",
+      "language": "vkf",
+      "phase": "compile",
+      "count": 10,
+      "mean_ms": 2202.90999,
+      "median_ms": 2203.5827999999965,
+      "sample_stddev_ms": 6.2101903040177335,
+      "sha256": "be6fc2c3e9268e4bb843360e55e4bc925e40acc601baf4484d7fb3536b093988",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain clang version 19.1.5",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 1087,
+        "lines": 43,
+        "sha256": "0f2caef3f8ac8c87120d2f8b089a4825ff5dafd1ac1ad1e9a7684a3b11d82a5c",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/vkf.vkf",
+        "templateSha256": "0f2caef3f8ac8c87120d2f8b089a4825ff5dafd1ac1ad1e9a7684a3b11d82a5c"
+      },
+      "native_code_sha256": "3f373181023ee1bbae47b2e1f863ea44cde239e19a4a912649da5c0746e93f5e",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1.2742241159529055,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        2213.3942000000025,
+        2207.3148,
+        2195.3899999999994,
+        2204.7464000000036,
+        2203.404999999999,
+        2192.5414999999994,
+        2200.9698999999964,
+        2199.0945000000065,
+        2203.760599999994,
+        2208.483
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "spectral-norm-large",
+      "language": "vkf",
+      "phase": "process",
+      "count": 10,
+      "mean_ms": 25.139460000002874,
+      "median_ms": 25.195000000006985,
+      "sample_stddev_ms": 0.3852786097252106,
+      "sha256": "be6fc2c3e9268e4bb843360e55e4bc925e40acc601baf4484d7fb3536b093988",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain clang version 19.1.5",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 1087,
+        "lines": 43,
+        "sha256": "0f2caef3f8ac8c87120d2f8b089a4825ff5dafd1ac1ad1e9a7684a3b11d82a5c",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/vkf.vkf",
+        "templateSha256": "0f2caef3f8ac8c87120d2f8b089a4825ff5dafd1ac1ad1e9a7684a3b11d82a5c"
+      },
+      "native_code_sha256": "3f373181023ee1bbae47b2e1f863ea44cde239e19a4a912649da5c0746e93f5e",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1.2742241159529055,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        24.618799999996554,
+        25.43849999998929,
+        25.143600000010338,
+        25.246400000003632,
+        24.644599999999627,
+        25.078100000013364,
+        24.70879999999306,
+        25.759599999990314,
+        25.503400000015972,
+        25.252800000016578
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "spectral-norm-large",
+      "language": "zig",
+      "phase": "kernel",
+      "count": 10,
+      "mean_ms": 14.30015,
+      "median_ms": 14.2782,
+      "sample_stddev_ms": 0.04575469010567849,
+      "sha256": "be6fc2c3e9268e4bb843360e55e4bc925e40acc601baf4484d7fb3536b093988",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1351,
+        "lines": 50,
+        "sha256": "48ea906c8beec1af399f904aba36a0a5e46caa7240910790f104c3092aa13c8f",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/zig.zig",
+        "templateSha256": "48ea906c8beec1af399f904aba36a0a5e46caa7240910790f104c3092aa13c8f"
+      },
+      "native_code_sha256": "f8758ade4943a754f7e3f3aba8b50fd5815773f6465e45781a384999110ba22b",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1.2742241159529055,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        14.2811,
+        14.2787,
+        14.3658,
+        14.4008,
+        14.3068,
+        14.2722,
+        14.2777,
+        14.274,
+        14.2711,
+        14.2733
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "spectral-norm-large",
+      "language": "zig",
+      "phase": "compile",
+      "count": 10,
+      "mean_ms": 370.91704000000027,
+      "median_ms": 366.27044999999634,
+      "sample_stddev_ms": 13.840536225178642,
+      "sha256": "be6fc2c3e9268e4bb843360e55e4bc925e40acc601baf4484d7fb3536b093988",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1351,
+        "lines": 50,
+        "sha256": "48ea906c8beec1af399f904aba36a0a5e46caa7240910790f104c3092aa13c8f",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/zig.zig",
+        "templateSha256": "48ea906c8beec1af399f904aba36a0a5e46caa7240910790f104c3092aa13c8f"
+      },
+      "native_code_sha256": "f8758ade4943a754f7e3f3aba8b50fd5815773f6465e45781a384999110ba22b",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1.2742241159529055,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        391.96590000001015,
+        394.6849999999977,
+        363.54939999998896,
+        360.2982999999949,
+        381.38409999999567,
+        357.4902000000002,
+        371.5179000000062,
+        358.94940000001225,
+        360.33869999999297,
+        368.9915000000037
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "spectral-norm-large",
+      "language": "zig",
+      "phase": "process",
+      "count": 10,
+      "mean_ms": 35.592350000000444,
+      "median_ms": 35.43489999999292,
+      "sample_stddev_ms": 0.5302122473389512,
+      "sha256": "be6fc2c3e9268e4bb843360e55e4bc925e40acc601baf4484d7fb3536b093988",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1351,
+        "lines": 50,
+        "sha256": "48ea906c8beec1af399f904aba36a0a5e46caa7240910790f104c3092aa13c8f",
+        "template": "benchmarks/core-comparison/published/spectral-norm-large/zig.zig",
+        "templateSha256": "48ea906c8beec1af399f904aba36a0a5e46caa7240910790f104c3092aa13c8f"
+      },
+      "native_code_sha256": "f8758ade4943a754f7e3f3aba8b50fd5815773f6465e45781a384999110ba22b",
+      "measurement_conditions": {
+        "caseId": "spectral-norm-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-spectral-norm-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1.2742241159529055,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        35.58079999999609,
+        35.41219999999157,
+        36.999800000019604,
+        35.2100999999966,
+        35.33980000001611,
+        35.45759999999427,
+        35.640299999999115,
+        35.39179999998305,
+        35.764100000000326,
+        35.12700000000768
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "fannkuch-redux-large",
+      "language": "cpp",
+      "phase": "kernel",
+      "count": 10,
+      "mean_ms": 208.42497,
+      "median_ms": 208.71185,
+      "sample_stddev_ms": 0.9448384471549698,
+      "sha256": "b6d72f7a10f1b45a30c960a56351732fe9a81ad6ae10877ac64d163fd803cbc1",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "clang version 19.1.5",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 1601,
+        "lines": 53,
+        "sha256": "3bd979df7330649c0726cf635fd1cab31a6135a974379fc54816747286e9906e",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/cpp.cpp",
+        "templateSha256": "6ee9a1f6978fc0ce743c6815b2634277b5f3c17e08061821d54e362defa591f9"
+      },
+      "native_code_sha256": "858268a53fb51c510e22bfbcd70e37ee325897da6b10e07d480f4618ddd6dec9",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 7319638,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        207.2817,
+        207.4258,
+        207.1329,
+        207.7615,
+        209.6592,
+        208.7355,
+        208.8629,
+        208.6882,
+        209.4595,
+        209.2425
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "fannkuch-redux-large",
+      "language": "cpp",
+      "phase": "compile",
+      "count": 10,
+      "mean_ms": 166.50626000000193,
+      "median_ms": 165.20380000000296,
+      "sample_stddev_ms": 5.132122006474525,
+      "sha256": "b6d72f7a10f1b45a30c960a56351732fe9a81ad6ae10877ac64d163fd803cbc1",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "clang version 19.1.5",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 1601,
+        "lines": 53,
+        "sha256": "3bd979df7330649c0726cf635fd1cab31a6135a974379fc54816747286e9906e",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/cpp.cpp",
+        "templateSha256": "6ee9a1f6978fc0ce743c6815b2634277b5f3c17e08061821d54e362defa591f9"
+      },
+      "native_code_sha256": "858268a53fb51c510e22bfbcd70e37ee325897da6b10e07d480f4618ddd6dec9",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 7319638,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        164.69379999999364,
+        163.4481999999989,
+        164.9539000000077,
+        175.4890000000014,
+        173.31320000000414,
+        169.4036000000051,
+        159.18730000000505,
+        165.4536999999982,
+        161.07200000000012,
+        168.04790000000503
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "fannkuch-redux-large",
+      "language": "cpp",
+      "phase": "process",
+      "count": 10,
+      "mean_ms": 230.4787200000006,
+      "median_ms": 229.95665000000008,
+      "sample_stddev_ms": 1.6718292993614126,
+      "sha256": "b6d72f7a10f1b45a30c960a56351732fe9a81ad6ae10877ac64d163fd803cbc1",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "clang version 19.1.5",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 1601,
+        "lines": 53,
+        "sha256": "3bd979df7330649c0726cf635fd1cab31a6135a974379fc54816747286e9906e",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/cpp.cpp",
+        "templateSha256": "6ee9a1f6978fc0ce743c6815b2634277b5f3c17e08061821d54e362defa591f9"
+      },
+      "native_code_sha256": "858268a53fb51c510e22bfbcd70e37ee325897da6b10e07d480f4618ddd6dec9",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 7319638,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        228.351800000004,
+        229.84709999999905,
+        229.96940000000177,
+        228.47380000000703,
+        231.35420000000158,
+        229.20710000001418,
+        229.9438999999984,
+        232.5625999999902,
+        233.0153999999893,
+        232.0619000000006
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "fannkuch-redux-large",
+      "language": "rust",
+      "phase": "kernel",
+      "count": 10,
+      "mean_ms": 176.15594,
+      "median_ms": 174.72345,
+      "sample_stddev_ms": 5.333807368141868,
+      "sha256": "b6d72f7a10f1b45a30c960a56351732fe9a81ad6ae10877ac64d163fd803cbc1",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 1431,
+        "lines": 45,
+        "sha256": "3ebbb45b42ddcf5f2e21b0136ef92f2b68930ad0dbcb69193ffea520095939d6",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/rust.rs",
+        "templateSha256": "3ebbb45b42ddcf5f2e21b0136ef92f2b68930ad0dbcb69193ffea520095939d6"
+      },
+      "native_code_sha256": "3b85470bdc7e2a0c6297bc151c993e5fe3b1e91a8ea92ceba4eca5ee6311c7d6",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 7319638,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        174.6738,
+        174.8782,
+        173.7742,
+        173.7928,
+        173.9638,
+        174.7731,
+        175.2628,
+        191.2675,
+        174.8683,
+        174.3049
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "fannkuch-redux-large",
+      "language": "rust",
+      "phase": "compile",
+      "count": 10,
+      "mean_ms": 211.73056999999972,
+      "median_ms": 211.66849999999977,
+      "sample_stddev_ms": 2.6050081992005016,
+      "sha256": "b6d72f7a10f1b45a30c960a56351732fe9a81ad6ae10877ac64d163fd803cbc1",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 1431,
+        "lines": 45,
+        "sha256": "3ebbb45b42ddcf5f2e21b0136ef92f2b68930ad0dbcb69193ffea520095939d6",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/rust.rs",
+        "templateSha256": "3ebbb45b42ddcf5f2e21b0136ef92f2b68930ad0dbcb69193ffea520095939d6"
+      },
+      "native_code_sha256": "3b85470bdc7e2a0c6297bc151c993e5fe3b1e91a8ea92ceba4eca5ee6311c7d6",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 7319638,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        215.64770000000135,
+        211.4985000000015,
+        211.3865000000078,
+        206.58129999999073,
+        210.81720000000496,
+        209.13189999999304,
+        212.2948000000033,
+        214.45679999999993,
+        211.83849999999802,
+        213.6524999999965
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "fannkuch-redux-large",
+      "language": "rust",
+      "phase": "process",
+      "count": 10,
+      "mean_ms": 197.41330000000016,
+      "median_ms": 197.2795499999993,
+      "sample_stddev_ms": 0.7006647240717447,
+      "sha256": "b6d72f7a10f1b45a30c960a56351732fe9a81ad6ae10877ac64d163fd803cbc1",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 1431,
+        "lines": 45,
+        "sha256": "3ebbb45b42ddcf5f2e21b0136ef92f2b68930ad0dbcb69193ffea520095939d6",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/rust.rs",
+        "templateSha256": "3ebbb45b42ddcf5f2e21b0136ef92f2b68930ad0dbcb69193ffea520095939d6"
+      },
+      "native_code_sha256": "3b85470bdc7e2a0c6297bc151c993e5fe3b1e91a8ea92ceba4eca5ee6311c7d6",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 7319638,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        197.55860000000393,
+        196.857600000003,
+        197.023199999996,
+        197.39530000000377,
+        197.03310000000056,
+        197.71910000000207,
+        199.10400000000664,
+        197.69899999999325,
+        197.1637999999948,
+        196.5792999999976
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "fannkuch-redux-large",
+      "language": "vkf",
+      "phase": "kernel",
+      "count": 10,
+      "mean_ms": 383.7745,
+      "median_ms": 383.67830000000004,
+      "sample_stddev_ms": 0.4627108768502886,
+      "sha256": "b6d72f7a10f1b45a30c960a56351732fe9a81ad6ae10877ac64d163fd803cbc1",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain clang version 19.1.5",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 1894,
+        "lines": 54,
+        "sha256": "17d1f923c93606b7b7ccb7c53b96d32e852c0708f0356537aebd85bf7d031403",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/vkf.vkf",
+        "templateSha256": "17d1f923c93606b7b7ccb7c53b96d32e852c0708f0356537aebd85bf7d031403"
+      },
+      "native_code_sha256": "0df9af39ca957a0a579fb93ea7f1fd0f92ae1bb2e66b62c528c9d72355e1a6b4",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 7319638,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        384.853,
+        383.438,
+        383.7551,
+        383.5163,
+        384.2499,
+        383.6852,
+        383.5331,
+        383.7977,
+        383.6714,
+        383.2453
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "fannkuch-redux-large",
+      "language": "vkf",
+      "phase": "compile",
+      "count": 10,
+      "mean_ms": 518.1757499999985,
+      "median_ms": 517.5645499999991,
+      "sample_stddev_ms": 3.5343525722549014,
+      "sha256": "b6d72f7a10f1b45a30c960a56351732fe9a81ad6ae10877ac64d163fd803cbc1",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain clang version 19.1.5",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 1894,
+        "lines": 54,
+        "sha256": "17d1f923c93606b7b7ccb7c53b96d32e852c0708f0356537aebd85bf7d031403",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/vkf.vkf",
+        "templateSha256": "17d1f923c93606b7b7ccb7c53b96d32e852c0708f0356537aebd85bf7d031403"
+      },
+      "native_code_sha256": "0df9af39ca957a0a579fb93ea7f1fd0f92ae1bb2e66b62c528c9d72355e1a6b4",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 7319638,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        519.2462999999989,
+        518.7818000000043,
+        525.3647999999957,
+        521.4034000000029,
+        519.7885999999999,
+        512.8664999999964,
+        516.1002000000008,
+        516.347299999994,
+        516.3018999999913,
+        515.556700000001
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "fannkuch-redux-large",
+      "language": "vkf",
+      "phase": "process",
+      "count": 10,
+      "mean_ms": 405.8767299999992,
+      "median_ms": 405.0154499999917,
+      "sample_stddev_ms": 2.9007571793302653,
+      "sha256": "b6d72f7a10f1b45a30c960a56351732fe9a81ad6ae10877ac64d163fd803cbc1",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain clang version 19.1.5",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 1894,
+        "lines": 54,
+        "sha256": "17d1f923c93606b7b7ccb7c53b96d32e852c0708f0356537aebd85bf7d031403",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/vkf.vkf",
+        "templateSha256": "17d1f923c93606b7b7ccb7c53b96d32e852c0708f0356537aebd85bf7d031403"
+      },
+      "native_code_sha256": "0df9af39ca957a0a579fb93ea7f1fd0f92ae1bb2e66b62c528c9d72355e1a6b4",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 7319638,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        404.549600000013,
+        405.5561999999918,
+        413.93709999999555,
+        404.1591000000044,
+        404.99789999998757,
+        404.39809999999125,
+        404.4438000000082,
+        406.1779000000097,
+        405.0329999999958,
+        405.51459999999497
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "fannkuch-redux-large",
+      "language": "zig",
+      "phase": "kernel",
+      "count": 10,
+      "mean_ms": 204.95461,
+      "median_ms": 205.0893,
+      "sample_stddev_ms": 0.86498194258609,
+      "sha256": "b6d72f7a10f1b45a30c960a56351732fe9a81ad6ae10877ac64d163fd803cbc1",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1550,
+        "lines": 46,
+        "sha256": "ed4f7cc69dd9ae8a66e05417808a2e1bb16d2874be9bb77656fce26938f189e3",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/zig.zig",
+        "templateSha256": "ed4f7cc69dd9ae8a66e05417808a2e1bb16d2874be9bb77656fce26938f189e3"
+      },
+      "native_code_sha256": "b4051b2372b5d2999410342e6ce6535440730ae34ac6a8e658abe6e8e94f5034",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 7319638,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        204.2516,
+        203.996,
+        204.6449,
+        204.0032,
+        203.9518,
+        205.5337,
+        205.5995,
+        205.5962,
+        206.1055,
+        205.8637
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "fannkuch-redux-large",
+      "language": "zig",
+      "phase": "compile",
+      "count": 10,
+      "mean_ms": 357.88264999999666,
+      "median_ms": 355.72944999999163,
+      "sample_stddev_ms": 8.391600608050787,
+      "sha256": "b6d72f7a10f1b45a30c960a56351732fe9a81ad6ae10877ac64d163fd803cbc1",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1550,
+        "lines": 46,
+        "sha256": "ed4f7cc69dd9ae8a66e05417808a2e1bb16d2874be9bb77656fce26938f189e3",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/zig.zig",
+        "templateSha256": "ed4f7cc69dd9ae8a66e05417808a2e1bb16d2874be9bb77656fce26938f189e3"
+      },
+      "native_code_sha256": "b4051b2372b5d2999410342e6ce6535440730ae34ac6a8e658abe6e8e94f5034",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 7319638,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        354.41889999998966,
+        364.28310000000056,
+        354.27419999999984,
+        356.75539999999455,
+        368.99439999999595,
+        344.96399999999267,
+        354.7034999999887,
+        365.23919999999634,
+        347.3070000000007,
+        367.8868000000075
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "fannkuch-redux-large",
+      "language": "zig",
+      "phase": "process",
+      "count": 10,
+      "mean_ms": 226.1922400000025,
+      "median_ms": 226.37975000000006,
+      "sample_stddev_ms": 0.7884351874992627,
+      "sha256": "b6d72f7a10f1b45a30c960a56351732fe9a81ad6ae10877ac64d163fd803cbc1",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1550,
+        "lines": 46,
+        "sha256": "ed4f7cc69dd9ae8a66e05417808a2e1bb16d2874be9bb77656fce26938f189e3",
+        "template": "benchmarks/core-comparison/published/fannkuch-redux-large/zig.zig",
+        "templateSha256": "ed4f7cc69dd9ae8a66e05417808a2e1bb16d2874be9bb77656fce26938f189e3"
+      },
+      "native_code_sha256": "b4051b2372b5d2999410342e6ce6535440730ae34ac6a8e658abe6e8e94f5034",
+      "measurement_conditions": {
+        "caseId": "fannkuch-redux-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-fannkuch-redux-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 7319638,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        226.66629999999714,
+        225.4664000000048,
+        226.589799999987,
+        227.30849999999919,
+        226.1697000000131,
+        226.0002999999997,
+        226.62360000000626,
+        226.94170000001031,
+        225.37050000000454,
+        224.7856000000029
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "n-body-large",
+      "language": "cpp",
+      "phase": "kernel",
+      "count": 10,
+      "mean_ms": 12.61351,
+      "median_ms": 12.54355,
+      "sample_stddev_ms": 0.2335183192908951,
+      "sha256": "d596fa89411f49ee51ef553e8b6385570c1cfcb6b8b09491658afa14ada4b5f7",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "clang version 19.1.5",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 3125,
+        "lines": 74,
+        "sha256": "8df9d2e5196a0f2519bc1a571833ef93f2b9a8397d164eb09d93205b04498b0b",
+        "template": "benchmarks/core-comparison/published/n-body-large/cpp.cpp",
+        "templateSha256": "84e3a6000309ff1c28dd83a696fa8d2c3ab92fc87ba8988772be2c2c30bf8b09"
+      },
+      "native_code_sha256": "ceb8730ba4c3e12326748aad2ff5eb4ad6292c6da3b171f6341aa21d13d64fe3",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 0.1779462269170188,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        12.557,
+        12.5522,
+        12.51,
+        12.5349,
+        12.5317,
+        12.5623,
+        13.2759,
+        12.564,
+        12.534,
+        12.5131
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "n-body-large",
+      "language": "cpp",
+      "phase": "compile",
+      "count": 10,
+      "mean_ms": 195.1158500000005,
+      "median_ms": 174.39419999999882,
+      "sample_stddev_ms": 35.984016880130014,
+      "sha256": "d596fa89411f49ee51ef553e8b6385570c1cfcb6b8b09491658afa14ada4b5f7",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "clang version 19.1.5",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 3125,
+        "lines": 74,
+        "sha256": "8df9d2e5196a0f2519bc1a571833ef93f2b9a8397d164eb09d93205b04498b0b",
+        "template": "benchmarks/core-comparison/published/n-body-large/cpp.cpp",
+        "templateSha256": "84e3a6000309ff1c28dd83a696fa8d2c3ab92fc87ba8988772be2c2c30bf8b09"
+      },
+      "native_code_sha256": "ceb8730ba4c3e12326748aad2ff5eb4ad6292c6da3b171f6341aa21d13d64fe3",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 0.1779462269170188,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        182.75680000000284,
+        175.17349999999715,
+        173.6149000000005,
+        172.13620000000083,
+        170.73679999999877,
+        172.92149999999674,
+        170.40250000000378,
+        217.43480000000272,
+        255.69640000000072,
+        260.28510000000097
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "n-body-large",
+      "language": "cpp",
+      "phase": "process",
+      "count": 10,
+      "mean_ms": 33.36090000000259,
+      "median_ms": 33.14020000000164,
+      "sample_stddev_ms": 0.7047360199247706,
+      "sha256": "d596fa89411f49ee51ef553e8b6385570c1cfcb6b8b09491658afa14ada4b5f7",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "clang version 19.1.5",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 3125,
+        "lines": 74,
+        "sha256": "8df9d2e5196a0f2519bc1a571833ef93f2b9a8397d164eb09d93205b04498b0b",
+        "template": "benchmarks/core-comparison/published/n-body-large/cpp.cpp",
+        "templateSha256": "84e3a6000309ff1c28dd83a696fa8d2c3ab92fc87ba8988772be2c2c30bf8b09"
+      },
+      "native_code_sha256": "ceb8730ba4c3e12326748aad2ff5eb4ad6292c6da3b171f6341aa21d13d64fe3",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 0.1779462269170188,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        33.126900000002934,
+        34.841400000004796,
+        33.15350000000035,
+        32.752599999992526,
+        33.426699999996345,
+        33.083500000007916,
+        33.33310000000347,
+        32.57180000000517,
+        34.340500000005704,
+        32.979000000006636
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "n-body-large",
+      "language": "rust",
+      "phase": "kernel",
+      "count": 10,
+      "mean_ms": 10.64491,
+      "median_ms": 10.62295,
+      "sample_stddev_ms": 0.336643687169552,
+      "sha256": "d596fa89411f49ee51ef553e8b6385570c1cfcb6b8b09491658afa14ada4b5f7",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 2202,
+        "lines": 37,
+        "sha256": "be264511206dfa6ecf4ae7d184c354b3706995bbabfb47e29de3185d747ee51c",
+        "template": "benchmarks/core-comparison/published/n-body-large/rust.rs",
+        "templateSha256": "be264511206dfa6ecf4ae7d184c354b3706995bbabfb47e29de3185d747ee51c"
+      },
+      "native_code_sha256": "99aea06ffabe17139f626393b6a7431d8e375182293a3c9e5464ce846aa22e96",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 0.1779462269170188,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        11.2916,
+        10.8278,
+        10.8877,
+        10.8718,
+        10.7703,
+        10.266,
+        10.4,
+        10.2566,
+        10.4756,
+        10.4017
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "n-body-large",
+      "language": "rust",
+      "phase": "compile",
+      "count": 10,
+      "mean_ms": 274.4086599999995,
+      "median_ms": 272.52769999999873,
+      "sample_stddev_ms": 15.329250584653762,
+      "sha256": "d596fa89411f49ee51ef553e8b6385570c1cfcb6b8b09491658afa14ada4b5f7",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 2202,
+        "lines": 37,
+        "sha256": "be264511206dfa6ecf4ae7d184c354b3706995bbabfb47e29de3185d747ee51c",
+        "template": "benchmarks/core-comparison/published/n-body-large/rust.rs",
+        "templateSha256": "be264511206dfa6ecf4ae7d184c354b3706995bbabfb47e29de3185d747ee51c"
+      },
+      "native_code_sha256": "99aea06ffabe17139f626393b6a7431d8e375182293a3c9e5464ce846aa22e96",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 0.1779462269170188,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        266.00480000000243,
+        250.55709999999817,
+        277.6923999999999,
+        263.5439999999944,
+        262.696100000001,
+        289.6264999999985,
+        270.26570000000356,
+        285.60280000000785,
+        303.30749999999534,
+        274.7896999999939
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "n-body-large",
+      "language": "rust",
+      "phase": "process",
+      "count": 10,
+      "mean_ms": 31.67467000000179,
+      "median_ms": 31.41985000000568,
+      "sample_stddev_ms": 0.9296474338258311,
+      "sha256": "d596fa89411f49ee51ef553e8b6385570c1cfcb6b8b09491658afa14ada4b5f7",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 2202,
+        "lines": 37,
+        "sha256": "be264511206dfa6ecf4ae7d184c354b3706995bbabfb47e29de3185d747ee51c",
+        "template": "benchmarks/core-comparison/published/n-body-large/rust.rs",
+        "templateSha256": "be264511206dfa6ecf4ae7d184c354b3706995bbabfb47e29de3185d747ee51c"
+      },
+      "native_code_sha256": "99aea06ffabe17139f626393b6a7431d8e375182293a3c9e5464ce846aa22e96",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 0.1779462269170188,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        31.467400000008638,
+        34.23549999999523,
+        31.372300000002724,
+        31.629199999995762,
+        31.843700000012177,
+        31.50920000000042,
+        31.124800000005052,
+        31.286699999996927,
+        31.11579999999958,
+        31.162100000001374
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "n-body-large",
+      "language": "vkf",
+      "phase": "kernel",
+      "count": 10,
+      "mean_ms": 42.38846,
+      "median_ms": 42.35255,
+      "sample_stddev_ms": 0.3088902653046864,
+      "sha256": "d596fa89411f49ee51ef553e8b6385570c1cfcb6b8b09491658afa14ada4b5f7",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain clang version 19.1.5",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 2542,
+        "lines": 71,
+        "sha256": "9c895264b9e574bdc88328373c175bd11c69deb1908b1d77dadc1d8c38c61b93",
+        "template": "benchmarks/core-comparison/published/n-body-large/vkf.vkf",
+        "templateSha256": "9c895264b9e574bdc88328373c175bd11c69deb1908b1d77dadc1d8c38c61b93"
+      },
+      "native_code_sha256": "d2bb0ffb1169f8b5ad7783894ab6ff6a325bf233b90b339dcd9f9453ab12f73d",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 0.1779462269170188,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        42.3564,
+        43.1476,
+        42.3477,
+        42.3487,
+        42.4689,
+        42.454,
+        42.285,
+        42.113,
+        41.9634,
+        42.3999
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "n-body-large",
+      "language": "vkf",
+      "phase": "compile",
+      "count": 10,
+      "mean_ms": 1186.0690200000004,
+      "median_ms": 1185.0542999999998,
+      "sample_stddev_ms": 5.190550210570699,
+      "sha256": "d596fa89411f49ee51ef553e8b6385570c1cfcb6b8b09491658afa14ada4b5f7",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain clang version 19.1.5",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 2542,
+        "lines": 71,
+        "sha256": "9c895264b9e574bdc88328373c175bd11c69deb1908b1d77dadc1d8c38c61b93",
+        "template": "benchmarks/core-comparison/published/n-body-large/vkf.vkf",
+        "templateSha256": "9c895264b9e574bdc88328373c175bd11c69deb1908b1d77dadc1d8c38c61b93"
+      },
+      "native_code_sha256": "d2bb0ffb1169f8b5ad7783894ab6ff6a325bf233b90b339dcd9f9453ab12f73d",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 0.1779462269170188,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        1185.2295000000013,
+        1181.263899999998,
+        1183.6521999999968,
+        1186.210500000001,
+        1199.7280000000028,
+        1186.5676999999996,
+        1184.7421000000031,
+        1181.388500000001,
+        1184.8790999999983,
+        1187.0287000000026
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "n-body-large",
+      "language": "vkf",
+      "phase": "process",
+      "count": 10,
+      "mean_ms": 62.22242000000115,
+      "median_ms": 62.138700000003155,
+      "sample_stddev_ms": 0.2688414848922299,
+      "sha256": "d596fa89411f49ee51ef553e8b6385570c1cfcb6b8b09491658afa14ada4b5f7",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain clang version 19.1.5",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 2542,
+        "lines": 71,
+        "sha256": "9c895264b9e574bdc88328373c175bd11c69deb1908b1d77dadc1d8c38c61b93",
+        "template": "benchmarks/core-comparison/published/n-body-large/vkf.vkf",
+        "templateSha256": "9c895264b9e574bdc88328373c175bd11c69deb1908b1d77dadc1d8c38c61b93"
+      },
+      "native_code_sha256": "d2bb0ffb1169f8b5ad7783894ab6ff6a325bf233b90b339dcd9f9453ab12f73d",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 0.1779462269170188,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        62.67050000000745,
+        62.19650000000547,
+        62.534499999994296,
+        62.095100000005914,
+        62.02240000000165,
+        61.95200000000477,
+        62.05659999999625,
+        62.182300000000396,
+        62.56599999999162,
+        61.948300000003655
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "n-body-large",
+      "language": "zig",
+      "phase": "kernel",
+      "count": 10,
+      "mean_ms": 16.06379,
+      "median_ms": 16.04665,
+      "sample_stddev_ms": 0.054153987233935934,
+      "sha256": "d596fa89411f49ee51ef553e8b6385570c1cfcb6b8b09491658afa14ada4b5f7",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1774,
+        "lines": 19,
+        "sha256": "b194bb44e2a6121356e111c4da16b9d7c547460687d842b6480d4789ee4aca46",
+        "template": "benchmarks/core-comparison/published/n-body-large/zig.zig",
+        "templateSha256": "b194bb44e2a6121356e111c4da16b9d7c547460687d842b6480d4789ee4aca46"
+      },
+      "native_code_sha256": "62a5151559b1ec6408fabec091f599214365ec22da8d1488299700c07f8bba2a",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 0.17794622691804032,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        16.0617,
+        16.1648,
+        16.16,
+        16.0409,
+        16.0558,
+        16.0293,
+        16.0477,
+        16.0456,
+        16.0176,
+        16.0145
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "n-body-large",
+      "language": "zig",
+      "phase": "compile",
+      "count": 10,
+      "mean_ms": 375.3367899999997,
+      "median_ms": 373.60139999999956,
+      "sample_stddev_ms": 22.639690069603287,
+      "sha256": "d596fa89411f49ee51ef553e8b6385570c1cfcb6b8b09491658afa14ada4b5f7",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1774,
+        "lines": 19,
+        "sha256": "b194bb44e2a6121356e111c4da16b9d7c547460687d842b6480d4789ee4aca46",
+        "template": "benchmarks/core-comparison/published/n-body-large/zig.zig",
+        "templateSha256": "b194bb44e2a6121356e111c4da16b9d7c547460687d842b6480d4789ee4aca46"
+      },
+      "native_code_sha256": "62a5151559b1ec6408fabec091f599214365ec22da8d1488299700c07f8bba2a",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 0.17794622691804032,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        406.92459999999846,
+        394.17600000000675,
+        379.5109000000084,
+        396.58869999999297,
+        396.1267999999982,
+        367.6918999999907,
+        365.9886000000115,
+        356.3929999999964,
+        342.5668000000005,
+        347.4005999999936
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "n-body-large",
+      "language": "zig",
+      "phase": "process",
+      "count": 10,
+      "mean_ms": 37.60234000000055,
+      "median_ms": 36.7187999999951,
+      "sample_stddev_ms": 2.3353707972064535,
+      "sha256": "d596fa89411f49ee51ef553e8b6385570c1cfcb6b8b09491658afa14ada4b5f7",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 1774,
+        "lines": 19,
+        "sha256": "b194bb44e2a6121356e111c4da16b9d7c547460687d842b6480d4789ee4aca46",
+        "template": "benchmarks/core-comparison/published/n-body-large/zig.zig",
+        "templateSha256": "b194bb44e2a6121356e111c4da16b9d7c547460687d842b6480d4789ee4aca46"
+      },
+      "native_code_sha256": "62a5151559b1ec6408fabec091f599214365ec22da8d1488299700c07f8bba2a",
+      "measurement_conditions": {
+        "caseId": "n-body-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-n-body-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 0.17794622691804032,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        36.755799999999,
+        36.90450000000419,
+        38.6310000000085,
+        36.6817999999912,
+        43.957399999999325,
+        36.3695000000007,
+        37.38159999999334,
+        36.528100000010454,
+        36.34100000000035,
+        36.47269999999844
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-large",
+      "language": "cpp",
+      "phase": "kernel",
+      "count": 10,
+      "mean_ms": 117.34891999999999,
+      "median_ms": 117.315,
+      "sample_stddev_ms": 0.1836204466949281,
+      "sha256": "002345258cbe9fa1a06daf92986377ff8cfeb21b7e6d09611010d643f1b6da48",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "clang version 19.1.5",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 6863,
+        "lines": 200,
+        "sha256": "decdfdf4bd5b32f7dd050d05b8d68dd61f99453a1cb91b6be613088b4853572b",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/cpp.cpp",
+        "templateSha256": "46880583626b585e176684c42a2a71cda0c4b634ee70c1bf833891b0099eefaf"
+      },
+      "native_code_sha256": "b0d314973553bb5d3c37824cb7401463e7bb1d8d47fc3986049a3670871290ad",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        117.1141,
+        117.2116,
+        117.1364,
+        117.2605,
+        117.6168,
+        117.238,
+        117.4558,
+        117.5934,
+        117.4931,
+        117.3695
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-large",
+      "language": "cpp",
+      "phase": "compile",
+      "count": 10,
+      "mean_ms": 264.2696000000011,
+      "median_ms": 262.77040000000125,
+      "sample_stddev_ms": 6.918098738014697,
+      "sha256": "002345258cbe9fa1a06daf92986377ff8cfeb21b7e6d09611010d643f1b6da48",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "clang version 19.1.5",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 6863,
+        "lines": 200,
+        "sha256": "decdfdf4bd5b32f7dd050d05b8d68dd61f99453a1cb91b6be613088b4853572b",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/cpp.cpp",
+        "templateSha256": "46880583626b585e176684c42a2a71cda0c4b634ee70c1bf833891b0099eefaf"
+      },
+      "native_code_sha256": "b0d314973553bb5d3c37824cb7401463e7bb1d8d47fc3986049a3670871290ad",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        257.9554999999964,
+        267.25500000000466,
+        269.36590000000433,
+        263.0954999999958,
+        275.3203000000067,
+        262.4453000000067,
+        259.3043999999936,
+        256.8266999999905,
+        257.02660000001197,
+        274.10080000000016
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-large",
+      "language": "cpp",
+      "phase": "process",
+      "count": 10,
+      "mean_ms": 139.07465999999985,
+      "median_ms": 139.19670000000042,
+      "sample_stddev_ms": 0.2764443050207795,
+      "sha256": "002345258cbe9fa1a06daf92986377ff8cfeb21b7e6d09611010d643f1b6da48",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "clang version 19.1.5",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 6863,
+        "lines": 200,
+        "sha256": "decdfdf4bd5b32f7dd050d05b8d68dd61f99453a1cb91b6be613088b4853572b",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/cpp.cpp",
+        "templateSha256": "46880583626b585e176684c42a2a71cda0c4b634ee70c1bf833891b0099eefaf"
+      },
+      "native_code_sha256": "b0d314973553bb5d3c37824cb7401463e7bb1d8d47fc3986049a3670871290ad",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        139.33690000000934,
+        139.06119999999646,
+        139.20329999999376,
+        138.4207000000024,
+        139.29150000000664,
+        139.19869999999355,
+        139.23589999999967,
+        138.824099999998,
+        139.1947000000073,
+        138.97959999999148
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-large",
+      "language": "rust",
+      "phase": "kernel",
+      "count": 10,
+      "mean_ms": 127.89672,
+      "median_ms": 127.81450000000001,
+      "sample_stddev_ms": 0.1791864131754034,
+      "sha256": "002345258cbe9fa1a06daf92986377ff8cfeb21b7e6d09611010d643f1b6da48",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 4691,
+        "lines": 114,
+        "sha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/rust.rs",
+        "templateSha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7"
+      },
+      "native_code_sha256": "d295e25f97b788115ab1cfa2d87fb1c151755b219cbc6b0ad5c2dacc7d85203d",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        127.7877,
+        127.784,
+        128.0306,
+        127.8857,
+        127.84,
+        127.789,
+        127.6993,
+        128.2463,
+        127.7732,
+        128.1314
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-large",
+      "language": "rust",
+      "phase": "compile",
+      "count": 10,
+      "mean_ms": 312.7856400000004,
+      "median_ms": 312.04035000000295,
+      "sample_stddev_ms": 3.429519146468478,
+      "sha256": "002345258cbe9fa1a06daf92986377ff8cfeb21b7e6d09611010d643f1b6da48",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 4691,
+        "lines": 114,
+        "sha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/rust.rs",
+        "templateSha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7"
+      },
+      "native_code_sha256": "d295e25f97b788115ab1cfa2d87fb1c151755b219cbc6b0ad5c2dacc7d85203d",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        316.8784000000014,
+        310.52290000001085,
+        310.30040000000736,
+        308.2079999999987,
+        309.4542999999976,
+        313.55779999999504,
+        314.5103999999992,
+        310.3546999999962,
+        316.74809999999707,
+        317.3214000000007
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-large",
+      "language": "rust",
+      "phase": "process",
+      "count": 10,
+      "mean_ms": 149.99598999999725,
+      "median_ms": 149.7511999999988,
+      "sample_stddev_ms": 0.6167665692949224,
+      "sha256": "002345258cbe9fa1a06daf92986377ff8cfeb21b7e6d09611010d643f1b6da48",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 4691,
+        "lines": 114,
+        "sha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/rust.rs",
+        "templateSha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7"
+      },
+      "native_code_sha256": "d295e25f97b788115ab1cfa2d87fb1c151755b219cbc6b0ad5c2dacc7d85203d",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        150.57189999999537,
+        150.15089999999327,
+        149.68949999999313,
+        149.30950000000303,
+        150.24899999999616,
+        149.69629999999597,
+        149.44929999999295,
+        151.3752999999997,
+        149.66210000000137,
+        149.8061000000016
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-large",
+      "language": "vkf",
+      "phase": "kernel",
+      "count": 10,
+      "mean_ms": 122.03041999999999,
+      "median_ms": 121.8414,
+      "sample_stddev_ms": 0.6752736265149595,
+      "sha256": "002345258cbe9fa1a06daf92986377ff8cfeb21b7e6d09611010d643f1b6da48",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain clang version 19.1.5",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 5493,
+        "lines": 156,
+        "sha256": "d7ba2ecb9495d6ed5f6b61466cf83f79094c094aa5c93d7734c2df37580c6da1",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/vkf.vkf",
+        "templateSha256": "d7ba2ecb9495d6ed5f6b61466cf83f79094c094aa5c93d7734c2df37580c6da1"
+      },
+      "native_code_sha256": "d5e33d11cc0c65fd2fe9248ad4e2123401a1cd4a7e31896ae8201c59b44fa55f",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        121.6893,
+        121.7718,
+        121.8805,
+        121.292,
+        121.5743,
+        121.8023,
+        121.929,
+        123.6968,
+        122.5804,
+        122.0878
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-large",
+      "language": "vkf",
+      "phase": "compile",
+      "count": 10,
+      "mean_ms": 2721.8777599999994,
+      "median_ms": 2737.8103000000046,
+      "sample_stddev_ms": 41.81016201154208,
+      "sha256": "002345258cbe9fa1a06daf92986377ff8cfeb21b7e6d09611010d643f1b6da48",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain clang version 19.1.5",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 5493,
+        "lines": 156,
+        "sha256": "d7ba2ecb9495d6ed5f6b61466cf83f79094c094aa5c93d7734c2df37580c6da1",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/vkf.vkf",
+        "templateSha256": "d7ba2ecb9495d6ed5f6b61466cf83f79094c094aa5c93d7734c2df37580c6da1"
+      },
+      "native_code_sha256": "d5e33d11cc0c65fd2fe9248ad4e2123401a1cd4a7e31896ae8201c59b44fa55f",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        2740.469600000004,
+        2756.6419000000024,
+        2766.605199999991,
+        2776.303999999989,
+        2735.767900000006,
+        2679.8034999999945,
+        2739.852700000003,
+        2673.497500000012,
+        2665.4726999999984,
+        2684.362599999993
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-large",
+      "language": "vkf",
+      "phase": "process",
+      "count": 10,
+      "mean_ms": 145.14158999999782,
+      "median_ms": 144.99639999999636,
+      "sample_stddev_ms": 0.9932124126091393,
+      "sha256": "002345258cbe9fa1a06daf92986377ff8cfeb21b7e6d09611010d643f1b6da48",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "VKF 0.7.2; external pinned compiler; peer C++ toolchain clang version 19.1.5",
+      "compile_model": "fresh VKF process + fail-closed automatic retained-policy lookup + Python-free integrated frontend + compiler-owned direct x64 artifact",
+      "source_identity": {
+        "bytes": 5493,
+        "lines": 156,
+        "sha256": "d7ba2ecb9495d6ed5f6b61466cf83f79094c094aa5c93d7734c2df37580c6da1",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/vkf.vkf",
+        "templateSha256": "d7ba2ecb9495d6ed5f6b61466cf83f79094c094aa5c93d7734c2df37580c6da1"
+      },
+      "native_code_sha256": "d5e33d11cc0c65fd2fe9248ad4e2123401a1cd4a7e31896ae8201c59b44fa55f",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        145.58589999999094,
+        147.59270000000834,
+        144.93549999999232,
+        144.53789999999572,
+        144.71409999999742,
+        145.38099999999395,
+        144.03519999999844,
+        145.0573000000004,
+        144.2661999999982,
+        145.31010000000242
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-large",
+      "language": "zig",
+      "phase": "kernel",
+      "count": 10,
+      "mean_ms": 113.91242,
+      "median_ms": 113.88135,
+      "sample_stddev_ms": 0.24704270346102802,
+      "sha256": "002345258cbe9fa1a06daf92986377ff8cfeb21b7e6d09611010d643f1b6da48",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 4432,
+        "lines": 98,
+        "sha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/zig.zig",
+        "templateSha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129"
+      },
+      "native_code_sha256": "5241de7e15de6a05928a5e06822c547cc8d22ed40214a4abf4d2e92a0c6e2791",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        114.4682,
+        114.0587,
+        113.7634,
+        113.7972,
+        113.8203,
+        114.0536,
+        113.9485,
+        113.6338,
+        113.6381,
+        113.9424
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-large",
+      "language": "zig",
+      "phase": "compile",
+      "count": 10,
+      "mean_ms": 426.9654800000033,
+      "median_ms": 430.93320000000676,
+      "sample_stddev_ms": 12.159047931551621,
+      "sha256": "002345258cbe9fa1a06daf92986377ff8cfeb21b7e6d09611010d643f1b6da48",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 4432,
+        "lines": 98,
+        "sha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/zig.zig",
+        "templateSha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129"
+      },
+      "native_code_sha256": "5241de7e15de6a05928a5e06822c547cc8d22ed40214a4abf4d2e92a0c6e2791",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        432.1006000000052,
+        437.41419999999925,
+        421.8280000000086,
+        422.2100999999966,
+        429.7658000000083,
+        432.13030000000435,
+        410.49830000000657,
+        440.4916000000085,
+        438.92819999999483,
+        404.28770000000077
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-large",
+      "language": "zig",
+      "phase": "process",
+      "count": 10,
+      "mean_ms": 135.89358000000067,
+      "median_ms": 135.80494999999792,
+      "sample_stddev_ms": 0.4924587084784447,
+      "sha256": "002345258cbe9fa1a06daf92986377ff8cfeb21b7e6d09611010d643f1b6da48",
+      "samples_are_comparison_credit": true,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 4432,
+        "lines": 98,
+        "sha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/zig.zig",
+        "templateSha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129"
+      },
+      "native_code_sha256": "5241de7e15de6a05928a5e06822c547cc8d22ed40214a4abf4d2e92a0c6e2791",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-large",
+        "languageId": "vkf,cpp,rust,zig",
+        "outputStem": "preview072-combined-kernels-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        136.95960000000196,
+        136.02470000000903,
+        135.34380000000237,
+        135.95739999999932,
+        136.4277000000002,
+        135.69670000000042,
+        135.42250000000058,
+        135.78280000000086,
+        135.49349999999686,
+        135.82709999999497
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-parallel-large",
+      "language": "cpp",
+      "phase": "kernel",
+      "count": 10,
+      "mean_ms": 117.25718,
+      "median_ms": 117.13470000000001,
+      "sample_stddev_ms": 0.3541389080886528,
+      "sha256": "5bc006f5f8485c5e883a6d5df63540bc4bea830d2c89d427a7e405c1e8d1c789",
+      "samples_are_comparison_credit": false,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "clang version 19.1.5",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 6863,
+        "lines": 200,
+        "sha256": "decdfdf4bd5b32f7dd050d05b8d68dd61f99453a1cb91b6be613088b4853572b",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/cpp.cpp",
+        "templateSha256": "46880583626b585e176684c42a2a71cda0c4b634ee70c1bf833891b0099eefaf"
+      },
+      "native_code_sha256": "baf19d807b5554fec3340a586c1fa680e178d7f4f8b0f9df4420500f23e71a6b",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "cpp,rust,zig",
+        "outputStem": "preview072-peers-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        117.0517,
+        118.2368,
+        117.1305,
+        117.1969,
+        117.2272,
+        117.1339,
+        117.1348,
+        117.1346,
+        117.0157,
+        117.3097
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-parallel-large",
+      "language": "cpp",
+      "phase": "compile",
+      "count": 10,
+      "mean_ms": 260.14156,
+      "median_ms": 260.4201499999999,
+      "sample_stddev_ms": 1.7157981979242358,
+      "sha256": "5bc006f5f8485c5e883a6d5df63540bc4bea830d2c89d427a7e405c1e8d1c789",
+      "samples_are_comparison_credit": false,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "clang version 19.1.5",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 6863,
+        "lines": 200,
+        "sha256": "decdfdf4bd5b32f7dd050d05b8d68dd61f99453a1cb91b6be613088b4853572b",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/cpp.cpp",
+        "templateSha256": "46880583626b585e176684c42a2a71cda0c4b634ee70c1bf833891b0099eefaf"
+      },
+      "native_code_sha256": "baf19d807b5554fec3340a586c1fa680e178d7f4f8b0f9df4420500f23e71a6b",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "cpp,rust,zig",
+        "outputStem": "preview072-peers-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        257.8347,
+        261.8287,
+        259.2650000000001,
+        261.22900000000004,
+        260.7808,
+        260.05949999999984,
+        261.29240000000027,
+        262.24839999999995,
+        256.9557,
+        259.9214000000002
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-parallel-large",
+      "language": "cpp",
+      "phase": "process",
+      "count": 10,
+      "mean_ms": 138.25384000000014,
+      "median_ms": 138.1957999999995,
+      "sample_stddev_ms": 0.5756208420292442,
+      "sha256": "5bc006f5f8485c5e883a6d5df63540bc4bea830d2c89d427a7e405c1e8d1c789",
+      "samples_are_comparison_credit": false,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "clang version 19.1.5",
+      "compile_model": "Clang++ -O3 -march=native strict IEEE native link",
+      "source_identity": {
+        "bytes": 6863,
+        "lines": 200,
+        "sha256": "decdfdf4bd5b32f7dd050d05b8d68dd61f99453a1cb91b6be613088b4853572b",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/cpp.cpp",
+        "templateSha256": "46880583626b585e176684c42a2a71cda0c4b634ee70c1bf833891b0099eefaf"
+      },
+      "native_code_sha256": "baf19d807b5554fec3340a586c1fa680e178d7f4f8b0f9df4420500f23e71a6b",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "cpp,rust,zig",
+        "outputStem": "preview072-peers-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        138.17669999999998,
+        139.68700000000172,
+        138.5033000000003,
+        138.40700000000106,
+        138.21489999999903,
+        138.3222999999998,
+        137.86499999999978,
+        137.91460000000006,
+        137.7561999999998,
+        137.6913999999997
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-parallel-large",
+      "language": "rust",
+      "phase": "kernel",
+      "count": 10,
+      "mean_ms": 127.87652,
+      "median_ms": 127.8237,
+      "sample_stddev_ms": 0.19994920354930185,
+      "sha256": "5bc006f5f8485c5e883a6d5df63540bc4bea830d2c89d427a7e405c1e8d1c789",
+      "samples_are_comparison_credit": false,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 4691,
+        "lines": 114,
+        "sha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/rust.rs",
+        "templateSha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7"
+      },
+      "native_code_sha256": "f2e6bb3f442241b94e1ebbed026c6c7f6ef8fff2f0cf37c4d5123b0354d8de9a",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "cpp,rust,zig",
+        "outputStem": "preview072-peers-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        127.7765,
+        127.7369,
+        127.8541,
+        127.7192,
+        128.0343,
+        127.8318,
+        127.7419,
+        128.3828,
+        127.8721,
+        127.8156
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-parallel-large",
+      "language": "rust",
+      "phase": "compile",
+      "count": 10,
+      "mean_ms": 314.9616300000002,
+      "median_ms": 314.2978500000004,
+      "sample_stddev_ms": 4.8471053815769025,
+      "sha256": "5bc006f5f8485c5e883a6d5df63540bc4bea830d2c89d427a7e405c1e8d1c789",
+      "samples_are_comparison_credit": false,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 4691,
+        "lines": 114,
+        "sha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/rust.rs",
+        "templateSha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7"
+      },
+      "native_code_sha256": "f2e6bb3f442241b94e1ebbed026c6c7f6ef8fff2f0cf37c4d5123b0354d8de9a",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "cpp,rust,zig",
+        "outputStem": "preview072-peers-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        311.0356999999999,
+        315.6916000000001,
+        318.8035,
+        324.7409000000007,
+        313.9912000000004,
+        318.95949999999993,
+        314.60450000000037,
+        309.7618000000002,
+        313.2329,
+        308.7947000000004
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-parallel-large",
+      "language": "rust",
+      "phase": "process",
+      "count": 10,
+      "mean_ms": 149.31291999999956,
+      "median_ms": 149.30849999999919,
+      "sample_stddev_ms": 0.8407429370637071,
+      "sha256": "5bc006f5f8485c5e883a6d5df63540bc4bea830d2c89d427a7e405c1e8d1c789",
+      "samples_are_comparison_credit": false,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "compile_model": "rustc -O -C target-cpu=native native link",
+      "source_identity": {
+        "bytes": 4691,
+        "lines": 114,
+        "sha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/rust.rs",
+        "templateSha256": "9938dc2bfc7e1b23f1989bc9c149e0af096c71657d22475f2445da442afdfba7"
+      },
+      "native_code_sha256": "f2e6bb3f442241b94e1ebbed026c6c7f6ef8fff2f0cf37c4d5123b0354d8de9a",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "cpp,rust,zig",
+        "outputStem": "preview072-peers-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        149.6910000000007,
+        148.67460000000028,
+        151.3153000000002,
+        148.55849999999919,
+        149.53199999999924,
+        148.80409999999938,
+        149.54439999999886,
+        149.41919999999845,
+        149.19779999999992,
+        148.39229999999952
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-parallel-large",
+      "language": "zig",
+      "phase": "kernel",
+      "count": 10,
+      "mean_ms": 113.88583,
+      "median_ms": 113.84235000000001,
+      "sample_stddev_ms": 0.19863189880334334,
+      "sha256": "5bc006f5f8485c5e883a6d5df63540bc4bea830d2c89d427a7e405c1e8d1c789",
+      "samples_are_comparison_credit": false,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 4432,
+        "lines": 98,
+        "sha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/zig.zig",
+        "templateSha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129"
+      },
+      "native_code_sha256": "1455c65dacd652c617088a9d29b8106860206f5980480d9bea012864a6b6c42a",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "cpp,rust,zig",
+        "outputStem": "preview072-peers-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        113.6511,
+        113.8048,
+        113.7399,
+        114.3039,
+        113.8434,
+        114.044,
+        114.0456,
+        113.6793,
+        113.8413,
+        113.905
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-parallel-large",
+      "language": "zig",
+      "phase": "compile",
+      "count": 10,
+      "mean_ms": 419.28473999999994,
+      "median_ms": 421.1109999999999,
+      "sample_stddev_ms": 7.8221422770659705,
+      "sha256": "5bc006f5f8485c5e883a6d5df63540bc4bea830d2c89d427a7e405c1e8d1c789",
+      "samples_are_comparison_credit": false,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 4432,
+        "lines": 98,
+        "sha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/zig.zig",
+        "templateSha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129"
+      },
+      "native_code_sha256": "1455c65dacd652c617088a9d29b8106860206f5980480d9bea012864a6b6c42a",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "cpp,rust,zig",
+        "outputStem": "preview072-peers-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        423.70700000000033,
+        425.5731999999998,
+        424.27239999999983,
+        418.5149999999994,
+        425.686099999999,
+        418.34560000000056,
+        412.0051999999996,
+        414.35529999999926,
+        402.6742000000013,
+        427.71340000000055
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "core",
+      "workload": "combined-kernels-parallel-large",
+      "language": "zig",
+      "phase": "process",
+      "count": 10,
+      "mean_ms": 135.1817799999999,
+      "median_ms": 135.03310000000056,
+      "sample_stddev_ms": 0.7786703493057877,
+      "sha256": "5bc006f5f8485c5e883a6d5df63540bc4bea830d2c89d427a7e405c1e8d1c789",
+      "samples_are_comparison_credit": false,
+      "environment": {
+        "platform": "win32 10.0.20348",
+        "architecture": "x64",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpuCount": 4,
+        "node": "v22.23.3"
+      },
+      "tool_version_original": "0.16.0",
+      "compile_model": "zig build-exe -O ReleaseFast -mcpu native -lc",
+      "source_identity": {
+        "bytes": 4432,
+        "lines": 98,
+        "sha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129",
+        "template": "benchmarks/core-comparison/published/combined-kernels-large/zig.zig",
+        "templateSha256": "d41f7c1d332a383c70bc00751484bbb52106671c581e6a36f35c2066e27c9129"
+      },
+      "native_code_sha256": "1455c65dacd652c617088a9d29b8106860206f5980480d9bea012864a6b6c42a",
+      "measurement_conditions": {
+        "caseId": "combined-kernels-parallel-large",
+        "languageId": "cpp,rust,zig",
+        "outputStem": "preview072-peers-combined-kernels-parallel-large",
+        "compileRuns": 10,
+        "compileWarmups": 1,
+        "runs": 10,
+        "warmups": 5,
+        "processRuns": 10,
+        "processWarmups": 1,
+        "functionLandscapeRuns": 0,
+        "maxCores": 2,
+        "enforceRelativeGate": false,
+        "relativeLimit": 1.5
+      },
+      "value": 1725861.452170343,
+      "original_oracle_passed": true,
+      "parallel_receipt": null,
+      "samples_ms": [
+        134.85020000000077,
+        137.17529999999897,
+        135.33519999999953,
+        134.8706000000002,
+        134.43780000000152,
+        134.40409999999974,
+        135.03960000000006,
+        135.02660000000105,
+        135.35259999999835,
+        135.3257999999987
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "solve-general-96",
+      "language": "vkf",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 61.52831999997943,
+      "median_ms": 61.014349999823054,
+      "sample_stddev_ms": 1.2531200526911672,
+      "sha256": "5473fed29c0dcfe6bd1530b20716b8e4899efca203cb4e8c27a91b5b85762083",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "solve-general-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "residual": 3e-12,
+        "solution_error": 3e-11
+      },
+      "validation": {
+        "residual": 5.80380845202349e-17,
+        "solution_error": 6.34126959243324e-16
+      },
+      "expected_output": null,
+      "samples_ms": [
+        61.6233000000648,
+        60.8698000000913,
+        61.0542999997961,
+        60.8951999997771,
+        60.9190000000126,
+        60.7359000000542,
+        61.129499999879,
+        62.2183000000405,
+        60.97439999985,
+        64.8635000002287
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "solve-general-96",
+      "language": "eigen",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.12096,
+      "median_ms": 0.11595,
+      "sample_stddev_ms": 0.008553647694924598,
+      "sha256": "5473fed29c0dcfe6bd1530b20716b8e4899efca203cb4e8c27a91b5b85762083",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "solve-general-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "residual": 3e-12,
+        "solution_error": 3e-11
+      },
+      "validation": {
+        "residual": 3.374865166144672e-17,
+        "solution_error": 3.7494163758015353e-16
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.1213,
+        0.114,
+        0.1307,
+        0.115,
+        0.1169,
+        0.1325,
+        0.1145,
+        0.1354,
+        0.1147,
+        0.1146
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "solve-general-96",
+      "language": "faer",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.11459,
+      "median_ms": 0.1113,
+      "sample_stddev_ms": 0.00977302978155245,
+      "sha256": "5473fed29c0dcfe6bd1530b20716b8e4899efca203cb4e8c27a91b5b85762083",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "solve-general-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "residual": 3e-12,
+        "solution_error": 3e-11
+      },
+      "validation": {
+        "residual": 5e-17,
+        "solution_error": 5.5e-16
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.1168,
+        0.1304,
+        0.1087,
+        0.1053,
+        0.1046,
+        0.1118,
+        0.1108,
+        0.12010000000000001,
+        0.1065,
+        0.13090000000000002
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "solve-general-96",
+      "language": "scipy",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.1458,
+      "median_ms": 0.14455,
+      "sample_stddev_ms": 0.00486757982300581,
+      "sha256": "5473fed29c0dcfe6bd1530b20716b8e4899efca203cb4e8c27a91b5b85762083",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "solve-general-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "residual": 3e-12,
+        "solution_error": 3e-11
+      },
+      "validation": {
+        "residual": 3.381975110937048e-17,
+        "solution_error": 4.279573306469047e-16
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.1515,
+        0.139,
+        0.144,
+        0.1474,
+        0.1556,
+        0.1408,
+        0.1448,
+        0.1443,
+        0.1439,
+        0.1467
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "least-squares-tall-96x48",
+      "language": "vkf",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 84.57438000004915,
+      "median_ms": 84.36604999997144,
+      "sample_stddev_ms": 0.6078430750789328,
+      "sha256": "0e55e2a04ce95943fc19ad8aae8848b86ef614ff1e6045e628a5ac9fc1055257",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "least-squares-tall-96x48"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "residual": 3e-11,
+        "solution_error": 3e-10
+      },
+      "validation": {
+        "residual": 9.37223630129986e-15,
+        "solution_error": 1.88876552706326e-12
+      },
+      "expected_output": null,
+      "samples_ms": [
+        83.7003999999979,
+        84.3325999999252,
+        85.0660000000971,
+        84.2995000002702,
+        85.4204000002028,
+        85.6286999996883,
+        84.556899999825,
+        84.1582000002745,
+        84.1816000001927,
+        84.3995000000177
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "least-squares-tall-96x48",
+      "language": "eigen",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.0907,
+      "median_ms": 0.08845,
+      "sample_stddev_ms": 0.005187377843273891,
+      "sha256": "0e55e2a04ce95943fc19ad8aae8848b86ef614ff1e6045e628a5ac9fc1055257",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "least-squares-tall-96x48"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "residual": 3e-11,
+        "solution_error": 3e-10
+      },
+      "validation": {
+        "residual": 8.464532106938955e-15,
+        "solution_error": 5.3227472817907676e-15
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.1051,
+        0.0884,
+        0.0912,
+        0.0883,
+        0.0885,
+        0.0882,
+        0.0911,
+        0.0894,
+        0.0884,
+        0.0884
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "least-squares-tall-96x48",
+      "language": "faer",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.08985,
+      "median_ms": 0.08965000000000001,
+      "sample_stddev_ms": 0.004791717391035866,
+      "sha256": "0e55e2a04ce95943fc19ad8aae8848b86ef614ff1e6045e628a5ac9fc1055257",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "least-squares-tall-96x48"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "residual": 3e-11,
+        "solution_error": 3e-10
+      },
+      "validation": {
+        "residual": 7.61e-15,
+        "solution_error": 1.898e-14
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.0875,
+        0.0941,
+        0.0808,
+        0.08990000000000001,
+        0.0883,
+        0.0994,
+        0.0915,
+        0.0877,
+        0.08990000000000001,
+        0.08940000000000001
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "least-squares-tall-96x48",
+      "language": "scipy",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.14603,
+      "median_ms": 0.14645,
+      "sample_stddev_ms": 0.0016852629204700148,
+      "sha256": "0e55e2a04ce95943fc19ad8aae8848b86ef614ff1e6045e628a5ac9fc1055257",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "least-squares-tall-96x48"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "residual": 3e-11,
+        "solution_error": 3e-10
+      },
+      "validation": {
+        "residual": 8.381861839164575e-15,
+        "solution_error": 1.8106365384629392e-15
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.147,
+        0.1471,
+        0.146,
+        0.1481,
+        0.1437,
+        0.1429,
+        0.1469,
+        0.1476,
+        0.1452,
+        0.1458
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "lu-general-96",
+      "language": "vkf",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 63.2827599999473,
+      "median_ms": 63.2596000000376,
+      "sample_stddev_ms": 0.14315839858060236,
+      "sha256": "c7d30bbf990755fb4f2d5754a0d148f71eae22e3007f3e268df426de8e98706a",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "lu-general-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "reconstruction": 3e-11
+      },
+      "validation": {
+        "reconstruction": 4.05694980484159e-16
+      },
+      "expected_output": null,
+      "samples_ms": [
+        63.2321999996748,
+        63.2667999998375,
+        63.3837999998832,
+        63.6222999996789,
+        63.1401000000551,
+        63.1761999998162,
+        63.276500000029,
+        63.3376000000681,
+        63.1397000001925,
+        63.2524000002377
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "lu-general-96",
+      "language": "eigen",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.08916,
+      "median_ms": 0.08675,
+      "sample_stddev_ms": 0.007036444809387448,
+      "sha256": "c7d30bbf990755fb4f2d5754a0d148f71eae22e3007f3e268df426de8e98706a",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "lu-general-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "reconstruction": 3e-11
+      },
+      "validation": {
+        "reconstruction": 1.6839143917548268e-16
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.0862,
+        0.0865,
+        0.0865,
+        0.0862,
+        0.0868,
+        0.0895,
+        0.0869,
+        0.109,
+        0.0873,
+        0.0867
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "lu-general-96",
+      "language": "faer",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.10146,
+      "median_ms": 0.09885,
+      "sample_stddev_ms": 0.010763952186193821,
+      "sha256": "c7d30bbf990755fb4f2d5754a0d148f71eae22e3007f3e268df426de8e98706a",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "lu-general-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "reconstruction": 3e-11
+      },
+      "validation": {
+        "reconstruction": 1.3e-16
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.0875,
+        0.0956,
+        0.1082,
+        0.0971,
+        0.1074,
+        0.10179999999999999,
+        0.0929,
+        0.1264,
+        0.1004,
+        0.0973
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "lu-general-96",
+      "language": "scipy",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.06895,
+      "median_ms": 0.0688,
+      "sample_stddev_ms": 0.00198732092135227,
+      "sha256": "c7d30bbf990755fb4f2d5754a0d148f71eae22e3007f3e268df426de8e98706a",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "lu-general-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "reconstruction": 3e-11
+      },
+      "validation": {
+        "reconstruction": 1.121639739933718e-16
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.0691,
+        0.0687,
+        0.0687,
+        0.0692,
+        0.0674,
+        0.0694,
+        0.067,
+        0.0671,
+        0.0689,
+        0.074
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "qr-tall-96x48",
+      "language": "vkf",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 19.54330999992636,
+      "median_ms": 19.5164499998555,
+      "sample_stddev_ms": 0.07544915067308272,
+      "sha256": "575aae594d669417554e318b0e3f395616bdf6c6efbdb730d7c645e8c756a479",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "qr-tall-96x48"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "reconstruction": 3e-11,
+        "orthogonality": 3e-11
+      },
+      "validation": {
+        "reconstruction": 2.30277491476612e-16,
+        "orthogonality": 2.47687094975418e-15
+      },
+      "expected_output": null,
+      "samples_ms": [
+        19.5334000000003,
+        19.5011000000704,
+        19.4938999998158,
+        19.5695000002161,
+        19.6531999999934,
+        19.6953999998186,
+        19.4937999999638,
+        19.5255999997244,
+        19.5072999999866,
+        19.4598999996742
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "qr-tall-96x48",
+      "language": "eigen",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.17893,
+      "median_ms": 0.17825000000000002,
+      "sample_stddev_ms": 0.0033129543713529617,
+      "sha256": "575aae594d669417554e318b0e3f395616bdf6c6efbdb730d7c645e8c756a479",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "qr-tall-96x48"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "reconstruction": 3e-11,
+        "orthogonality": 3e-11
+      },
+      "validation": {
+        "reconstruction": 4.3908708013728584e-16,
+        "orthogonality": 7.048055668599887e-17
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.1847,
+        0.1803,
+        0.1767,
+        0.1745,
+        0.1767,
+        0.1831,
+        0.1808,
+        0.1796,
+        0.176,
+        0.1769
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "qr-tall-96x48",
+      "language": "faer",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.17481,
+      "median_ms": 0.17154999999999998,
+      "sample_stddev_ms": 0.02218680538818812,
+      "sha256": "575aae594d669417554e318b0e3f395616bdf6c6efbdb730d7c645e8c756a479",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "qr-tall-96x48"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "reconstruction": 3e-11,
+        "orthogonality": 3e-11
+      },
+      "validation": {
+        "reconstruction": 4.5e-16,
+        "orthogonality": 6e-17
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.1896,
+        0.1776,
+        0.2275,
+        0.183,
+        0.1523,
+        0.1739,
+        0.1591,
+        0.1562,
+        0.1692,
+        0.1597
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "qr-tall-96x48",
+      "language": "scipy",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.15179,
+      "median_ms": 0.14889999999999998,
+      "sample_stddev_ms": 0.008472629134126221,
+      "sha256": "575aae594d669417554e318b0e3f395616bdf6c6efbdb730d7c645e8c756a479",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "qr-tall-96x48"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "reconstruction": 3e-11,
+        "orthogonality": 3e-11
+      },
+      "validation": {
+        "reconstruction": 5.285759575412745e-16,
+        "orthogonality": 7.902345955346968e-17
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.1754,
+        0.1508,
+        0.149,
+        0.1471,
+        0.1526,
+        0.1488,
+        0.1481,
+        0.1507,
+        0.1476,
+        0.1478
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "cholesky-spd-96",
+      "language": "vkf",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 25.52344999999149,
+      "median_ms": 25.49294999994345,
+      "sample_stddev_ms": 0.07226173493207644,
+      "sha256": "9b1fea2b5c611f8ad519ab244acfcdb355c81baac1a7aed4d31946f013a185e4",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "cholesky-spd-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "reconstruction": 3e-11
+      },
+      "validation": {
+        "reconstruction": 3.43530568890067e-16
+      },
+      "expected_output": null,
+      "samples_ms": [
+        25.4878000000645,
+        25.5723000000216,
+        25.4980999998224,
+        25.4663000000619,
+        25.540600000113,
+        25.6878999998662,
+        25.4525999998805,
+        25.4818999997042,
+        25.5752000002758,
+        25.4718000001048
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "cholesky-spd-96",
+      "language": "eigen",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.04766,
+      "median_ms": 0.0476,
+      "sample_stddev_ms": 0.0003657564459825381,
+      "sha256": "9b1fea2b5c611f8ad519ab244acfcdb355c81baac1a7aed4d31946f013a185e4",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "cholesky-spd-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "reconstruction": 3e-11
+      },
+      "validation": {
+        "reconstruction": 8.62387282464432e-17
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.0486,
+        0.0476,
+        0.0474,
+        0.0475,
+        0.0476,
+        0.0472,
+        0.0476,
+        0.0477,
+        0.0477,
+        0.0477
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "cholesky-spd-96",
+      "language": "faer",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.07017999999999999,
+      "median_ms": 0.05155,
+      "sample_stddev_ms": 0.05353457449785761,
+      "sha256": "9b1fea2b5c611f8ad519ab244acfcdb355c81baac1a7aed4d31946f013a185e4",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "cholesky-spd-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "reconstruction": 3e-11
+      },
+      "validation": {
+        "reconstruction": 3.1e-16
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.22139999999999999,
+        0.0511,
+        0.0515,
+        0.067,
+        0.0512,
+        0.0461,
+        0.052,
+        0.0471,
+        0.0628,
+        0.0516
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "cholesky-spd-96",
+      "language": "scipy",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.04442,
+      "median_ms": 0.04415,
+      "sample_stddev_ms": 0.0013806600675844232,
+      "sha256": "9b1fea2b5c611f8ad519ab244acfcdb355c81baac1a7aed4d31946f013a185e4",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "cholesky-spd-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "reconstruction": 3e-11
+      },
+      "validation": {
+        "reconstruction": 3.782341632386137e-17
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.0475,
+        0.0435,
+        0.0437,
+        0.0448,
+        0.045,
+        0.0454,
+        0.0435,
+        0.0436,
+        0.0446,
+        0.0426
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "svd-tall-96x48",
+      "language": "vkf",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 232.08421999997879,
+      "median_ms": 231.79909999998898,
+      "sample_stddev_ms": 1.0872624479255846,
+      "sha256": "46332d3ee8a0486758c8f844528f1a30b47ab952b6324a7912f950101de231bd",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "svd-tall-96x48"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "reconstruction": 6e-11,
+        "orthogonality": 6e-11
+      },
+      "validation": {
+        "reconstruction": 2.15308049532107e-15,
+        "orthogonality": 3.58086695551246e-12
+      },
+      "expected_output": null,
+      "samples_ms": [
+        232.799200000045,
+        231.914299999971,
+        231.375999999727,
+        231.214399999772,
+        231.041399999867,
+        232.572299999902,
+        231.683900000007,
+        231.295400000363,
+        232.273200000236,
+        234.672099999898
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "svd-tall-96x48",
+      "language": "eigen",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 1.00498,
+      "median_ms": 0.997,
+      "sample_stddev_ms": 0.03349815251953791,
+      "sha256": "46332d3ee8a0486758c8f844528f1a30b47ab952b6324a7912f950101de231bd",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "svd-tall-96x48"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "reconstruction": 6e-11,
+        "orthogonality": 6e-11
+      },
+      "validation": {
+        "reconstruction": 3.3901818970597263e-15,
+        "orthogonality": 2.8877878795324314e-16
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.9998,
+        0.9979,
+        1.008,
+        0.995,
+        0.9939,
+        0.9866,
+        0.9717,
+        0.9961,
+        1.0959,
+        1.0049
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "svd-tall-96x48",
+      "language": "faer",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.52079,
+      "median_ms": 0.5154,
+      "sample_stddev_ms": 0.017161808374022466,
+      "sha256": "46332d3ee8a0486758c8f844528f1a30b47ab952b6324a7912f950101de231bd",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "svd-tall-96x48"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "reconstruction": 6e-11,
+        "orthogonality": 6e-11
+      },
+      "validation": {
+        "reconstruction": 3.13e-15,
+        "orthogonality": 2.9e-16
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.5408000000000001,
+        0.5174,
+        0.5099,
+        0.5161,
+        0.5612,
+        0.5192,
+        0.5109999999999999,
+        0.5134,
+        0.5042,
+        0.5146999999999999
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "svd-tall-96x48",
+      "language": "scipy",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.57221,
+      "median_ms": 0.5298,
+      "sample_stddev_ms": 0.08176706006156216,
+      "sha256": "46332d3ee8a0486758c8f844528f1a30b47ab952b6324a7912f950101de231bd",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "svd-tall-96x48"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "reconstruction": 6e-11,
+        "orthogonality": 6e-11
+      },
+      "validation": {
+        "reconstruction": 2.2416275746898938e-15,
+        "orthogonality": 2.566005464057966e-16
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.5252,
+        0.5301,
+        0.7375,
+        0.7105,
+        0.5295,
+        0.5229,
+        0.5274,
+        0.5273,
+        0.5774,
+        0.5343
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "eigen-symmetric-96",
+      "language": "vkf",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 1357.641230000034,
+      "median_ms": 1350.9330500000951,
+      "sample_stddev_ms": 20.3312902903574,
+      "sha256": "539e6a5df940d54bebe29aa0cd05509a1a5d90bf580d3ef847650e2d14b46751",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "eigen-symmetric-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "residual": 6e-11,
+        "reconstruction": 6e-11,
+        "orthogonality": 6e-11
+      },
+      "validation": {
+        "residual": 3.65017378063175e-13,
+        "reconstruction": 3.65008651218799e-13,
+        "orthogonality": 2.41146223668928e-16
+      },
+      "expected_output": null,
+      "samples_ms": [
+        1352.23779999978,
+        1415.28420000031,
+        1349.91420000006,
+        1351.36920000014,
+        1350.84129999996,
+        1351.02480000023,
+        1349.67039999992,
+        1350.64839999995,
+        1349.69159999991,
+        1355.73040000008
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "eigen-symmetric-96",
+      "language": "eigen",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.97126,
+      "median_ms": 0.9648,
+      "sample_stddev_ms": 0.019567614968502317,
+      "sha256": "539e6a5df940d54bebe29aa0cd05509a1a5d90bf580d3ef847650e2d14b46751",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "eigen-symmetric-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "residual": 6e-11,
+        "reconstruction": 6e-11,
+        "orthogonality": 6e-11
+      },
+      "validation": {
+        "residual": 2.55924951171264e-15,
+        "reconstruction": 4.875169604416795e-15,
+        "orthogonality": 2.7611483694832317e-16
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.9618,
+        0.9628,
+        0.9639,
+        0.9668,
+        0.9623,
+        0.9609,
+        1.0259,
+        0.9657,
+        0.9694,
+        0.9731
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "eigen-symmetric-96",
+      "language": "faer",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.94314,
+      "median_ms": 0.9456,
+      "sample_stddev_ms": 0.0064393236359798585,
+      "sha256": "539e6a5df940d54bebe29aa0cd05509a1a5d90bf580d3ef847650e2d14b46751",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "eigen-symmetric-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "residual": 6e-11,
+        "reconstruction": 6e-11,
+        "orthogonality": 6e-11
+      },
+      "validation": {
+        "residual": 2.75e-15,
+        "reconstruction": 5.09e-15,
+        "orthogonality": 2.8e-16
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.9370999999999999,
+        0.9346,
+        0.9464,
+        0.9466,
+        0.9332,
+        0.949,
+        0.9519,
+        0.9401999999999999,
+        0.9448,
+        0.9476
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "linalg",
+      "workload": "eigen-symmetric-96",
+      "language": "scipy",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.85424,
+      "median_ms": 0.8542000000000001,
+      "sample_stddev_ms": 0.0064009027141142824,
+      "sha256": "539e6a5df940d54bebe29aa0cd05509a1a5d90bf580d3ef847650e2d14b46751",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 30000,
+        "threads": 1,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "eigen-symmetric-96"
+        ],
+        "languages": [
+          "vkf",
+          "eigen",
+          "faer",
+          "scipy"
+        ],
+        "scheduling": "rotating same-host process order",
+        "timer": "factorization/solve only; fixture load, warmup, cloning, and validation excluded"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": {
+        "residual": 6e-11,
+        "reconstruction": 6e-11,
+        "orthogonality": 6e-11
+      },
+      "validation": {
+        "residual": 1.1419275146197336e-15,
+        "reconstruction": 2.2077209204546672e-15,
+        "orthogonality": 1.798854707612417e-16
+      },
+      "expected_output": null,
+      "samples_ms": [
+        0.848,
+        0.8579,
+        0.8549,
+        0.8501,
+        0.8538,
+        0.858,
+        0.8451,
+        0.8518,
+        0.8682,
+        0.8546
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "expand1",
+      "language": "vkf",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 19863.684999999896,
+      "median_ms": 19892.97655000064,
+      "sample_stddev_ms": 291.3962862178613,
+      "sha256": "3de1b247c5e4f0aa0c1a71dc5ab8cb4bd4ec25d1044ec7d3f0f6704d13af5d61",
+      "samples_are_comparison_credit": false,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "expand1"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 39711,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        20106.570199999624,
+        19482.47899999933,
+        19720.23480000007,
+        20373.95789999937,
+        19859.732200000508,
+        19549.73329999939,
+        19926.22090000077,
+        20073.14799999949,
+        19531.657700000324,
+        20013.116000000082
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "expand1",
+      "language": "symengine",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 80.36091,
+      "median_ms": 78.68795,
+      "sample_stddev_ms": 4.941972661566095,
+      "sha256": "3de1b247c5e4f0aa0c1a71dc5ab8cb4bd4ec25d1044ec7d3f0f6704d13af5d61",
+      "samples_are_comparison_credit": false,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "expand1"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 39711,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        83.4092,
+        84.9415,
+        82.4484,
+        74.9211,
+        77.3666,
+        76.3306,
+        79.1811,
+        90.6785,
+        76.1373,
+        78.1948
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "expand1",
+      "language": "sympy",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 12096.79776,
+      "median_ms": 12099.4428,
+      "sample_stddev_ms": 38.89073512773939,
+      "sha256": "3de1b247c5e4f0aa0c1a71dc5ab8cb4bd4ec25d1044ec7d3f0f6704d13af5d61",
+      "samples_are_comparison_credit": false,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "expand1"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 39711,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        12078.6331,
+        12066.2319,
+        12110.8872,
+        12091.3883,
+        12175.2338,
+        12099.343,
+        12115.8082,
+        12022.8636,
+        12108.0459,
+        12099.5426
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "expand2",
+      "language": "vkf",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 451.9709300001523,
+      "median_ms": 451.6824000002089,
+      "sample_stddev_ms": 1.4615478804864712,
+      "sha256": "60eb6d50b6db2f3d2bad69b6fec7254f4491f79fd47fb252afa1b055bdda70e2",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "expand2"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 6272,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        451.7158999997264,
+        450.8531999999832,
+        455.3959000004397,
+        451.64890000069136,
+        453.06609999988723,
+        450.3267000000051,
+        452.6581999998598,
+        451.88750000033906,
+        451.303600000756,
+        450.85329999983514
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "expand2",
+      "language": "symengine",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 688.3265,
+      "median_ms": 688.109,
+      "sample_stddev_ms": 3.0078123556277006,
+      "sha256": "60eb6d50b6db2f3d2bad69b6fec7254f4491f79fd47fb252afa1b055bdda70e2",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "expand2"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 6272,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        688.332,
+        690.825,
+        693.097,
+        682.187,
+        687.969,
+        687.214,
+        687.415,
+        686.575,
+        691.402,
+        688.249
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "expand2",
+      "language": "sympy",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 41261.97065,
+      "median_ms": 41252.3689,
+      "sample_stddev_ms": 194.72080234430382,
+      "sha256": "60eb6d50b6db2f3d2bad69b6fec7254f4491f79fd47fb252afa1b055bdda70e2",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "expand2"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 6272,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        41206.7805,
+        41266.6007,
+        41508.9997,
+        41637.3675,
+        41129.4944,
+        41298.5628,
+        41238.1371,
+        41092.4727,
+        40965.5648,
+        41275.7263
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "expand2",
+      "language": "symbolics",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 4306.6947,
+      "median_ms": 4303.8469000000005,
+      "sample_stddev_ms": 11.143020066790218,
+      "sha256": "60eb6d50b6db2f3d2bad69b6fec7254f4491f79fd47fb252afa1b055bdda70e2",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "expand2"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 6272,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        4320.0871,
+        4305.2645,
+        4302.4293,
+        4299.227,
+        4328.5154,
+        4295.5663,
+        4292.8807,
+        4306.8438,
+        4302.2551,
+        4313.8778
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "add1",
+      "language": "vkf",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 0.8482200000798912,
+      "median_ms": 0.8457499998257845,
+      "sample_stddev_ms": 0.00729441190903714,
+      "sha256": "f25dcca6058b2c9ecea00061464c87bfe0131631697309d2a7688cf91840f70f",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "add1"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 2998,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        0.8609000005890266,
+        0.8456000005025999,
+        0.8390000002691522,
+        0.8582999998907326,
+        0.8456999994450598,
+        0.846300000375777,
+        0.8450000004813774,
+        0.8407999994233251,
+        0.8458000002065091,
+        0.8547999996153521
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "add1",
+      "language": "symengine",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 270.1544,
+      "median_ms": 269.819,
+      "sample_stddev_ms": 2.434095323615009,
+      "sha256": "f25dcca6058b2c9ecea00061464c87bfe0131631697309d2a7688cf91840f70f",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "add1"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 2998,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        269.519,
+        266.779,
+        269.761,
+        274.85,
+        267.481,
+        272.056,
+        272.234,
+        269.877,
+        270.775,
+        268.212
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "add1",
+      "language": "sympy",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 41.34635,
+      "median_ms": 40.0133,
+      "sample_stddev_ms": 4.81505450234528,
+      "sha256": "f25dcca6058b2c9ecea00061464c87bfe0131631697309d2a7688cf91840f70f",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "add1"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 2998,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        38.0221,
+        41.0848,
+        54.5252,
+        38.6523,
+        42.2462,
+        38.9083,
+        39.2306,
+        40.8475,
+        39.1505,
+        40.796
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "add1",
+      "language": "symbolics",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 1039.8197,
+      "median_ms": 1040.3552,
+      "sample_stddev_ms": 3.612306054155614,
+      "sha256": "f25dcca6058b2c9ecea00061464c87bfe0131631697309d2a7688cf91840f70f",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "add1"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 2998,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        1037.7902,
+        1040.6956,
+        1040.3537,
+        1038.9151,
+        1040.3567,
+        1046.6726,
+        1040.757,
+        1038.7621,
+        1032.167,
+        1041.727
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "series",
+      "language": "vkf",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 3.914649999842368,
+      "median_ms": 3.906350000306702,
+      "sample_stddev_ms": 0.020394838819585686,
+      "sha256": "2f39838a511dc6ecc4f36966c18949ba733ad56f1f38572a2555e60703bdb889",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "series"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 166167000,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        3.9100000003600144,
+        3.9441999997507082,
+        3.9008999992802273,
+        3.897099999448983,
+        3.9206000001286156,
+        3.8925999997445615,
+        3.948100000343402,
+        3.898299999491428,
+        3.9319999996223487,
+        3.9027000002533896
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "series",
+      "language": "symengine",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 254.3041,
+      "median_ms": 252.2785,
+      "sample_stddev_ms": 4.709193548557734,
+      "sha256": "2f39838a511dc6ecc4f36966c18949ba733ad56f1f38572a2555e60703bdb889",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "series"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 166167000,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        251.799,
+        251.491,
+        252.156,
+        253.513,
+        252.368,
+        266.829,
+        252.189,
+        257.252,
+        253.549,
+        251.895
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "series",
+      "language": "sympy",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 100.16192,
+      "median_ms": 99.7732,
+      "sample_stddev_ms": 1.3509790875920733,
+      "sha256": "2f39838a511dc6ecc4f36966c18949ba733ad56f1f38572a2555e60703bdb889",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "series"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 166167000,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        99.4125,
+        100.0955,
+        100.2371,
+        98.6373,
+        103.011,
+        102.0544,
+        99.1095,
+        99.5155,
+        99.7299,
+        99.8165
+      ]
+    },
+    {
+      "platform": "windows",
+      "suite": "symbolic",
+      "workload": "series",
+      "language": "symbolics",
+      "phase": "operation",
+      "count": 10,
+      "mean_ms": 1635.70154,
+      "median_ms": 1632.28055,
+      "sample_stddev_ms": 9.781132276786765,
+      "sha256": "2f39838a511dc6ecc4f36966c18949ba733ad56f1f38572a2555e60703bdb889",
+      "samples_are_comparison_credit": true,
+      "measurement_conditions": {
+        "runs": 10,
+        "timeoutMs": 120000,
+        "relativeLimit": 1,
+        "enforceRelativeGate": false,
+        "kernels": [
+          "series"
+        ],
+        "languages": [
+          "vkf",
+          "symengine",
+          "sympy",
+          "symbolics"
+        ],
+        "scheduling": "rotating same-host process order within every kernel round",
+        "timer": "each language times only its symbolic operation; process startup and setup are excluded",
+        "optimizerPolicy": "auto"
+      },
+      "machine": {
+        "hostname": "runnervmtn0fv",
+        "platform": "win32",
+        "architecture": "x64",
+        "osRelease": "10.0.20348",
+        "cpu": "AMD EPYC 7763 64-Core Processor                ",
+        "logicalCpus": 4,
+        "memoryBytes": 17174360064
+      },
+      "limits": null,
+      "validation": null,
+      "expected_output": 166167000,
+      "correctness": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "samples_ms": [
+        1626.5318,
+        1630.4925,
+        1651.1185,
+        1653.7602,
+        1630.9778,
+        1631.1598,
+        1636.7429,
+        1633.4013,
+        1624.3457,
+        1638.4849
+      ]
+    },
+    {
       "platform": "wasm",
       "suite": "core",
       "workload": "spectral-norm-large",
